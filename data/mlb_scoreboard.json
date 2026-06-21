@@ -982,16 +982,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 121,
-                                "name": "New York Mets",
-                                "link": "/api/v1/teams/121"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 121,
+                                "name": "New York Mets",
+                                "link": "/api/v1/teams/121"
                             }
                         }
                     },
@@ -1088,16 +1088,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 121,
-                                "name": "New York Mets",
-                                "link": "/api/v1/teams/121"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 121,
+                                "name": "New York Mets",
+                                "link": "/api/v1/teams/121"
                             }
                         }
                     },
@@ -1194,16 +1194,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 121,
-                                "name": "New York Mets",
-                                "link": "/api/v1/teams/121"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 121,
+                                "name": "New York Mets",
+                                "link": "/api/v1/teams/121"
                             }
                         }
                     },
@@ -2236,10 +2236,10 @@
                                 "link": "/api/v1/teams/110"
                             },
                             "leagueRecord": {
-                                "wins": 36,
+                                "wins": 37,
                                 "losses": 42,
                                 "ties": 0,
-                                "pct": ".462"
+                                "pct": ".468"
                             },
                             "splitSquad": false,
                             "seriesNumber": 30
@@ -2342,10 +2342,10 @@
                                 "link": "/api/v1/teams/110"
                             },
                             "leagueRecord": {
-                                "wins": 36,
+                                "wins": 37,
                                 "losses": 42,
                                 "ties": 0,
-                                "pct": ".462"
+                                "pct": ".468"
                             },
                             "splitSquad": false,
                             "seriesNumber": 30
@@ -2448,10 +2448,10 @@
                                 "link": "/api/v1/teams/110"
                             },
                             "leagueRecord": {
-                                "wins": 36,
+                                "wins": 37,
                                 "losses": 42,
                                 "ties": 0,
-                                "pct": ".462"
+                                "pct": ".468"
                             },
                             "splitSquad": false,
                             "seriesNumber": 30
