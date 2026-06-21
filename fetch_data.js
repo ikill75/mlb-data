@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // 1. Define the API endpoint
-const API_URL = "https://api.coindesk.com/v1/bpi/currentprice.json";
+const API_URL = "https://statsapi.mlb.com/api/v1/schedule?sportId=1&teamId=112&startDate=06/02/2026&endDate=07/04/2026&hydrate=linescore";
 
 async function fetchAndSaveData() {
     try {
