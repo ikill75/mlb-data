@@ -18,7 +18,8 @@ async function fetchAndSaveData() {
         // 3. Create a unique filename using the current timestamp
         const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
         const dirPath = path.join(__dirname, 'data');
-        const filePath = path.join(dirPath, `snapshot_${timestamp}.json`);
+        //const filePath = path.join(dirPath, `snapshot_${timestamp}.json`);
+        const filePath = path.join(dirPath, `mlb_scores.json`);
 
         // Ensure the 'data' directory exists
         if (!fs.existsSync(dirPath)) {
