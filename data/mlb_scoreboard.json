@@ -730,14 +730,17 @@
                     "gameType": "R",
                     "season": "2026",
                     "gameDate": "2026-06-21T18:20:00Z",
-                    "officialDate": "2026-06-21",
+                    "officialDate": "2026-08-06",
+                    "rescheduleDate": "2026-08-06T18:20:00Z",
+                    "rescheduleGameDate": "2026-08-06",
                     "status": {
-                        "abstractGameState": "Preview",
-                        "codedGameState": "P",
-                        "detailedState": "Pre-Game",
-                        "statusCode": "P",
+                        "abstractGameState": "Final",
+                        "codedGameState": "D",
+                        "detailedState": "Postponed",
+                        "statusCode": "DI",
                         "startTimeTBD": false,
-                        "abstractGameCode": "P"
+                        "reason": "Inclement Weather",
+                        "abstractGameCode": "F"
                     },
                     "teams": {
                         "away": {
@@ -769,28 +772,6 @@
                             },
                             "splitSquad": false,
                             "seriesNumber": 25
-                        }
-                    },
-                    "linescore": {
-                        "scheduledInnings": 9,
-                        "innings": [],
-                        "teams": {
-                            "home": {},
-                            "away": {}
-                        },
-                        "defense": {
-                            "team": {
-                                "id": 141,
-                                "name": "Toronto Blue Jays",
-                                "link": "/api/v1/teams/141"
-                            }
-                        },
-                        "offense": {
-                            "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
-                            }
                         }
                     },
                     "venue": {
@@ -1416,16 +1397,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 158,
-                                "name": "Milwaukee Brewers",
-                                "link": "/api/v1/teams/158"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 158,
+                                "name": "Milwaukee Brewers",
+                                "link": "/api/v1/teams/158"
                             }
                         }
                     },
