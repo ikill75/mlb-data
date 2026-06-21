@@ -1,25 +1,24 @@
-// 1. Get the current date and subtract 2 days
-const date = new Date();
-date.setDate(date.getDate() - 2);
+// --- 1. HANDLE DYNAMIC DATES (Fixing Redeclaration and Hyphen Errors) ---
 
-// 2. Format as MM-DD-YYYY
-const mm = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
-const dd = String(date.getDate()).padStart(2, '0');
-const yyyy = date.getFullYear();
+// Setup Start Date (2 days ago)
+const startDateObj = new Date();
+startDateObj.setDate(startDateObj.getDate() - 2);
 
-const startDate = `${mm}-${dd}-${yyyy}`;
+const startMm = String(startDateObj.getMonth() + 1).padStart(2, '0');
+const startDd = String(startDateObj.getDate()).padStart(2, '0');
+const startYyyy = startDateObj.getFullYear();
+// Using forward slashes to match MLB API requirements
+const startDate = `${startMm}/${startDd}/${startYyyy}`; 
 
-// Get the current date and add 2,592,000 seconds (30 days)
-const date = new Date();
-date.setSeconds(date.getSeconds() + 2592000);
+// Setup End Date (30 days from now)
+const endDateObj = new Date();
+endDateObj.setSeconds(endDateObj.getSeconds() + 2592000);
 
-// Format as YYYY-MM-DD
-const year = date.getFullYear();
-const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
-const day = String(date.getDate()).padStart(2, '0');
-
-const endDate = `${month}-${day}-${year}`;
-
+const endMonth = String(endDateObj.getMonth() + 1).padStart(2, '0');
+const endDay = String(endDateObj.getDate()).padStart(2, '0');
+const endYear = endDateObj.getFullYear();
+// Using forward slashes here as well
+const endDate = `${endMonth}/${endDay}/${endYear}`;
 const fs = require('fs');
 const path = require('path');
 
