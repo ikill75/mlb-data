@@ -221,15 +221,13 @@
                                 "runs": 16,
                                 "hits": 18,
                                 "errors": 0,
-                                "leftOnBase": 15,
-                                "isWinner": true
+                                "leftOnBase": 15
                             },
                             "away": {
                                 "runs": 2,
                                 "hits": 5,
                                 "errors": 2,
-                                "leftOnBase": 3,
-                                "isWinner": false
+                                "leftOnBase": 3
                             }
                         },
                         "defense": {
@@ -579,15 +577,13 @@
                                 "runs": 6,
                                 "hits": 9,
                                 "errors": 0,
-                                "leftOnBase": 11,
-                                "isWinner": false
+                                "leftOnBase": 11
                             },
                             "away": {
                                 "runs": 8,
                                 "hits": 9,
                                 "errors": 2,
-                                "leftOnBase": 2,
-                                "isWinner": true
+                                "leftOnBase": 2
                             }
                         },
                         "defense": {
@@ -674,11 +670,6 @@
                                 "fullName": "Pete Crow-Armstrong",
                                 "link": "/api/v1/people/691718"
                             },
-                            "second": {
-                                "id": 664023,
-                                "fullName": "Ian Happ",
-                                "link": "/api/v1/people/664023"
-                            },
                             "pitcher": {
                                 "id": 681799,
                                 "fullName": "Ethan Roberts",
@@ -742,9 +733,9 @@
                     "officialDate": "2026-06-21",
                     "status": {
                         "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
                         "startTimeTBD": false,
                         "abstractGameCode": "P"
                     },
@@ -789,16 +780,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 141,
+                                "name": "Toronto Blue Jays",
+                                "link": "/api/v1/teams/141"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 141,
-                                "name": "Toronto Blue Jays",
-                                "link": "/api/v1/teams/141"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -895,16 +886,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 121,
-                                "name": "New York Mets",
-                                "link": "/api/v1/teams/121"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 121,
+                                "name": "New York Mets",
+                                "link": "/api/v1/teams/121"
                             }
                         }
                     },
@@ -1001,16 +992,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 121,
-                                "name": "New York Mets",
-                                "link": "/api/v1/teams/121"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 121,
+                                "name": "New York Mets",
+                                "link": "/api/v1/teams/121"
                             }
                         }
                     },
@@ -1107,16 +1098,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 121,
-                                "name": "New York Mets",
-                                "link": "/api/v1/teams/121"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 121,
+                                "name": "New York Mets",
+                                "link": "/api/v1/teams/121"
                             }
                         }
                     },
