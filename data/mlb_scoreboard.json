@@ -222,15 +222,13 @@
                                 "runs": 6,
                                 "hits": 9,
                                 "errors": 0,
-                                "leftOnBase": 11,
-                                "isWinner": false
+                                "leftOnBase": 11
                             },
                             "away": {
                                 "runs": 8,
                                 "hits": 9,
                                 "errors": 2,
-                                "leftOnBase": 2,
-                                "isWinner": true
+                                "leftOnBase": 2
                             }
                         },
                         "defense": {
@@ -317,11 +315,6 @@
                                 "fullName": "Pete Crow-Armstrong",
                                 "link": "/api/v1/people/691718"
                             },
-                            "second": {
-                                "id": 664023,
-                                "fullName": "Ian Happ",
-                                "link": "/api/v1/people/664023"
-                            },
                             "pitcher": {
                                 "id": 681799,
                                 "fullName": "Ethan Roberts",
@@ -358,7 +351,7 @@
                     "scheduledInnings": 9,
                     "reverseHomeAwayStatus": false,
                     "inningBreakLength": 120,
-                    "gamesInSeries": 3,
+                    "gamesInSeries": 2,
                     "seriesGameNumber": 2,
                     "seriesDescription": "Regular Season",
                     "recordSource": "S",
