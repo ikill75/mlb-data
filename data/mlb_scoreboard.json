@@ -215,6 +215,7 @@
                                 "ties": 0,
                                 "pct": ".519"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 26
                         },
@@ -230,31 +231,147 @@
                                 "ties": 0,
                                 "pct": ".442"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 26
                         }
                     },
                     "linescore": {
+                        "currentInning": 1,
+                        "currentInningOrdinal": "1st",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
-                        "innings": [],
+                        "innings": [
+                            {
+                                "num": 1,
+                                "ordinalNum": "1st",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            }
+                        ],
                         "teams": {
-                            "home": {},
-                            "away": {}
+                            "home": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            }
                         },
                         "defense": {
+                            "pitcher": {
+                                "id": 673540,
+                                "fullName": "Kodai Senga",
+                                "link": "/api/v1/people/673540"
+                            },
+                            "catcher": {
+                                "id": 682626,
+                                "fullName": "Francisco Alvarez",
+                                "link": "/api/v1/people/682626"
+                            },
+                            "first": {
+                                "id": 676724,
+                                "fullName": "Jared Young",
+                                "link": "/api/v1/people/676724"
+                            },
+                            "second": {
+                                "id": 543760,
+                                "fullName": "Marcus Semien",
+                                "link": "/api/v1/people/543760"
+                            },
+                            "third": {
+                                "id": 683146,
+                                "fullName": "Brett Baty",
+                                "link": "/api/v1/people/683146"
+                            },
+                            "shortstop": {
+                                "id": 666182,
+                                "fullName": "Bo Bichette",
+                                "link": "/api/v1/people/666182"
+                            },
+                            "left": {
+                                "id": 665742,
+                                "fullName": "Juan Soto",
+                                "link": "/api/v1/people/665742"
+                            },
+                            "center": {
+                                "id": 805999,
+                                "fullName": "A.J. Ewing",
+                                "link": "/api/v1/people/805999"
+                            },
+                            "right": {
+                                "id": 701807,
+                                "fullName": "Carson Benge",
+                                "link": "/api/v1/people/701807"
+                            },
+                            "batter": {
+                                "id": 701807,
+                                "fullName": "Carson Benge",
+                                "link": "/api/v1/people/701807"
+                            },
+                            "onDeck": {
+                                "id": 666182,
+                                "fullName": "Bo Bichette",
+                                "link": "/api/v1/people/666182"
+                            },
+                            "inHole": {
+                                "id": 665742,
+                                "fullName": "Juan Soto",
+                                "link": "/api/v1/people/665742"
+                            },
+                            "battingOrder": 1,
+                            "team": {
+                                "id": 121,
+                                "name": "New York Mets",
+                                "link": "/api/v1/teams/121"
+                            }
+                        },
+                        "offense": {
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 608324,
+                                "fullName": "Alex Bregman",
+                                "link": "/api/v1/people/608324"
+                            },
+                            "inHole": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "pitcher": {
+                                "id": 665795,
+                                "fullName": "Edward Cabrera",
+                                "link": "/api/v1/people/665795"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
                         },
-                        "offense": {
-                            "team": {
-                                "id": 121,
-                                "name": "New York Mets",
-                                "link": "/api/v1/teams/121"
-                            }
-                        }
+                        "balls": 0,
+                        "strikes": 0,
+                        "outs": 0
                     },
                     "venue": {
                         "id": 3289,
