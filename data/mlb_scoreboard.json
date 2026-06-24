@@ -309,15 +309,13 @@
                                 "runs": 6,
                                 "hits": 6,
                                 "errors": 1,
-                                "leftOnBase": 6,
-                                "isWinner": false
+                                "leftOnBase": 6
                             },
                             "away": {
                                 "runs": 9,
                                 "hits": 8,
                                 "errors": 0,
-                                "leftOnBase": 5,
-                                "isWinner": true
+                                "leftOnBase": 5
                             }
                         },
                         "defense": {
@@ -816,9 +814,9 @@
                     "officialDate": "2026-06-24",
                     "status": {
                         "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
                         "startTimeTBD": false,
                         "abstractGameCode": "P"
                     },
@@ -835,6 +833,7 @@
                                 "ties": 0,
                                 "pct": ".532"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 26
                         },
@@ -850,18 +849,110 @@
                                 "ties": 0,
                                 "pct": ".430"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 26
                         }
                     },
                     "linescore": {
+                        "currentInning": 1,
+                        "currentInningOrdinal": "1st",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
-                        "innings": [],
+                        "innings": [
+                            {
+                                "num": 1,
+                                "ordinalNum": "1st",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            }
+                        ],
                         "teams": {
-                            "home": {},
-                            "away": {}
+                            "home": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            }
                         },
                         "defense": {
+                            "pitcher": {
+                                "id": 640455,
+                                "fullName": "Sean Manaea",
+                                "link": "/api/v1/people/640455"
+                            },
+                            "catcher": {
+                                "id": 682626,
+                                "fullName": "Francisco Alvarez",
+                                "link": "/api/v1/people/682626"
+                            },
+                            "first": {
+                                "id": 668901,
+                                "fullName": "Mark Vientos",
+                                "link": "/api/v1/people/668901"
+                            },
+                            "second": {
+                                "id": 543760,
+                                "fullName": "Marcus Semien",
+                                "link": "/api/v1/people/543760"
+                            },
+                            "third": {
+                                "id": 666182,
+                                "fullName": "Bo Bichette",
+                                "link": "/api/v1/people/666182"
+                            },
+                            "shortstop": {
+                                "id": 596019,
+                                "fullName": "Francisco Lindor",
+                                "link": "/api/v1/people/596019"
+                            },
+                            "left": {
+                                "id": 701807,
+                                "fullName": "Carson Benge",
+                                "link": "/api/v1/people/701807"
+                            },
+                            "center": {
+                                "id": 805999,
+                                "fullName": "A.J. Ewing",
+                                "link": "/api/v1/people/805999"
+                            },
+                            "right": {
+                                "id": 683146,
+                                "fullName": "Brett Baty",
+                                "link": "/api/v1/people/683146"
+                            },
+                            "batter": {
+                                "id": 701807,
+                                "fullName": "Carson Benge",
+                                "link": "/api/v1/people/701807"
+                            },
+                            "onDeck": {
+                                "id": 596019,
+                                "fullName": "Francisco Lindor",
+                                "link": "/api/v1/people/596019"
+                            },
+                            "inHole": {
+                                "id": 666182,
+                                "fullName": "Bo Bichette",
+                                "link": "/api/v1/people/666182"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 121,
                                 "name": "New York Mets",
@@ -869,12 +960,36 @@
                             }
                         },
                         "offense": {
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 807713,
+                                "fullName": "Matt Shaw",
+                                "link": "/api/v1/people/807713"
+                            },
+                            "inHole": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "pitcher": {
+                                "id": 684007,
+                                "fullName": "Shota Imanaga",
+                                "link": "/api/v1/people/684007"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
-                        }
+                        },
+                        "balls": 0,
+                        "strikes": 0,
+                        "outs": 0
                     },
                     "venue": {
                         "id": 3289,
