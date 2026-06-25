@@ -1082,12 +1082,12 @@
                     "gameDate": "2026-06-25T23:10:00Z",
                     "officialDate": "2026-06-25",
                     "status": {
-                        "abstractGameState": "Preview",
+                        "abstractGameState": "Live",
                         "codedGameState": "P",
-                        "detailedState": "Pre-Game",
-                        "statusCode": "P",
+                        "detailedState": "Warmup",
+                        "statusCode": "PW",
                         "startTimeTBD": false,
-                        "abstractGameCode": "P"
+                        "abstractGameCode": "L"
                     },
                     "teams": {
                         "away": {
@@ -1102,6 +1102,7 @@
                                 "ties": 0,
                                 "pct": ".538"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 26
                         },
@@ -1117,31 +1118,147 @@
                                 "ties": 0,
                                 "pct": ".425"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 26
                         }
                     },
                     "linescore": {
+                        "currentInning": 1,
+                        "currentInningOrdinal": "1st",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
-                        "innings": [],
+                        "innings": [
+                            {
+                                "num": 1,
+                                "ordinalNum": "1st",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            }
+                        ],
                         "teams": {
-                            "home": {},
-                            "away": {}
+                            "home": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            }
                         },
                         "defense": {
+                            "pitcher": {
+                                "id": 642547,
+                                "fullName": "Freddy Peralta",
+                                "link": "/api/v1/people/642547"
+                            },
+                            "catcher": {
+                                "id": 682626,
+                                "fullName": "Francisco Alvarez",
+                                "link": "/api/v1/people/682626"
+                            },
+                            "first": {
+                                "id": 668901,
+                                "fullName": "Mark Vientos",
+                                "link": "/api/v1/people/668901"
+                            },
+                            "second": {
+                                "id": 683146,
+                                "fullName": "Brett Baty",
+                                "link": "/api/v1/people/683146"
+                            },
+                            "third": {
+                                "id": 666182,
+                                "fullName": "Bo Bichette",
+                                "link": "/api/v1/people/666182"
+                            },
+                            "shortstop": {
+                                "id": 677595,
+                                "fullName": "Ronny Mauricio",
+                                "link": "/api/v1/people/677595"
+                            },
+                            "left": {
+                                "id": 669004,
+                                "fullName": "MJ Melendez",
+                                "link": "/api/v1/people/669004"
+                            },
+                            "center": {
+                                "id": 805999,
+                                "fullName": "A.J. Ewing",
+                                "link": "/api/v1/people/805999"
+                            },
+                            "right": {
+                                "id": 701807,
+                                "fullName": "Carson Benge",
+                                "link": "/api/v1/people/701807"
+                            },
+                            "batter": {
+                                "id": 701807,
+                                "fullName": "Carson Benge",
+                                "link": "/api/v1/people/701807"
+                            },
+                            "onDeck": {
+                                "id": 666182,
+                                "fullName": "Bo Bichette",
+                                "link": "/api/v1/people/666182"
+                            },
+                            "inHole": {
+                                "id": 665742,
+                                "fullName": "Juan Soto",
+                                "link": "/api/v1/people/665742"
+                            },
+                            "battingOrder": 1,
+                            "team": {
+                                "id": 121,
+                                "name": "New York Mets",
+                                "link": "/api/v1/teams/121"
+                            }
+                        },
+                        "offense": {
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 624424,
+                                "fullName": "Michael Conforto",
+                                "link": "/api/v1/people/624424"
+                            },
+                            "inHole": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "pitcher": {
+                                "id": 571510,
+                                "fullName": "Matthew Boyd",
+                                "link": "/api/v1/people/571510"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
                         },
-                        "offense": {
-                            "team": {
-                                "id": 121,
-                                "name": "New York Mets",
-                                "link": "/api/v1/teams/121"
-                            }
-                        }
+                        "balls": 0,
+                        "strikes": 0,
+                        "outs": 0
                     },
                     "venue": {
                         "id": 3289,
@@ -1236,16 +1353,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 158,
-                                "name": "Milwaukee Brewers",
-                                "link": "/api/v1/teams/158"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 158,
+                                "name": "Milwaukee Brewers",
+                                "link": "/api/v1/teams/158"
                             }
                         }
                     },
@@ -1342,16 +1459,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 158,
-                                "name": "Milwaukee Brewers",
-                                "link": "/api/v1/teams/158"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 158,
+                                "name": "Milwaukee Brewers",
+                                "link": "/api/v1/teams/158"
                             }
                         }
                     },
