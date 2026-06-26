@@ -224,13 +224,15 @@
                                 "runs": 3,
                                 "hits": 7,
                                 "errors": 0,
-                                "leftOnBase": 5
+                                "leftOnBase": 5,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 10,
                                 "hits": 9,
                                 "errors": 0,
-                                "leftOnBase": 5
+                                "leftOnBase": 5,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -571,13 +573,15 @@
                                 "runs": 5,
                                 "hits": 8,
                                 "errors": 6,
-                                "leftOnBase": 6
+                                "leftOnBase": 6,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 10,
                                 "hits": 11,
                                 "errors": 0,
-                                "leftOnBase": 9
+                                "leftOnBase": 9,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -663,6 +667,16 @@
                                 "id": 668901,
                                 "fullName": "Mark Vientos",
                                 "link": "/api/v1/people/668901"
+                            },
+                            "first": {
+                                "id": 701807,
+                                "fullName": "Carson Benge",
+                                "link": "/api/v1/people/701807"
+                            },
+                            "second": {
+                                "id": 669004,
+                                "fullName": "MJ Melendez",
+                                "link": "/api/v1/people/669004"
                             },
                             "pitcher": {
                                 "id": 642207,
@@ -943,13 +957,15 @@
                                 "runs": 3,
                                 "hits": 9,
                                 "errors": 2,
-                                "leftOnBase": 14
+                                "leftOnBase": 14,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 4,
                                 "hits": 6,
                                 "errors": 1,
-                                "leftOnBase": 6
+                                "leftOnBase": 6,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -1036,6 +1052,11 @@
                                 "fullName": "Juan Soto",
                                 "link": "/api/v1/people/665742"
                             },
+                            "third": {
+                                "id": 677595,
+                                "fullName": "Ronny Mauricio",
+                                "link": "/api/v1/people/677595"
+                            },
                             "pitcher": {
                                 "id": 548384,
                                 "fullName": "Brooks Raley",
@@ -1099,9 +1120,9 @@
                     "officialDate": "2026-06-26",
                     "status": {
                         "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
                         "startTimeTBD": false,
                         "abstractGameCode": "P"
                     },
@@ -1252,16 +1273,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 158,
+                                "name": "Milwaukee Brewers",
+                                "link": "/api/v1/teams/158"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 158,
-                                "name": "Milwaukee Brewers",
-                                "link": "/api/v1/teams/158"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1358,16 +1379,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 158,
+                                "name": "Milwaukee Brewers",
+                                "link": "/api/v1/teams/158"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 158,
-                                "name": "Milwaukee Brewers",
-                                "link": "/api/v1/teams/158"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1888,16 +1909,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         }
                     },
