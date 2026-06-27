@@ -975,10 +975,10 @@
                                 "link": "/api/v1/teams/135"
                             },
                             "leagueRecord": {
-                                "wins": 42,
+                                "wins": 43,
                                 "losses": 37,
                                 "ties": 0,
-                                "pct": ".532"
+                                "pct": ".538"
                             },
                             "splitSquad": false,
                             "seriesNumber": 28
@@ -1081,10 +1081,10 @@
                                 "link": "/api/v1/teams/135"
                             },
                             "leagueRecord": {
-                                "wins": 42,
+                                "wins": 43,
                                 "losses": 37,
                                 "ties": 0,
-                                "pct": ".532"
+                                "pct": ".538"
                             },
                             "splitSquad": false,
                             "seriesNumber": 28
@@ -1187,10 +1187,10 @@
                                 "link": "/api/v1/teams/135"
                             },
                             "leagueRecord": {
-                                "wins": 42,
+                                "wins": 43,
                                 "losses": 37,
                                 "ties": 0,
-                                "pct": ".532"
+                                "pct": ".538"
                             },
                             "splitSquad": false,
                             "seriesNumber": 28
@@ -1432,16 +1432,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         }
                     },
