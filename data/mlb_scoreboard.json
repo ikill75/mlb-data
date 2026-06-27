@@ -238,13 +238,15 @@
                                 "runs": 3,
                                 "hits": 9,
                                 "errors": 2,
-                                "leftOnBase": 14
+                                "leftOnBase": 14,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 4,
                                 "hits": 6,
                                 "errors": 1,
-                                "leftOnBase": 6
+                                "leftOnBase": 6,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -330,6 +332,11 @@
                                 "id": 665742,
                                 "fullName": "Juan Soto",
                                 "link": "/api/v1/people/665742"
+                            },
+                            "third": {
+                                "id": 677595,
+                                "fullName": "Ronny Mauricio",
+                                "link": "/api/v1/people/677595"
                             },
                             "pitcher": {
                                 "id": 548384,
@@ -593,13 +600,15 @@
                                 "runs": 6,
                                 "hits": 11,
                                 "errors": 0,
-                                "leftOnBase": 9
+                                "leftOnBase": 9,
+                                "isWinner": true
                             },
                             "away": {
                                 "runs": 2,
                                 "hits": 3,
                                 "errors": 1,
-                                "leftOnBase": 7
+                                "leftOnBase": 7,
+                                "isWinner": false
                             }
                         },
                         "defense": {
@@ -686,6 +695,11 @@
                                 "fullName": "Alex Bregman",
                                 "link": "/api/v1/people/608324"
                             },
+                            "second": {
+                                "id": 608348,
+                                "fullName": "Carson Kelly",
+                                "link": "/api/v1/people/608348"
+                            },
                             "pitcher": {
                                 "id": 681151,
                                 "fullName": "Jayden Murray",
@@ -768,6 +782,7 @@
                                 "ties": 0,
                                 "pct": ".537"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 27
                         },
@@ -783,31 +798,147 @@
                                 "ties": 0,
                                 "pct": ".633"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 27
                         }
                     },
                     "linescore": {
+                        "currentInning": 1,
+                        "currentInningOrdinal": "1st",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
-                        "innings": [],
+                        "innings": [
+                            {
+                                "num": 1,
+                                "ordinalNum": "1st",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            }
+                        ],
                         "teams": {
-                            "home": {},
-                            "away": {}
+                            "home": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            }
                         },
                         "defense": {
+                            "pitcher": {
+                                "id": 690986,
+                                "fullName": "Kyle Harrison",
+                                "link": "/api/v1/people/690986"
+                            },
+                            "catcher": {
+                                "id": 661388,
+                                "fullName": "William Contreras",
+                                "link": "/api/v1/people/661388"
+                            },
+                            "first": {
+                                "id": 683734,
+                                "fullName": "Andrew Vaughn",
+                                "link": "/api/v1/people/683734"
+                            },
+                            "second": {
+                                "id": 668930,
+                                "fullName": "Brice Turang",
+                                "link": "/api/v1/people/668930"
+                            },
+                            "third": {
+                                "id": 687401,
+                                "fullName": "Joey Ortiz",
+                                "link": "/api/v1/people/687401"
+                            },
+                            "shortstop": {
+                                "id": 806198,
+                                "fullName": "Cooper Pratt",
+                                "link": "/api/v1/people/806198"
+                            },
+                            "left": {
+                                "id": 694192,
+                                "fullName": "Jackson Chourio",
+                                "link": "/api/v1/people/694192"
+                            },
+                            "center": {
+                                "id": 663368,
+                                "fullName": "Blake Perkins",
+                                "link": "/api/v1/people/663368"
+                            },
+                            "right": {
+                                "id": 686217,
+                                "fullName": "Sal Frelick",
+                                "link": "/api/v1/people/686217"
+                            },
+                            "batter": {
+                                "id": 694192,
+                                "fullName": "Jackson Chourio",
+                                "link": "/api/v1/people/694192"
+                            },
+                            "onDeck": {
+                                "id": 668930,
+                                "fullName": "Brice Turang",
+                                "link": "/api/v1/people/668930"
+                            },
+                            "inHole": {
+                                "id": 661388,
+                                "fullName": "William Contreras",
+                                "link": "/api/v1/people/661388"
+                            },
+                            "battingOrder": 1,
+                            "team": {
+                                "id": 158,
+                                "name": "Milwaukee Brewers",
+                                "link": "/api/v1/teams/158"
+                            }
+                        },
+                        "offense": {
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 807713,
+                                "fullName": "Matt Shaw",
+                                "link": "/api/v1/people/807713"
+                            },
+                            "inHole": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "pitcher": {
+                                "id": 656849,
+                                "fullName": "David Peterson",
+                                "link": "/api/v1/people/656849"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
                         },
-                        "offense": {
-                            "team": {
-                                "id": 158,
-                                "name": "Milwaukee Brewers",
-                                "link": "/api/v1/teams/158"
-                            }
-                        }
+                        "balls": 0,
+                        "strikes": 0,
+                        "outs": 0
                     },
                     "venue": {
                         "id": 32,
@@ -902,16 +1033,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 158,
+                                "name": "Milwaukee Brewers",
+                                "link": "/api/v1/teams/158"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 158,
-                                "name": "Milwaukee Brewers",
-                                "link": "/api/v1/teams/158"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
