@@ -238,13 +238,15 @@
                                 "runs": 3,
                                 "hits": 9,
                                 "errors": 2,
-                                "leftOnBase": 14
+                                "leftOnBase": 14,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 4,
                                 "hits": 6,
                                 "errors": 1,
-                                "leftOnBase": 6
+                                "leftOnBase": 6,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -330,6 +332,11 @@
                                 "id": 665742,
                                 "fullName": "Juan Soto",
                                 "link": "/api/v1/people/665742"
+                            },
+                            "third": {
+                                "id": 677595,
+                                "fullName": "Ronny Mauricio",
+                                "link": "/api/v1/people/677595"
                             },
                             "pitcher": {
                                 "id": 548384,
@@ -593,13 +600,15 @@
                                 "runs": 6,
                                 "hits": 11,
                                 "errors": 0,
-                                "leftOnBase": 9
+                                "leftOnBase": 9,
+                                "isWinner": true
                             },
                             "away": {
                                 "runs": 2,
                                 "hits": 3,
                                 "errors": 1,
-                                "leftOnBase": 7
+                                "leftOnBase": 7,
+                                "isWinner": false
                             }
                         },
                         "defense": {
@@ -685,6 +694,11 @@
                                 "id": 608324,
                                 "fullName": "Alex Bregman",
                                 "link": "/api/v1/people/608324"
+                            },
+                            "second": {
+                                "id": 608348,
+                                "fullName": "Carson Kelly",
+                                "link": "/api/v1/people/608348"
                             },
                             "pitcher": {
                                 "id": 681151,
@@ -902,16 +916,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 158,
+                                "name": "Milwaukee Brewers",
+                                "link": "/api/v1/teams/158"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 158,
-                                "name": "Milwaukee Brewers",
-                                "link": "/api/v1/teams/158"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
