@@ -584,15 +584,13 @@
                                 "runs": 2,
                                 "hits": 5,
                                 "errors": 0,
-                                "leftOnBase": 2,
-                                "isWinner": false
+                                "leftOnBase": 2
                             },
                             "away": {
                                 "runs": 8,
                                 "hits": 9,
                                 "errors": 0,
-                                "leftOnBase": 5,
-                                "isWinner": true
+                                "leftOnBase": 5
                             }
                         },
                         "defense": {
@@ -1129,9 +1127,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 43,
-                                "losses": 38,
+                                "losses": 39,
                                 "ties": 0,
-                                "pct": ".531"
+                                "pct": ".524"
                             },
                             "splitSquad": false,
                             "seriesNumber": 28
@@ -1235,9 +1233,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 43,
-                                "losses": 38,
+                                "losses": 39,
                                 "ties": 0,
-                                "pct": ".531"
+                                "pct": ".524"
                             },
                             "splitSquad": false,
                             "seriesNumber": 28
@@ -1341,9 +1339,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 43,
-                                "losses": 38,
+                                "losses": 39,
                                 "ties": 0,
-                                "pct": ".531"
+                                "pct": ".524"
                             },
                             "splitSquad": false,
                             "seriesNumber": 28
