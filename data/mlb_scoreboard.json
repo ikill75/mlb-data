@@ -222,13 +222,15 @@
                                 "runs": 2,
                                 "hits": 5,
                                 "errors": 0,
-                                "leftOnBase": 2
+                                "leftOnBase": 2,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 8,
                                 "hits": 9,
                                 "errors": 0,
-                                "leftOnBase": 5
+                                "leftOnBase": 5,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -594,13 +596,15 @@
                                 "runs": 3,
                                 "hits": 10,
                                 "errors": 0,
-                                "leftOnBase": 10
+                                "leftOnBase": 10,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 4,
                                 "hits": 4,
                                 "errors": 1,
-                                "leftOnBase": 8
+                                "leftOnBase": 8,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -686,6 +690,16 @@
                                 "id": 806198,
                                 "fullName": "Cooper Pratt",
                                 "link": "/api/v1/people/806198"
+                            },
+                            "second": {
+                                "id": 668930,
+                                "fullName": "Brice Turang",
+                                "link": "/api/v1/people/668930"
+                            },
+                            "third": {
+                                "id": 694192,
+                                "fullName": "Jackson Chourio",
+                                "link": "/api/v1/people/694192"
                             },
                             "pitcher": {
                                 "id": 669270,
@@ -3117,7 +3131,7 @@
                                 "pct": ".531"
                             },
                             "splitSquad": false,
-                            "seriesNumber": 35
+                            "seriesNumber": 36
                         }
                     },
                     "linescore": {
@@ -3129,16 +3143,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         }
                     },
@@ -3160,7 +3174,7 @@
                     "dayNight": "night",
                     "scheduledInnings": 9,
                     "reverseHomeAwayStatus": false,
-                    "inningBreakLength": 120,
+                    "inningBreakLength": 145,
                     "gamesInSeries": 4,
                     "seriesGameNumber": 2,
                     "seriesDescription": "Regular Season",
