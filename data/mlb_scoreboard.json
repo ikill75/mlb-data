@@ -1032,16 +1032,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1138,16 +1138,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -2928,7 +2928,7 @@
                                 "pct": ".531"
                             },
                             "splitSquad": false,
-                            "seriesNumber": 35
+                            "seriesNumber": 36
                         }
                     },
                     "linescore": {
@@ -3140,7 +3140,7 @@
                                 "pct": ".531"
                             },
                             "splitSquad": false,
-                            "seriesNumber": 35
+                            "seriesNumber": 36
                         }
                     },
                     "linescore": {
@@ -3246,7 +3246,7 @@
                                 "pct": ".531"
                             },
                             "splitSquad": false,
-                            "seriesNumber": 35
+                            "seriesNumber": 36
                         }
                     },
                     "linescore": {
