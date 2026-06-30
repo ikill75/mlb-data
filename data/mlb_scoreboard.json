@@ -773,9 +773,9 @@
                     "officialDate": "2026-06-30",
                     "status": {
                         "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
                         "startTimeTBD": false,
                         "abstractGameCode": "P"
                     },
@@ -792,6 +792,7 @@
                                 "ties": 0,
                                 "pct": ".518"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 28
                         },
@@ -807,18 +808,110 @@
                                 "ties": 0,
                                 "pct": ".553"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 28
                         }
                     },
                     "linescore": {
+                        "currentInning": 1,
+                        "currentInningOrdinal": "1st",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
-                        "innings": [],
+                        "innings": [
+                            {
+                                "num": 1,
+                                "ordinalNum": "1st",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            }
+                        ],
                         "teams": {
-                            "home": {},
-                            "away": {}
+                            "home": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            }
                         },
                         "defense": {
+                            "pitcher": {
+                                "id": 571510,
+                                "fullName": "Matthew Boyd",
+                                "link": "/api/v1/people/571510"
+                            },
+                            "catcher": {
+                                "id": 608348,
+                                "fullName": "Carson Kelly",
+                                "link": "/api/v1/people/608348"
+                            },
+                            "first": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "second": {
+                                "id": 663538,
+                                "fullName": "Nico Hoerner",
+                                "link": "/api/v1/people/663538"
+                            },
+                            "third": {
+                                "id": 608324,
+                                "fullName": "Alex Bregman",
+                                "link": "/api/v1/people/608324"
+                            },
+                            "shortstop": {
+                                "id": 621020,
+                                "fullName": "Dansby Swanson",
+                                "link": "/api/v1/people/621020"
+                            },
+                            "left": {
+                                "id": 664023,
+                                "fullName": "Ian Happ",
+                                "link": "/api/v1/people/664023"
+                            },
+                            "center": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "right": {
+                                "id": 682634,
+                                "fullName": "Kevin Alcántara",
+                                "link": "/api/v1/people/682634"
+                            },
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 608324,
+                                "fullName": "Alex Bregman",
+                                "link": "/api/v1/people/608324"
+                            },
+                            "inHole": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
@@ -826,12 +919,36 @@
                             }
                         },
                         "offense": {
+                            "batter": {
+                                "id": 665487,
+                                "fullName": "Fernando Tatis Jr.",
+                                "link": "/api/v1/people/665487"
+                            },
+                            "onDeck": {
+                                "id": 669392,
+                                "fullName": "Samad Taylor",
+                                "link": "/api/v1/people/669392"
+                            },
+                            "inHole": {
+                                "id": 592518,
+                                "fullName": "Manny Machado",
+                                "link": "/api/v1/people/592518"
+                            },
+                            "pitcher": {
+                                "id": 676664,
+                                "fullName": "JP Sears",
+                                "link": "/api/v1/people/676664"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 135,
                                 "name": "San Diego Padres",
                                 "link": "/api/v1/teams/135"
                             }
-                        }
+                        },
+                        "balls": 0,
+                        "strikes": 0,
+                        "outs": 0
                     },
                     "venue": {
                         "id": 17,
