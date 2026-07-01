@@ -2330,7 +2330,7 @@
                     "link": "/api/v1.1/game/824650/feed/live",
                     "gameType": "R",
                     "season": "2026",
-                    "gameDate": "2026-07-23T00:05:00Z",
+                    "gameDate": "2026-07-23T00:10:00Z",
                     "officialDate": "2026-07-22",
                     "status": {
                         "abstractGameState": "Preview",
@@ -2381,16 +2381,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 116,
+                                "name": "Detroit Tigers",
+                                "link": "/api/v1/teams/116"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 116,
-                                "name": "Detroit Tigers",
-                                "link": "/api/v1/teams/116"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
