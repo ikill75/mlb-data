@@ -744,9 +744,9 @@
                     "officialDate": "2026-07-01",
                     "status": {
                         "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
                         "startTimeTBD": false,
                         "abstractGameCode": "P"
                     },
@@ -791,16 +791,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 135,
+                                "name": "San Diego Padres",
+                                "link": "/api/v1/teams/135"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 135,
-                                "name": "San Diego Padres",
-                                "link": "/api/v1/teams/135"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
