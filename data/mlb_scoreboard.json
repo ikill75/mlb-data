@@ -3,7 +3,7 @@
     "totalItems": 26,
     "totalEvents": 0,
     "totalGames": 26,
-    "totalGamesInProgress": 0,
+    "totalGamesInProgress": 1,
     "dates": [
         {
             "date": "2026-06-29",
@@ -736,7 +736,7 @@
             "totalItems": 1,
             "totalEvents": 0,
             "totalGames": 1,
-            "totalGamesInProgress": 0,
+            "totalGamesInProgress": 1,
             "games": [
                 {
                     "gamePk": 824660,
@@ -747,12 +747,12 @@
                     "gameDate": "2026-07-01T18:20:00Z",
                     "officialDate": "2026-07-01",
                     "status": {
-                        "abstractGameState": "Preview",
-                        "codedGameState": "P",
-                        "detailedState": "Pre-Game",
-                        "statusCode": "P",
+                        "abstractGameState": "Live",
+                        "codedGameState": "I",
+                        "detailedState": "In Progress",
+                        "statusCode": "I",
                         "startTimeTBD": false,
-                        "abstractGameCode": "P"
+                        "abstractGameCode": "L"
                     },
                     "teams": {
                         "away": {
@@ -783,94 +783,151 @@
                                 "ties": 0,
                                 "pct": ".558"
                             },
-                            "score": 0,
+                            "score": 9,
                             "splitSquad": false,
                             "seriesNumber": 28
                         }
                     },
                     "linescore": {
-                        "currentInning": 1,
-                        "currentInningOrdinal": "1st",
-                        "inningState": "Top",
-                        "inningHalf": "Top",
-                        "isTopInning": true,
+                        "currentInning": 3,
+                        "currentInningOrdinal": "3rd",
+                        "inningState": "Bottom",
+                        "inningHalf": "Bottom",
+                        "isTopInning": false,
                         "scheduledInnings": 9,
                         "innings": [
                             {
                                 "num": 1,
                                 "ordinalNum": "1st",
                                 "home": {
+                                    "runs": 3,
+                                    "hits": 2,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                },
+                                "away": {
+                                    "runs": 0,
                                     "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                }
+                            },
+                            {
+                                "num": 2,
+                                "ordinalNum": "2nd",
+                                "home": {
+                                    "runs": 1,
+                                    "hits": 1,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 },
                                 "away": {
-                                    "hits": 0,
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                }
+                            },
+                            {
+                                "num": 3,
+                                "ordinalNum": "3rd",
+                                "home": {
+                                    "runs": 5,
+                                    "hits": 3,
                                     "errors": 0,
                                     "leftOnBase": 0
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 3
                                 }
                             }
                         ],
                         "teams": {
                             "home": {
-                                "runs": 0,
-                                "hits": 0,
+                                "runs": 9,
+                                "hits": 6,
                                 "errors": 0,
-                                "leftOnBase": 0
+                                "leftOnBase": 1
                             },
                             "away": {
                                 "runs": 0,
-                                "hits": 0,
+                                "hits": 2,
                                 "errors": 0,
-                                "leftOnBase": 0
+                                "leftOnBase": 5
                             }
                         },
                         "defense": {
                             "pitcher": {
-                                "id": 607067,
-                                "fullName": "Colin Rea",
-                                "link": "/api/v1/people/607067"
+                                "id": 621111,
+                                "fullName": "Walker Buehler",
+                                "link": "/api/v1/people/621111"
                             },
                             "catcher": {
-                                "id": 665804,
-                                "fullName": "Miguel Amaya",
-                                "link": "/api/v1/people/665804"
+                                "id": 660710,
+                                "fullName": "Rodolfo Durán",
+                                "link": "/api/v1/people/660710"
                             },
                             "first": {
-                                "id": 683737,
-                                "fullName": "Michael Busch",
-                                "link": "/api/v1/people/683737"
+                                "id": 664034,
+                                "fullName": "Ty France",
+                                "link": "/api/v1/people/664034"
                             },
                             "second": {
-                                "id": 663538,
-                                "fullName": "Nico Hoerner",
-                                "link": "/api/v1/people/663538"
+                                "id": 630105,
+                                "fullName": "Jake Cronenworth",
+                                "link": "/api/v1/people/630105"
                             },
                             "third": {
-                                "id": 608324,
-                                "fullName": "Alex Bregman",
-                                "link": "/api/v1/people/608324"
+                                "id": 823550,
+                                "fullName": "Sung-Mun Song",
+                                "link": "/api/v1/people/823550"
                             },
                             "shortstop": {
-                                "id": 621020,
-                                "fullName": "Dansby Swanson",
-                                "link": "/api/v1/people/621020"
+                                "id": 593428,
+                                "fullName": "Xander Bogaerts",
+                                "link": "/api/v1/people/593428"
                             },
                             "left": {
-                                "id": 664023,
-                                "fullName": "Ian Happ",
-                                "link": "/api/v1/people/664023"
+                                "id": 657757,
+                                "fullName": "Gavin Sheets",
+                                "link": "/api/v1/people/657757"
                             },
                             "center": {
-                                "id": 691718,
-                                "fullName": "Pete Crow-Armstrong",
-                                "link": "/api/v1/people/691718"
+                                "id": 701538,
+                                "fullName": "Jackson Merrill",
+                                "link": "/api/v1/people/701538"
                             },
                             "right": {
-                                "id": 673548,
-                                "fullName": "Seiya Suzuki",
-                                "link": "/api/v1/people/673548"
+                                "id": 665487,
+                                "fullName": "Fernando Tatis Jr.",
+                                "link": "/api/v1/people/665487"
                             },
+                            "batter": {
+                                "id": 593428,
+                                "fullName": "Xander Bogaerts",
+                                "link": "/api/v1/people/593428"
+                            },
+                            "onDeck": {
+                                "id": 630105,
+                                "fullName": "Jake Cronenworth",
+                                "link": "/api/v1/people/630105"
+                            },
+                            "inHole": {
+                                "id": 660710,
+                                "fullName": "Rodolfo Durán",
+                                "link": "/api/v1/people/660710"
+                            },
+                            "battingOrder": 6,
+                            "team": {
+                                "id": 135,
+                                "name": "San Diego Padres",
+                                "link": "/api/v1/teams/135"
+                            }
+                        },
+                        "offense": {
                             "batter": {
                                 "id": 691718,
                                 "fullName": "Pete Crow-Armstrong",
@@ -885,6 +942,11 @@
                                 "id": 683737,
                                 "fullName": "Michael Busch",
                                 "link": "/api/v1/people/683737"
+                            },
+                            "pitcher": {
+                                "id": 607067,
+                                "fullName": "Colin Rea",
+                                "link": "/api/v1/people/607067"
                             },
                             "battingOrder": 1,
                             "team": {
@@ -893,37 +955,9 @@
                                 "link": "/api/v1/teams/112"
                             }
                         },
-                        "offense": {
-                            "batter": {
-                                "id": 665487,
-                                "fullName": "Fernando Tatis Jr.",
-                                "link": "/api/v1/people/665487"
-                            },
-                            "onDeck": {
-                                "id": 657757,
-                                "fullName": "Gavin Sheets",
-                                "link": "/api/v1/people/657757"
-                            },
-                            "inHole": {
-                                "id": 592518,
-                                "fullName": "Manny Machado",
-                                "link": "/api/v1/people/592518"
-                            },
-                            "pitcher": {
-                                "id": 621111,
-                                "fullName": "Walker Buehler",
-                                "link": "/api/v1/people/621111"
-                            },
-                            "battingOrder": 1,
-                            "team": {
-                                "id": 135,
-                                "name": "San Diego Padres",
-                                "link": "/api/v1/teams/135"
-                            }
-                        },
-                        "balls": 0,
-                        "strikes": 0,
-                        "outs": 0
+                        "balls": 2,
+                        "strikes": 2,
+                        "outs": 2
                     },
                     "venue": {
                         "id": 17,
@@ -1318,10 +1352,10 @@
                                 "link": "/api/v1/teams/110"
                             },
                             "leagueRecord": {
-                                "wins": 39,
+                                "wins": 40,
                                 "losses": 48,
                                 "ties": 0,
-                                "pct": ".448"
+                                "pct": ".455"
                             },
                             "splitSquad": false,
                             "seriesNumber": 30
@@ -1424,10 +1458,10 @@
                                 "link": "/api/v1/teams/110"
                             },
                             "leagueRecord": {
-                                "wins": 39,
+                                "wins": 40,
                                 "losses": 48,
                                 "ties": 0,
-                                "pct": ".448"
+                                "pct": ".455"
                             },
                             "splitSquad": false,
                             "seriesNumber": 30
@@ -1530,10 +1564,10 @@
                                 "link": "/api/v1/teams/110"
                             },
                             "leagueRecord": {
-                                "wins": 39,
+                                "wins": 40,
                                 "losses": 48,
                                 "ties": 0,
-                                "pct": ".448"
+                                "pct": ".455"
                             },
                             "splitSquad": false,
                             "seriesNumber": 30
