@@ -221,13 +221,15 @@
                                 "runs": 23,
                                 "hits": 17,
                                 "errors": 0,
-                                "leftOnBase": 2
+                                "leftOnBase": 2,
+                                "isWinner": true
                             },
                             "away": {
                                 "runs": 3,
                                 "hits": 11,
                                 "errors": 1,
-                                "leftOnBase": 11
+                                "leftOnBase": 11,
+                                "isWinner": false
                             }
                         },
                         "defense": {
@@ -313,6 +315,16 @@
                                 "id": 630105,
                                 "fullName": "Jake Cronenworth",
                                 "link": "/api/v1/people/630105"
+                            },
+                            "second": {
+                                "id": 664034,
+                                "fullName": "Ty France",
+                                "link": "/api/v1/people/664034"
+                            },
+                            "third": {
+                                "id": 657757,
+                                "fullName": "Gavin Sheets",
+                                "link": "/api/v1/people/657757"
                             },
                             "pitcher": {
                                 "id": 660710,
@@ -424,16 +436,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         }
                     },
@@ -530,16 +542,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         }
                     },
@@ -636,16 +648,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         }
                     },
@@ -1908,16 +1920,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 116,
-                                "name": "Detroit Tigers",
-                                "link": "/api/v1/teams/116"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 116,
+                                "name": "Detroit Tigers",
+                                "link": "/api/v1/teams/116"
                             }
                         }
                     },
@@ -2438,16 +2450,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
