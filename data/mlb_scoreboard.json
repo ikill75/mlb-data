@@ -1,9 +1,9 @@
 {
     "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
-    "totalItems": 26,
+    "totalItems": 27,
     "totalEvents": 0,
-    "totalGames": 26,
-    "totalGamesInProgress": 0,
+    "totalGames": 27,
+    "totalGamesInProgress": 1,
     "dates": [
         {
             "date": "2026-07-03",
@@ -368,7 +368,7 @@
             "totalItems": 1,
             "totalEvents": 0,
             "totalGames": 1,
-            "totalGamesInProgress": 0,
+            "totalGamesInProgress": 1,
             "games": [
                 {
                     "gamePk": 824658,
@@ -379,12 +379,12 @@
                     "gameDate": "2026-07-05T00:08:00Z",
                     "officialDate": "2026-07-04",
                     "status": {
-                        "abstractGameState": "Preview",
-                        "codedGameState": "P",
-                        "detailedState": "Pre-Game",
-                        "statusCode": "P",
+                        "abstractGameState": "Live",
+                        "codedGameState": "I",
+                        "detailedState": "In Progress",
+                        "statusCode": "I",
                         "startTimeTBD": false,
-                        "abstractGameCode": "P"
+                        "abstractGameCode": "L"
                     },
                     "teams": {
                         "away": {
@@ -399,7 +399,7 @@
                                 "ties": 0,
                                 "pct": ".541"
                             },
-                            "score": 0,
+                            "score": 1,
                             "splitSquad": false,
                             "seriesNumber": 29
                         },
@@ -437,7 +437,8 @@
                                     "leftOnBase": 0
                                 },
                                 "away": {
-                                    "hits": 0,
+                                    "runs": 1,
+                                    "hits": 1,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 }
@@ -451,8 +452,8 @@
                                 "leftOnBase": 0
                             },
                             "away": {
-                                "runs": 0,
-                                "hits": 0,
+                                "runs": 1,
+                                "hits": 1,
                                 "errors": 0,
                                 "leftOnBase": 0
                             }
@@ -527,16 +528,21 @@
                         },
                         "offense": {
                             "batter": {
-                                "id": 802139,
-                                "fullName": "JJ Wetherholt",
-                                "link": "/api/v1/people/802139"
+                                "id": 691026,
+                                "fullName": "Masyn Winn",
+                                "link": "/api/v1/people/691026"
                             },
                             "onDeck": {
-                                "id": 671056,
-                                "fullName": "Iván Herrera",
-                                "link": "/api/v1/people/671056"
+                                "id": 665877,
+                                "fullName": "José Fermín",
+                                "link": "/api/v1/people/665877"
                             },
                             "inHole": {
+                                "id": 663457,
+                                "fullName": "Lars Nootbaar",
+                                "link": "/api/v1/people/663457"
+                            },
+                            "second": {
                                 "id": 691023,
                                 "fullName": "Jordan Walker",
                                 "link": "/api/v1/people/691023"
@@ -546,16 +552,16 @@
                                 "fullName": "Kyle Leahy",
                                 "link": "/api/v1/people/681517"
                             },
-                            "battingOrder": 1,
+                            "battingOrder": 5,
                             "team": {
                                 "id": 138,
                                 "name": "St. Louis Cardinals",
                                 "link": "/api/v1/teams/138"
                             }
                         },
-                        "balls": 0,
-                        "strikes": 0,
-                        "outs": 0
+                        "balls": 1,
+                        "strikes": 2,
+                        "outs": 2
                     },
                     "venue": {
                         "id": 17,
@@ -3122,6 +3128,112 @@
                     "inningBreakLength": 120,
                     "gamesInSeries": 3,
                     "seriesGameNumber": 1,
+                    "seriesDescription": "Regular Season",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                }
+            ],
+            "events": []
+        },
+        {
+            "date": "2026-08-04",
+            "totalItems": 1,
+            "totalEvents": 0,
+            "totalGames": 1,
+            "totalGamesInProgress": 0,
+            "games": [
+                {
+                    "gamePk": 824645,
+                    "gameGuid": "e923e13b-5107-4056-8768-0a42e93c32fc",
+                    "link": "/api/v1.1/game/824645/feed/live",
+                    "gameType": "R",
+                    "season": "2026",
+                    "gameDate": "2026-08-05T00:05:00Z",
+                    "officialDate": "2026-08-04",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "S",
+                        "detailedState": "Scheduled",
+                        "statusCode": "S",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "team": {
+                                "id": 119,
+                                "name": "Los Angeles Dodgers",
+                                "link": "/api/v1/teams/119"
+                            },
+                            "leagueRecord": {
+                                "wins": 58,
+                                "losses": 31,
+                                "ties": 0,
+                                "pct": ".652"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 37
+                        },
+                        "home": {
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            },
+                            "leagueRecord": {
+                                "wins": 49,
+                                "losses": 39,
+                                "ties": 0,
+                                "pct": ".557"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 37
+                        }
+                    },
+                    "linescore": {
+                        "scheduledInnings": 9,
+                        "innings": [],
+                        "teams": {
+                            "home": {},
+                            "away": {}
+                        },
+                        "defense": {
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            }
+                        },
+                        "offense": {
+                            "team": {
+                                "id": 119,
+                                "name": "Los Angeles Dodgers",
+                                "link": "/api/v1/teams/119"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "id": 17,
+                        "name": "Wrigley Field",
+                        "link": "/api/v1/venues/17"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/824645/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-824645-2026-08-04",
+                    "seasonDisplay": "2026",
+                    "dayNight": "night",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 3,
+                    "seriesGameNumber": 2,
                     "seriesDescription": "Regular Season",
                     "recordSource": "S",
                     "ifNecessary": "N",
