@@ -3,7 +3,7 @@
     "totalItems": 27,
     "totalEvents": 0,
     "totalGames": 27,
-    "totalGamesInProgress": 0,
+    "totalGamesInProgress": 1,
     "dates": [
         {
             "date": "2026-07-03",
@@ -724,7 +724,7 @@
             "totalItems": 1,
             "totalEvents": 0,
             "totalGames": 1,
-            "totalGamesInProgress": 0,
+            "totalGamesInProgress": 1,
             "games": [
                 {
                     "gamePk": 824656,
@@ -735,12 +735,12 @@
                     "gameDate": "2026-07-05T18:30:00Z",
                     "officialDate": "2026-07-05",
                     "status": {
-                        "abstractGameState": "Preview",
-                        "codedGameState": "P",
-                        "detailedState": "Pre-Game",
-                        "statusCode": "P",
+                        "abstractGameState": "Live",
+                        "codedGameState": "I",
+                        "detailedState": "In Progress",
+                        "statusCode": "I",
                         "startTimeTBD": false,
-                        "abstractGameCode": "P"
+                        "abstractGameCode": "L"
                     },
                     "teams": {
                         "away": {
@@ -883,26 +883,26 @@
                         },
                         "offense": {
                             "batter": {
-                                "id": 802139,
-                                "fullName": "JJ Wetherholt",
-                                "link": "/api/v1/people/802139"
-                            },
-                            "onDeck": {
                                 "id": 671056,
                                 "fullName": "Iván Herrera",
                                 "link": "/api/v1/people/671056"
                             },
-                            "inHole": {
+                            "onDeck": {
                                 "id": 676475,
                                 "fullName": "Alec Burleson",
                                 "link": "/api/v1/people/676475"
+                            },
+                            "inHole": {
+                                "id": 691023,
+                                "fullName": "Jordan Walker",
+                                "link": "/api/v1/people/691023"
                             },
                             "pitcher": {
                                 "id": 669461,
                                 "fullName": "Matthew Liberatore",
                                 "link": "/api/v1/people/669461"
                             },
-                            "battingOrder": 1,
+                            "battingOrder": 2,
                             "team": {
                                 "id": 138,
                                 "name": "St. Louis Cardinals",
@@ -910,8 +910,8 @@
                             }
                         },
                         "balls": 0,
-                        "strikes": 0,
-                        "outs": 0
+                        "strikes": 1,
+                        "outs": 1
                     },
                     "venue": {
                         "id": 17,
