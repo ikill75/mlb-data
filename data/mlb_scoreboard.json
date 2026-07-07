@@ -2723,10 +2723,10 @@
                                 "link": "/api/v1/teams/119"
                             },
                             "leagueRecord": {
-                                "wins": 59,
+                                "wins": 60,
                                 "losses": 32,
                                 "ties": 0,
-                                "pct": ".648"
+                                "pct": ".652"
                             },
                             "splitSquad": false,
                             "seriesNumber": 37
@@ -2829,10 +2829,10 @@
                                 "link": "/api/v1/teams/119"
                             },
                             "leagueRecord": {
-                                "wins": 59,
+                                "wins": 60,
                                 "losses": 32,
                                 "ties": 0,
-                                "pct": ".648"
+                                "pct": ".652"
                             },
                             "splitSquad": false,
                             "seriesNumber": 37
@@ -2935,10 +2935,10 @@
                                 "link": "/api/v1/teams/119"
                             },
                             "leagueRecord": {
-                                "wins": 59,
+                                "wins": 60,
                                 "losses": 32,
                                 "ties": 0,
-                                "pct": ".648"
+                                "pct": ".652"
                             },
                             "splitSquad": false,
                             "seriesNumber": 37
@@ -3044,9 +3044,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 42,
-                                "losses": 48,
+                                "losses": 49,
                                 "ties": 0,
-                                "pct": ".467"
+                                "pct": ".462"
                             },
                             "splitSquad": false,
                             "seriesNumber": 38
