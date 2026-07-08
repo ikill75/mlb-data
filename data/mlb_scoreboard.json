@@ -2619,9 +2619,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 60,
-                                "losses": 32,
+                                "losses": 33,
                                 "ties": 0,
-                                "pct": ".652"
+                                "pct": ".645"
                             },
                             "splitSquad": false,
                             "seriesNumber": 37
@@ -2725,9 +2725,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 60,
-                                "losses": 32,
+                                "losses": 33,
                                 "ties": 0,
-                                "pct": ".652"
+                                "pct": ".645"
                             },
                             "splitSquad": false,
                             "seriesNumber": 37
@@ -2831,9 +2831,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 60,
-                                "losses": 32,
+                                "losses": 33,
                                 "ties": 0,
-                                "pct": ".652"
+                                "pct": ".645"
                             },
                             "splitSquad": false,
                             "seriesNumber": 37
@@ -2938,10 +2938,10 @@
                                 "link": "/api/v1/teams/141"
                             },
                             "leagueRecord": {
-                                "wins": 42,
+                                "wins": 43,
                                 "losses": 49,
                                 "ties": 0,
-                                "pct": ".462"
+                                "pct": ".467"
                             },
                             "splitSquad": false,
                             "seriesNumber": 38
