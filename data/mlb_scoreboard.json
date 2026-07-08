@@ -425,16 +425,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 110,
+                                "name": "Baltimore Orioles",
+                                "link": "/api/v1/teams/110"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 110,
-                                "name": "Baltimore Orioles",
-                                "link": "/api/v1/teams/110"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -531,16 +531,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 110,
+                                "name": "Baltimore Orioles",
+                                "link": "/api/v1/teams/110"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 110,
-                                "name": "Baltimore Orioles",
-                                "link": "/api/v1/teams/110"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
