@@ -3,7 +3,7 @@
     "totalItems": 27,
     "totalEvents": 0,
     "totalGames": 27,
-    "totalGamesInProgress": 0,
+    "totalGamesInProgress": 1,
     "dates": [
         {
             "date": "2026-07-07",
@@ -368,7 +368,7 @@
             "totalItems": 1,
             "totalEvents": 0,
             "totalGames": 1,
-            "totalGamesInProgress": 0,
+            "totalGamesInProgress": 1,
             "games": [
                 {
                     "gamePk": 824815,
@@ -379,12 +379,12 @@
                     "gameDate": "2026-07-08T22:35:00Z",
                     "officialDate": "2026-07-08",
                     "status": {
-                        "abstractGameState": "Preview",
-                        "codedGameState": "P",
-                        "detailedState": "Pre-Game",
-                        "statusCode": "P",
+                        "abstractGameState": "Live",
+                        "codedGameState": "I",
+                        "detailedState": "In Progress",
+                        "statusCode": "I",
                         "startTimeTBD": false,
-                        "abstractGameCode": "P"
+                        "abstractGameCode": "L"
                     },
                     "teams": {
                         "away": {
@@ -423,9 +423,9 @@
                     "linescore": {
                         "currentInning": 1,
                         "currentInningOrdinal": "1st",
-                        "inningState": "Top",
-                        "inningHalf": "Top",
-                        "isTopInning": true,
+                        "inningState": "Bottom",
+                        "inningHalf": "Bottom",
+                        "isTopInning": false,
                         "scheduledInnings": 9,
                         "innings": [
                             {
@@ -437,9 +437,10 @@
                                     "leftOnBase": 0
                                 },
                                 "away": {
-                                    "hits": 0,
+                                    "runs": 0,
+                                    "hits": 1,
                                     "errors": 0,
-                                    "leftOnBase": 0
+                                    "leftOnBase": 1
                                 }
                             }
                         ],
@@ -452,110 +453,110 @@
                             },
                             "away": {
                                 "runs": 0,
-                                "hits": 0,
+                                "hits": 1,
                                 "errors": 0,
-                                "leftOnBase": 0
+                                "leftOnBase": 1
                             }
                         },
                         "defense": {
-                            "pitcher": {
-                                "id": 665152,
-                                "fullName": "Dean Kremer",
-                                "link": "/api/v1/people/665152"
-                            },
-                            "catcher": {
-                                "id": 668939,
-                                "fullName": "Adley Rutschman",
-                                "link": "/api/v1/people/668939"
-                            },
-                            "first": {
-                                "id": 624413,
-                                "fullName": "Pete Alonso",
-                                "link": "/api/v1/people/624413"
-                            },
-                            "second": {
-                                "id": 702616,
-                                "fullName": "Jackson Holliday",
-                                "link": "/api/v1/people/702616"
-                            },
-                            "third": {
-                                "id": 677942,
-                                "fullName": "Blaze Alexander",
-                                "link": "/api/v1/people/677942"
-                            },
-                            "shortstop": {
-                                "id": 683002,
-                                "fullName": "Gunnar Henderson",
-                                "link": "/api/v1/people/683002"
-                            },
-                            "left": {
-                                "id": 621493,
-                                "fullName": "Taylor Ward",
-                                "link": "/api/v1/people/621493"
-                            },
-                            "center": {
-                                "id": 681297,
-                                "fullName": "Colton Cowser",
-                                "link": "/api/v1/people/681297"
-                            },
-                            "right": {
-                                "id": 687637,
-                                "fullName": "Dylan Beavers",
-                                "link": "/api/v1/people/687637"
-                            },
-                            "batter": {
-                                "id": 683002,
-                                "fullName": "Gunnar Henderson",
-                                "link": "/api/v1/people/683002"
-                            },
-                            "onDeck": {
-                                "id": 668939,
-                                "fullName": "Adley Rutschman",
-                                "link": "/api/v1/people/668939"
-                            },
-                            "inHole": {
-                                "id": 621493,
-                                "fullName": "Taylor Ward",
-                                "link": "/api/v1/people/621493"
-                            },
-                            "battingOrder": 1,
-                            "team": {
-                                "id": 110,
-                                "name": "Baltimore Orioles",
-                                "link": "/api/v1/teams/110"
-                            }
-                        },
-                        "offense": {
-                            "batter": {
-                                "id": 691718,
-                                "fullName": "Pete Crow-Armstrong",
-                                "link": "/api/v1/people/691718"
-                            },
-                            "onDeck": {
-                                "id": 608324,
-                                "fullName": "Alex Bregman",
-                                "link": "/api/v1/people/608324"
-                            },
-                            "inHole": {
-                                "id": 683737,
-                                "fullName": "Michael Busch",
-                                "link": "/api/v1/people/683737"
-                            },
                             "pitcher": {
                                 "id": 607067,
                                 "fullName": "Colin Rea",
                                 "link": "/api/v1/people/607067"
                             },
-                            "battingOrder": 1,
+                            "catcher": {
+                                "id": 608348,
+                                "fullName": "Carson Kelly",
+                                "link": "/api/v1/people/608348"
+                            },
+                            "first": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "second": {
+                                "id": 663538,
+                                "fullName": "Nico Hoerner",
+                                "link": "/api/v1/people/663538"
+                            },
+                            "third": {
+                                "id": 608324,
+                                "fullName": "Alex Bregman",
+                                "link": "/api/v1/people/608324"
+                            },
+                            "shortstop": {
+                                "id": 621020,
+                                "fullName": "Dansby Swanson",
+                                "link": "/api/v1/people/621020"
+                            },
+                            "left": {
+                                "id": 664023,
+                                "fullName": "Ian Happ",
+                                "link": "/api/v1/people/664023"
+                            },
+                            "center": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "right": {
+                                "id": 624424,
+                                "fullName": "Michael Conforto",
+                                "link": "/api/v1/people/624424"
+                            },
+                            "batter": {
+                                "id": 664023,
+                                "fullName": "Ian Happ",
+                                "link": "/api/v1/people/664023"
+                            },
+                            "onDeck": {
+                                "id": 663538,
+                                "fullName": "Nico Hoerner",
+                                "link": "/api/v1/people/663538"
+                            },
+                            "inHole": {
+                                "id": 624424,
+                                "fullName": "Michael Conforto",
+                                "link": "/api/v1/people/624424"
+                            },
+                            "battingOrder": 5,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
                         },
+                        "offense": {
+                            "batter": {
+                                "id": 668939,
+                                "fullName": "Adley Rutschman",
+                                "link": "/api/v1/people/668939"
+                            },
+                            "onDeck": {
+                                "id": 621493,
+                                "fullName": "Taylor Ward",
+                                "link": "/api/v1/people/621493"
+                            },
+                            "inHole": {
+                                "id": 624413,
+                                "fullName": "Pete Alonso",
+                                "link": "/api/v1/people/624413"
+                            },
+                            "pitcher": {
+                                "id": 665152,
+                                "fullName": "Dean Kremer",
+                                "link": "/api/v1/people/665152"
+                            },
+                            "battingOrder": 2,
+                            "team": {
+                                "id": 110,
+                                "name": "Baltimore Orioles",
+                                "link": "/api/v1/teams/110"
+                            }
+                        },
                         "balls": 0,
-                        "strikes": 0,
-                        "outs": 0
+                        "strikes": 2,
+                        "outs": 1
                     },
                     "venue": {
                         "id": 2,
@@ -3057,10 +3058,10 @@
                                 "link": "/api/v1/teams/141"
                             },
                             "leagueRecord": {
-                                "wins": 43,
+                                "wins": 44,
                                 "losses": 49,
                                 "ties": 0,
-                                "pct": ".467"
+                                "pct": ".473"
                             },
                             "splitSquad": false,
                             "seriesNumber": 38
