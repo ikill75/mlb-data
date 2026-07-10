@@ -3,7 +3,7 @@
     "totalItems": 28,
     "totalEvents": 0,
     "totalGames": 28,
-    "totalGamesInProgress": 0,
+    "totalGamesInProgress": 1,
     "dates": [
         {
             "date": "2026-07-08",
@@ -723,7 +723,7 @@
             "totalItems": 1,
             "totalEvents": 0,
             "totalGames": 1,
-            "totalGamesInProgress": 0,
+            "totalGamesInProgress": 1,
             "games": [
                 {
                     "gamePk": 824493,
@@ -734,12 +734,12 @@
                     "gameDate": "2026-07-10T23:10:00Z",
                     "officialDate": "2026-07-10",
                     "status": {
-                        "abstractGameState": "Preview",
-                        "codedGameState": "P",
-                        "detailedState": "Pre-Game",
-                        "statusCode": "P",
+                        "abstractGameState": "Live",
+                        "codedGameState": "I",
+                        "detailedState": "In Progress",
+                        "statusCode": "I",
                         "startTimeTBD": false,
-                        "abstractGameCode": "P"
+                        "abstractGameCode": "L"
                     },
                     "teams": {
                         "away": {
@@ -776,8 +776,8 @@
                         }
                     },
                     "linescore": {
-                        "currentInning": 1,
-                        "currentInningOrdinal": "1st",
+                        "currentInning": 2,
+                        "currentInningOrdinal": "2nd",
                         "inningState": "Top",
                         "inningHalf": "Top",
                         "isTopInning": true,
@@ -787,12 +787,28 @@
                                 "num": 1,
                                 "ordinalNum": "1st",
                                 "home": {
+                                    "runs": 0,
+                                    "hits": 2,
+                                    "errors": 0,
+                                    "leftOnBase": 2
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            },
+                            {
+                                "num": 2,
+                                "ordinalNum": "2nd",
+                                "home": {
                                     "hits": 0,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 },
                                 "away": {
-                                    "hits": 0,
+                                    "hits": 1,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 }
@@ -801,13 +817,13 @@
                         "teams": {
                             "home": {
                                 "runs": 0,
-                                "hits": 0,
+                                "hits": 2,
                                 "errors": 0,
-                                "leftOnBase": 0
+                                "leftOnBase": 2
                             },
                             "away": {
                                 "runs": 0,
-                                "hits": 0,
+                                "hits": 1,
                                 "errors": 0,
                                 "leftOnBase": 0
                             }
@@ -859,21 +875,21 @@
                                 "link": "/api/v1/people/682622"
                             },
                             "batter": {
-                                "id": 682829,
-                                "fullName": "Elly De La Cruz",
-                                "link": "/api/v1/people/682829"
+                                "id": 663886,
+                                "fullName": "Tyler Stephenson",
+                                "link": "/api/v1/people/663886"
                             },
                             "onDeck": {
-                                "id": 701398,
-                                "fullName": "Sal Stewart",
-                                "link": "/api/v1/people/701398"
+                                "id": 682622,
+                                "fullName": "Noelvi Marte",
+                                "link": "/api/v1/people/682622"
                             },
                             "inHole": {
-                                "id": 668715,
-                                "fullName": "Spencer Steer",
-                                "link": "/api/v1/people/668715"
+                                "id": 695490,
+                                "fullName": "Edwin Arroyo",
+                                "link": "/api/v1/people/695490"
                             },
-                            "battingOrder": 1,
+                            "battingOrder": 6,
                             "team": {
                                 "id": 113,
                                 "name": "Cincinnati Reds",
@@ -882,34 +898,39 @@
                         },
                         "offense": {
                             "batter": {
-                                "id": 691718,
-                                "fullName": "Pete Crow-Armstrong",
-                                "link": "/api/v1/people/691718"
+                                "id": 664023,
+                                "fullName": "Ian Happ",
+                                "link": "/api/v1/people/664023"
                             },
                             "onDeck": {
-                                "id": 608324,
-                                "fullName": "Alex Bregman",
-                                "link": "/api/v1/people/608324"
+                                "id": 663538,
+                                "fullName": "Nico Hoerner",
+                                "link": "/api/v1/people/663538"
                             },
                             "inHole": {
-                                "id": 683737,
-                                "fullName": "Michael Busch",
-                                "link": "/api/v1/people/683737"
+                                "id": 624424,
+                                "fullName": "Michael Conforto",
+                                "link": "/api/v1/people/624424"
+                            },
+                            "second": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
                             },
                             "pitcher": {
                                 "id": 684007,
                                 "fullName": "Shota Imanaga",
                                 "link": "/api/v1/people/684007"
                             },
-                            "battingOrder": 1,
+                            "battingOrder": 5,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
                         },
-                        "balls": 0,
-                        "strikes": 0,
+                        "balls": 2,
+                        "strikes": 2,
                         "outs": 0
                     },
                     "venue": {
