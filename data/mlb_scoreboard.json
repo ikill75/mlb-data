@@ -765,9 +765,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 42,
-                                "losses": 49,
+                                "losses": 50,
                                 "ties": 0,
-                                "pct": ".462"
+                                "pct": ".457"
                             },
                             "splitSquad": false,
                             "seriesNumber": 31
@@ -782,16 +782,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 113,
-                                "name": "Cincinnati Reds",
-                                "link": "/api/v1/teams/113"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
                             }
                         }
                     },
@@ -871,9 +871,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 42,
-                                "losses": 49,
+                                "losses": 50,
                                 "ties": 0,
-                                "pct": ".462"
+                                "pct": ".457"
                             },
                             "splitSquad": false,
                             "seriesNumber": 31
@@ -888,16 +888,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 113,
-                                "name": "Cincinnati Reds",
-                                "link": "/api/v1/teams/113"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
                             }
                         }
                     },
@@ -977,9 +977,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 42,
-                                "losses": 49,
+                                "losses": 50,
                                 "ties": 0,
-                                "pct": ".462"
+                                "pct": ".457"
                             },
                             "splitSquad": false,
                             "seriesNumber": 31
@@ -994,16 +994,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 113,
-                                "name": "Cincinnati Reds",
-                                "link": "/api/v1/teams/113"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
                             }
                         }
                     },
@@ -2037,9 +2037,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 48,
-                                "losses": 43,
+                                "losses": 44,
                                 "ties": 0,
-                                "pct": ".527"
+                                "pct": ".522"
                             },
                             "splitSquad": false,
                             "seriesNumber": 36
@@ -2143,9 +2143,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 48,
-                                "losses": 43,
+                                "losses": 44,
                                 "ties": 0,
-                                "pct": ".527"
+                                "pct": ".522"
                             },
                             "splitSquad": false,
                             "seriesNumber": 36
@@ -2249,9 +2249,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 48,
-                                "losses": 43,
+                                "losses": 44,
                                 "ties": 0,
-                                "pct": ".527"
+                                "pct": ".522"
                             },
                             "splitSquad": false,
                             "seriesNumber": 36
@@ -2355,9 +2355,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 48,
-                                "losses": 43,
+                                "losses": 44,
                                 "ties": 0,
-                                "pct": ".527"
+                                "pct": ".522"
                             },
                             "splitSquad": false,
                             "seriesNumber": 36
