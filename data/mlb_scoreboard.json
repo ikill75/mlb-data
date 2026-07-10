@@ -579,15 +579,13 @@
                                 "runs": 3,
                                 "hits": 3,
                                 "errors": 2,
-                                "leftOnBase": 8,
-                                "isWinner": true
+                                "leftOnBase": 8
                             },
                             "away": {
                                 "runs": 2,
                                 "hits": 9,
                                 "errors": 0,
-                                "leftOnBase": 7,
-                                "isWinner": false
+                                "leftOnBase": 7
                             }
                         },
                         "defense": {
@@ -674,11 +672,6 @@
                                 "fullName": "Alex Bregman",
                                 "link": "/api/v1/people/608324"
                             },
-                            "second": {
-                                "id": 621020,
-                                "fullName": "Dansby Swanson",
-                                "link": "/api/v1/people/621020"
-                            },
                             "pitcher": {
                                 "id": 669020,
                                 "fullName": "Ryan Rolison",
@@ -742,9 +735,9 @@
                     "officialDate": "2026-07-10",
                     "status": {
                         "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
                         "startTimeTBD": false,
                         "abstractGameCode": "P"
                     },
@@ -761,6 +754,7 @@
                                 "ties": 0,
                                 "pct": ".559"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 31
                         },
@@ -776,18 +770,110 @@
                                 "ties": 0,
                                 "pct": ".457"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 31
                         }
                     },
                     "linescore": {
+                        "currentInning": 1,
+                        "currentInningOrdinal": "1st",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
-                        "innings": [],
+                        "innings": [
+                            {
+                                "num": 1,
+                                "ordinalNum": "1st",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            }
+                        ],
                         "teams": {
-                            "home": {},
-                            "away": {}
+                            "home": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            }
                         },
                         "defense": {
+                            "pitcher": {
+                                "id": 668881,
+                                "fullName": "Hunter Greene",
+                                "link": "/api/v1/people/668881"
+                            },
+                            "catcher": {
+                                "id": 663886,
+                                "fullName": "Tyler Stephenson",
+                                "link": "/api/v1/people/663886"
+                            },
+                            "first": {
+                                "id": 701398,
+                                "fullName": "Sal Stewart",
+                                "link": "/api/v1/people/701398"
+                            },
+                            "second": {
+                                "id": 695490,
+                                "fullName": "Edwin Arroyo",
+                                "link": "/api/v1/people/695490"
+                            },
+                            "third": {
+                                "id": 663647,
+                                "fullName": "Ke'Bryan Hayes",
+                                "link": "/api/v1/people/663647"
+                            },
+                            "shortstop": {
+                                "id": 682829,
+                                "fullName": "Elly De La Cruz",
+                                "link": "/api/v1/people/682829"
+                            },
+                            "left": {
+                                "id": 668709,
+                                "fullName": "JJ Bleday",
+                                "link": "/api/v1/people/668709"
+                            },
+                            "center": {
+                                "id": 668715,
+                                "fullName": "Spencer Steer",
+                                "link": "/api/v1/people/668715"
+                            },
+                            "right": {
+                                "id": 682622,
+                                "fullName": "Noelvi Marte",
+                                "link": "/api/v1/people/682622"
+                            },
+                            "batter": {
+                                "id": 682829,
+                                "fullName": "Elly De La Cruz",
+                                "link": "/api/v1/people/682829"
+                            },
+                            "onDeck": {
+                                "id": 701398,
+                                "fullName": "Sal Stewart",
+                                "link": "/api/v1/people/701398"
+                            },
+                            "inHole": {
+                                "id": 668715,
+                                "fullName": "Spencer Steer",
+                                "link": "/api/v1/people/668715"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 113,
                                 "name": "Cincinnati Reds",
@@ -795,12 +881,36 @@
                             }
                         },
                         "offense": {
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 608324,
+                                "fullName": "Alex Bregman",
+                                "link": "/api/v1/people/608324"
+                            },
+                            "inHole": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "pitcher": {
+                                "id": 684007,
+                                "fullName": "Shota Imanaga",
+                                "link": "/api/v1/people/684007"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
-                        }
+                        },
+                        "balls": 0,
+                        "strikes": 0,
+                        "outs": 0
                     },
                     "venue": {
                         "id": 2602,
