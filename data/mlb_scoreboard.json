@@ -3,7 +3,7 @@
     "totalItems": 27,
     "totalEvents": 0,
     "totalGames": 27,
-    "totalGamesInProgress": 0,
+    "totalGamesInProgress": 1,
     "dates": [
         {
             "date": "2026-07-10",
@@ -221,15 +221,13 @@
                                 "runs": 4,
                                 "hits": 13,
                                 "errors": 0,
-                                "leftOnBase": 9,
-                                "isWinner": true
+                                "leftOnBase": 9
                             },
                             "away": {
                                 "runs": 0,
                                 "hits": 4,
                                 "errors": 0,
-                                "leftOnBase": 5,
-                                "isWinner": false
+                                "leftOnBase": 5
                             }
                         },
                         "defense": {
@@ -579,15 +577,13 @@
                                 "runs": 3,
                                 "hits": 11,
                                 "errors": 0,
-                                "leftOnBase": 8,
-                                "isWinner": false
+                                "leftOnBase": 8
                             },
                             "away": {
                                 "runs": 5,
                                 "hits": 9,
                                 "errors": 0,
-                                "leftOnBase": 7,
-                                "isWinner": true
+                                "leftOnBase": 7
                             }
                         },
                         "defense": {
@@ -674,16 +670,6 @@
                                 "fullName": "Spencer Steer",
                                 "link": "/api/v1/people/668715"
                             },
-                            "second": {
-                                "id": 682829,
-                                "fullName": "Elly De La Cruz",
-                                "link": "/api/v1/people/682829"
-                            },
-                            "third": {
-                                "id": 663886,
-                                "fullName": "Tyler Stephenson",
-                                "link": "/api/v1/people/663886"
-                            },
                             "pitcher": {
                                 "id": 622088,
                                 "fullName": "Tejay Antone",
@@ -735,7 +721,7 @@
             "totalItems": 1,
             "totalEvents": 0,
             "totalGames": 1,
-            "totalGamesInProgress": 0,
+            "totalGamesInProgress": 1,
             "games": [
                 {
                     "gamePk": 824491,
@@ -746,12 +732,12 @@
                     "gameDate": "2026-07-12T17:40:00Z",
                     "officialDate": "2026-07-12",
                     "status": {
-                        "abstractGameState": "Preview",
-                        "codedGameState": "P",
-                        "detailedState": "Pre-Game",
-                        "statusCode": "P",
+                        "abstractGameState": "Live",
+                        "codedGameState": "I",
+                        "detailedState": "In Progress",
+                        "statusCode": "I",
                         "startTimeTBD": false,
-                        "abstractGameCode": "P"
+                        "abstractGameCode": "L"
                     },
                     "teams": {
                         "away": {
@@ -920,8 +906,8 @@
                                 "link": "/api/v1/teams/112"
                             }
                         },
-                        "balls": 0,
-                        "strikes": 0,
+                        "balls": 3,
+                        "strikes": 2,
                         "outs": 0
                     },
                     "venue": {
