@@ -577,13 +577,15 @@
                                 "runs": 3,
                                 "hits": 11,
                                 "errors": 0,
-                                "leftOnBase": 8
+                                "leftOnBase": 8,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 5,
                                 "hits": 9,
                                 "errors": 0,
-                                "leftOnBase": 7
+                                "leftOnBase": 7,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -670,6 +672,16 @@
                                 "fullName": "Spencer Steer",
                                 "link": "/api/v1/people/668715"
                             },
+                            "second": {
+                                "id": 682829,
+                                "fullName": "Elly De La Cruz",
+                                "link": "/api/v1/people/682829"
+                            },
+                            "third": {
+                                "id": 663886,
+                                "fullName": "Tyler Stephenson",
+                                "link": "/api/v1/people/663886"
+                            },
                             "pitcher": {
                                 "id": 622088,
                                 "fullName": "Tejay Antone",
@@ -733,9 +745,9 @@
                     "officialDate": "2026-07-12",
                     "status": {
                         "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
                         "startTimeTBD": false,
                         "abstractGameCode": "P"
                     },
@@ -780,16 +792,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 113,
-                                "name": "Cincinnati Reds",
-                                "link": "/api/v1/teams/113"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
                             }
                         }
                     },
