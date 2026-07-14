@@ -222,15 +222,13 @@
                                 "runs": 4,
                                 "hits": 9,
                                 "errors": 0,
-                                "leftOnBase": 8,
-                                "isWinner": false
+                                "leftOnBase": 8
                             },
                             "away": {
                                 "runs": 8,
                                 "hits": 9,
                                 "errors": 0,
-                                "leftOnBase": 5,
-                                "isWinner": true
+                                "leftOnBase": 5
                             }
                         },
                         "defense": {
@@ -316,16 +314,6 @@
                                 "id": 553993,
                                 "fullName": "Eugenio Suárez",
                                 "link": "/api/v1/people/553993"
-                            },
-                            "second": {
-                                "id": 682829,
-                                "fullName": "Elly De La Cruz",
-                                "link": "/api/v1/people/682829"
-                            },
-                            "third": {
-                                "id": 695490,
-                                "fullName": "Edwin Arroyo",
-                                "link": "/api/v1/people/695490"
                             },
                             "pitcher": {
                                 "id": 695076,
