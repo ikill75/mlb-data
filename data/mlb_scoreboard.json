@@ -1,8 +1,8 @@
 {
     "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
-    "totalItems": 28,
+    "totalItems": 29,
     "totalEvents": 0,
-    "totalGames": 28,
+    "totalGames": 29,
     "totalGamesInProgress": 0,
     "dates": [
         {
@@ -2968,6 +2968,112 @@
                     "inningBreakLength": 120,
                     "gamesInSeries": 3,
                     "seriesGameNumber": 2,
+                    "seriesDescription": "Regular Season",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                }
+            ],
+            "events": []
+        },
+        {
+            "date": "2026-08-16",
+            "totalItems": 1,
+            "totalEvents": 0,
+            "totalGames": 1,
+            "totalGamesInProgress": 0,
+            "games": [
+                {
+                    "gamePk": 824642,
+                    "gameGuid": "cf1ccd34-d02e-42c9-9883-453852185660",
+                    "link": "/api/v1.1/game/824642/feed/live",
+                    "gameType": "R",
+                    "season": "2026",
+                    "gameDate": "2026-08-16T19:10:00Z",
+                    "officialDate": "2026-08-16",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "S",
+                        "detailedState": "Scheduled",
+                        "statusCode": "S",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "team": {
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
+                            },
+                            "leagueRecord": {
+                                "wins": 50,
+                                "losses": 45,
+                                "ties": 0,
+                                "pct": ".526"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 41
+                        },
+                        "home": {
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            },
+                            "leagueRecord": {
+                                "wins": 54,
+                                "losses": 42,
+                                "ties": 0,
+                                "pct": ".563"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 41
+                        }
+                    },
+                    "linescore": {
+                        "scheduledInnings": 9,
+                        "innings": [],
+                        "teams": {
+                            "home": {},
+                            "away": {}
+                        },
+                        "defense": {
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            }
+                        },
+                        "offense": {
+                            "team": {
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "id": 17,
+                        "name": "Wrigley Field",
+                        "link": "/api/v1/venues/17"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/824642/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-824642-2026-08-16",
+                    "seasonDisplay": "2026",
+                    "dayNight": "day",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 3,
+                    "seriesGameNumber": 3,
                     "seriesDescription": "Regular Season",
                     "recordSource": "S",
                     "ifNecessary": "N",
