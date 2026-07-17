@@ -69,16 +69,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 142,
-                                "name": "Minnesota Twins",
-                                "link": "/api/v1/teams/142"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 142,
+                                "name": "Minnesota Twins",
+                                "link": "/api/v1/teams/142"
                             }
                         }
                     },
@@ -175,16 +175,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 142,
-                                "name": "Minnesota Twins",
-                                "link": "/api/v1/teams/142"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 142,
+                                "name": "Minnesota Twins",
+                                "link": "/api/v1/teams/142"
                             }
                         }
                     },
@@ -281,16 +281,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 142,
-                                "name": "Minnesota Twins",
-                                "link": "/api/v1/teams/142"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 142,
+                                "name": "Minnesota Twins",
+                                "link": "/api/v1/teams/142"
                             }
                         }
                     },
