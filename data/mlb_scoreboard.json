@@ -1,16 +1,16 @@
 {
     "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
-    "totalItems": 29,
+    "totalItems": 30,
     "totalEvents": 0,
-    "totalGames": 29,
-    "totalGamesInProgress": 0,
+    "totalGames": 30,
+    "totalGamesInProgress": 1,
     "dates": [
         {
             "date": "2026-07-17",
             "totalItems": 1,
             "totalEvents": 0,
             "totalGames": 1,
-            "totalGamesInProgress": 0,
+            "totalGamesInProgress": 1,
             "games": [
                 {
                     "gamePk": 824655,
@@ -21,12 +21,12 @@
                     "gameDate": "2026-07-18T00:05:00Z",
                     "officialDate": "2026-07-17",
                     "status": {
-                        "abstractGameState": "Preview",
-                        "codedGameState": "P",
-                        "detailedState": "Pre-Game",
-                        "statusCode": "P",
+                        "abstractGameState": "Live",
+                        "codedGameState": "I",
+                        "detailedState": "In Progress",
+                        "statusCode": "I",
                         "startTimeTBD": false,
-                        "abstractGameCode": "P"
+                        "abstractGameCode": "L"
                     },
                     "teams": {
                         "away": {
@@ -169,16 +169,21 @@
                         },
                         "offense": {
                             "batter": {
-                                "id": 663616,
-                                "fullName": "Trevor Larnach",
-                                "link": "/api/v1/people/663616"
+                                "id": 605137,
+                                "fullName": "Josh Bell",
+                                "link": "/api/v1/people/605137"
                             },
                             "onDeck": {
-                                "id": 680777,
-                                "fullName": "Ryan Jeffers",
-                                "link": "/api/v1/people/680777"
+                                "id": 665019,
+                                "fullName": "Kody Clemens",
+                                "link": "/api/v1/people/665019"
                             },
                             "inHole": {
+                                "id": 668904,
+                                "fullName": "Royce Lewis",
+                                "link": "/api/v1/people/668904"
+                            },
+                            "first": {
                                 "id": 605137,
                                 "fullName": "Josh Bell",
                                 "link": "/api/v1/people/605137"
@@ -188,16 +193,16 @@
                                 "fullName": "Bailey Ober",
                                 "link": "/api/v1/people/641927"
                             },
-                            "battingOrder": 1,
+                            "battingOrder": 3,
                             "team": {
                                 "id": 142,
                                 "name": "Minnesota Twins",
                                 "link": "/api/v1/teams/142"
                             }
                         },
-                        "balls": 0,
-                        "strikes": 0,
-                        "outs": 0
+                        "balls": 1,
+                        "strikes": 2,
+                        "outs": 2
                     },
                     "venue": {
                         "id": 17,
@@ -3191,6 +3196,112 @@
                     "inningBreakLength": 120,
                     "gamesInSeries": 3,
                     "seriesGameNumber": 3,
+                    "seriesDescription": "Regular Season",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                }
+            ],
+            "events": []
+        },
+        {
+            "date": "2026-08-17",
+            "totalItems": 1,
+            "totalEvents": 0,
+            "totalGames": 1,
+            "totalGamesInProgress": 0,
+            "games": [
+                {
+                    "gamePk": 824641,
+                    "gameGuid": "025a6255-5344-4627-8e8e-d557d2fae14a",
+                    "link": "/api/v1.1/game/824641/feed/live",
+                    "gameType": "R",
+                    "season": "2026",
+                    "gameDate": "2026-08-18T00:05:00Z",
+                    "officialDate": "2026-08-17",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "S",
+                        "detailedState": "Scheduled",
+                        "statusCode": "S",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "team": {
+                                "id": 145,
+                                "name": "Chicago White Sox",
+                                "link": "/api/v1/teams/145"
+                            },
+                            "leagueRecord": {
+                                "wins": 50,
+                                "losses": 45,
+                                "ties": 0,
+                                "pct": ".526"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 41
+                        },
+                        "home": {
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            },
+                            "leagueRecord": {
+                                "wins": 54,
+                                "losses": 42,
+                                "ties": 0,
+                                "pct": ".563"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 42
+                        }
+                    },
+                    "linescore": {
+                        "scheduledInnings": 9,
+                        "innings": [],
+                        "teams": {
+                            "home": {},
+                            "away": {}
+                        },
+                        "defense": {
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            }
+                        },
+                        "offense": {
+                            "team": {
+                                "id": 145,
+                                "name": "Chicago White Sox",
+                                "link": "/api/v1/teams/145"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "id": 17,
+                        "name": "Wrigley Field",
+                        "link": "/api/v1/venues/17"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/824641/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-824641-2026-08-17",
+                    "seasonDisplay": "2026",
+                    "dayNight": "night",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 3,
+                    "seriesGameNumber": 1,
                     "seriesDescription": "Regular Season",
                     "recordSource": "S",
                     "ifNecessary": "N",
