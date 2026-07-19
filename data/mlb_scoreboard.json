@@ -1,8 +1,8 @@
 {
     "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
-    "totalItems": 30,
+    "totalItems": 31,
     "totalEvents": 0,
-    "totalGames": 30,
+    "totalGames": 31,
     "totalGamesInProgress": 0,
     "dates": [
         {
@@ -1098,16 +1098,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 116,
+                                "name": "Detroit Tigers",
+                                "link": "/api/v1/teams/116"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 116,
-                                "name": "Detroit Tigers",
-                                "link": "/api/v1/teams/116"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1187,9 +1187,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 51,
-                                "losses": 47,
+                                "losses": 48,
                                 "ties": 0,
-                                "pct": ".520"
+                                "pct": ".515"
                             },
                             "splitSquad": false,
                             "seriesNumber": 34
@@ -1293,9 +1293,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 51,
-                                "losses": 47,
+                                "losses": 48,
                                 "ties": 0,
-                                "pct": ".520"
+                                "pct": ".515"
                             },
                             "splitSquad": false,
                             "seriesNumber": 34
@@ -1399,9 +1399,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 51,
-                                "losses": 47,
+                                "losses": 48,
                                 "ties": 0,
-                                "pct": ".520"
+                                "pct": ".515"
                             },
                             "splitSquad": false,
                             "seriesNumber": 34
@@ -3679,6 +3679,112 @@
                     "inningBreakLength": 120,
                     "gamesInSeries": 3,
                     "seriesGameNumber": 1,
+                    "seriesDescription": "Regular Season",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                }
+            ],
+            "events": []
+        },
+        {
+            "date": "2026-08-18",
+            "totalItems": 1,
+            "totalEvents": 0,
+            "totalGames": 1,
+            "totalGamesInProgress": 0,
+            "games": [
+                {
+                    "gamePk": 824639,
+                    "gameGuid": "19c3c189-64e7-4870-a36f-3c12b1122159",
+                    "link": "/api/v1.1/game/824639/feed/live",
+                    "gameType": "R",
+                    "season": "2026",
+                    "gameDate": "2026-08-19T00:05:00Z",
+                    "officialDate": "2026-08-18",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "S",
+                        "detailedState": "Scheduled",
+                        "statusCode": "S",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "team": {
+                                "id": 145,
+                                "name": "Chicago White Sox",
+                                "link": "/api/v1/teams/145"
+                            },
+                            "leagueRecord": {
+                                "wins": 51,
+                                "losses": 46,
+                                "ties": 0,
+                                "pct": ".526"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 41
+                        },
+                        "home": {
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            },
+                            "leagueRecord": {
+                                "wins": 55,
+                                "losses": 43,
+                                "ties": 0,
+                                "pct": ".561"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 42
+                        }
+                    },
+                    "linescore": {
+                        "scheduledInnings": 9,
+                        "innings": [],
+                        "teams": {
+                            "home": {},
+                            "away": {}
+                        },
+                        "defense": {
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            }
+                        },
+                        "offense": {
+                            "team": {
+                                "id": 145,
+                                "name": "Chicago White Sox",
+                                "link": "/api/v1/teams/145"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "id": 17,
+                        "name": "Wrigley Field",
+                        "link": "/api/v1/venues/17"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/824639/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-824639-2026-08-18",
+                    "seasonDisplay": "2026",
+                    "dayNight": "night",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 3,
+                    "seriesGameNumber": 2,
                     "seriesDescription": "Regular Season",
                     "recordSource": "S",
                     "ifNecessary": "N",
