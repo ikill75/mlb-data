@@ -222,13 +222,15 @@
                                 "runs": 2,
                                 "hits": 6,
                                 "errors": 1,
-                                "leftOnBase": 6
+                                "leftOnBase": 6,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 5,
                                 "hits": 7,
                                 "errors": 1,
-                                "leftOnBase": 4
+                                "leftOnBase": 4,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -292,7 +294,7 @@
                                 "fullName": "Josh Bell",
                                 "link": "/api/v1/people/605137"
                             },
-                            "battingOrder": 10,
+                            "battingOrder": 1,
                             "team": {
                                 "id": 142,
                                 "name": "Minnesota Twins",
@@ -314,6 +316,11 @@
                                 "id": 691718,
                                 "fullName": "Pete Crow-Armstrong",
                                 "link": "/api/v1/people/691718"
+                            },
+                            "second": {
+                                "id": 663538,
+                                "fullName": "Nico Hoerner",
+                                "link": "/api/v1/people/663538"
                             },
                             "pitcher": {
                                 "id": 621053,
@@ -577,13 +584,15 @@
                                 "runs": 6,
                                 "hits": 11,
                                 "errors": 0,
-                                "leftOnBase": 9
+                                "leftOnBase": 9,
+                                "isWinner": true
                             },
                             "away": {
                                 "runs": 2,
                                 "hits": 8,
                                 "errors": 0,
-                                "leftOnBase": 4
+                                "leftOnBase": 4,
+                                "isWinner": false
                             }
                         },
                         "defense": {
@@ -669,6 +678,11 @@
                                 "id": 807712,
                                 "fullName": "Luke Keaschall",
                                 "link": "/api/v1/people/807712"
+                            },
+                            "second": {
+                                "id": 605170,
+                                "fullName": "Victor Caratini",
+                                "link": "/api/v1/people/605170"
                             },
                             "pitcher": {
                                 "id": 696070,
@@ -1098,16 +1112,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 116,
-                                "name": "Detroit Tigers",
-                                "link": "/api/v1/teams/116"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 116,
+                                "name": "Detroit Tigers",
+                                "link": "/api/v1/teams/116"
                             }
                         }
                     },
