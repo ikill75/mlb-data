@@ -222,15 +222,13 @@
                                 "runs": 2,
                                 "hits": 6,
                                 "errors": 1,
-                                "leftOnBase": 6,
-                                "isWinner": false
+                                "leftOnBase": 6
                             },
                             "away": {
                                 "runs": 5,
                                 "hits": 7,
                                 "errors": 1,
-                                "leftOnBase": 4,
-                                "isWinner": true
+                                "leftOnBase": 4
                             }
                         },
                         "defense": {
@@ -294,7 +292,7 @@
                                 "fullName": "Josh Bell",
                                 "link": "/api/v1/people/605137"
                             },
-                            "battingOrder": 1,
+                            "battingOrder": 10,
                             "team": {
                                 "id": 142,
                                 "name": "Minnesota Twins",
@@ -316,11 +314,6 @@
                                 "id": 691718,
                                 "fullName": "Pete Crow-Armstrong",
                                 "link": "/api/v1/people/691718"
-                            },
-                            "second": {
-                                "id": 663538,
-                                "fullName": "Nico Hoerner",
-                                "link": "/api/v1/people/663538"
                             },
                             "pitcher": {
                                 "id": 621053,
@@ -584,15 +577,13 @@
                                 "runs": 6,
                                 "hits": 11,
                                 "errors": 0,
-                                "leftOnBase": 9,
-                                "isWinner": true
+                                "leftOnBase": 9
                             },
                             "away": {
                                 "runs": 2,
                                 "hits": 8,
                                 "errors": 0,
-                                "leftOnBase": 4,
-                                "isWinner": false
+                                "leftOnBase": 4
                             }
                         },
                         "defense": {
@@ -679,11 +670,6 @@
                                 "fullName": "Luke Keaschall",
                                 "link": "/api/v1/people/807712"
                             },
-                            "second": {
-                                "id": 605170,
-                                "fullName": "Victor Caratini",
-                                "link": "/api/v1/people/605170"
-                            },
                             "pitcher": {
                                 "id": 696070,
                                 "fullName": "Kendry Rojas",
@@ -747,9 +733,9 @@
                     "officialDate": "2026-07-19",
                     "status": {
                         "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
                         "startTimeTBD": false,
                         "abstractGameCode": "P"
                     },
@@ -766,6 +752,7 @@
                                 "ties": 0,
                                 "pct": ".495"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 32
                         },
@@ -781,18 +768,110 @@
                                 "ties": 0,
                                 "pct": ".561"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 32
                         }
                     },
                     "linescore": {
+                        "currentInning": 1,
+                        "currentInningOrdinal": "1st",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
-                        "innings": [],
+                        "innings": [
+                            {
+                                "num": 1,
+                                "ordinalNum": "1st",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            }
+                        ],
                         "teams": {
-                            "home": {},
-                            "away": {}
+                            "home": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            }
                         },
                         "defense": {
+                            "pitcher": {
+                                "id": 684007,
+                                "fullName": "Shota Imanaga",
+                                "link": "/api/v1/people/684007"
+                            },
+                            "catcher": {
+                                "id": 608348,
+                                "fullName": "Carson Kelly",
+                                "link": "/api/v1/people/608348"
+                            },
+                            "first": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "second": {
+                                "id": 663538,
+                                "fullName": "Nico Hoerner",
+                                "link": "/api/v1/people/663538"
+                            },
+                            "third": {
+                                "id": 608324,
+                                "fullName": "Alex Bregman",
+                                "link": "/api/v1/people/608324"
+                            },
+                            "shortstop": {
+                                "id": 621020,
+                                "fullName": "Dansby Swanson",
+                                "link": "/api/v1/people/621020"
+                            },
+                            "left": {
+                                "id": 664023,
+                                "fullName": "Ian Happ",
+                                "link": "/api/v1/people/664023"
+                            },
+                            "center": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "right": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "inHole": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
@@ -800,12 +879,36 @@
                             }
                         },
                         "offense": {
+                            "batter": {
+                                "id": 668885,
+                                "fullName": "Austin Martin",
+                                "link": "/api/v1/people/668885"
+                            },
+                            "onDeck": {
+                                "id": 680777,
+                                "fullName": "Ryan Jeffers",
+                                "link": "/api/v1/people/680777"
+                            },
+                            "inHole": {
+                                "id": 605137,
+                                "fullName": "Josh Bell",
+                                "link": "/api/v1/people/605137"
+                            },
+                            "pitcher": {
+                                "id": 805673,
+                                "fullName": "Zebby Matthews",
+                                "link": "/api/v1/people/805673"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 142,
                                 "name": "Minnesota Twins",
                                 "link": "/api/v1/teams/142"
                             }
-                        }
+                        },
+                        "balls": 0,
+                        "strikes": 0,
+                        "outs": 0
                     },
                     "venue": {
                         "id": 17,
@@ -1112,16 +1215,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 116,
+                                "name": "Detroit Tigers",
+                                "link": "/api/v1/teams/116"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 116,
-                                "name": "Detroit Tigers",
-                                "link": "/api/v1/teams/116"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
