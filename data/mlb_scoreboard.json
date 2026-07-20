@@ -747,9 +747,10 @@
                     "status": {
                         "abstractGameState": "Preview",
                         "codedGameState": "P",
-                        "detailedState": "Pre-Game",
-                        "statusCode": "P",
+                        "detailedState": "Delayed Start",
+                        "statusCode": "PI",
                         "startTimeTBD": false,
+                        "reason": "Inclement Weather",
                         "abstractGameCode": "P"
                     },
                     "teams": {
@@ -1016,16 +1017,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 116,
-                                "name": "Detroit Tigers",
-                                "link": "/api/v1/teams/116"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 116,
+                                "name": "Detroit Tigers",
+                                "link": "/api/v1/teams/116"
                             }
                         }
                     },
