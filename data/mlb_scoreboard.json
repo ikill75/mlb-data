@@ -221,13 +221,15 @@
                                 "runs": 6,
                                 "hits": 11,
                                 "errors": 0,
-                                "leftOnBase": 9
+                                "leftOnBase": 9,
+                                "isWinner": true
                             },
                             "away": {
                                 "runs": 2,
                                 "hits": 8,
                                 "errors": 0,
-                                "leftOnBase": 4
+                                "leftOnBase": 4,
+                                "isWinner": false
                             }
                         },
                         "defense": {
@@ -313,6 +315,11 @@
                                 "id": 807712,
                                 "fullName": "Luke Keaschall",
                                 "link": "/api/v1/people/807712"
+                            },
+                            "second": {
+                                "id": 605170,
+                                "fullName": "Victor Caratini",
+                                "link": "/api/v1/people/605170"
                             },
                             "pitcher": {
                                 "id": 696070,
