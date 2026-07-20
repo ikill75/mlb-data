@@ -583,15 +583,13 @@
                                 "runs": 10,
                                 "hits": 12,
                                 "errors": 1,
-                                "leftOnBase": 8,
-                                "isWinner": true
+                                "leftOnBase": 8
                             },
                             "away": {
                                 "runs": 1,
                                 "hits": 8,
                                 "errors": 1,
-                                "leftOnBase": 8,
-                                "isWinner": false
+                                "leftOnBase": 8
                             }
                         },
                         "defense": {
@@ -677,11 +675,6 @@
                                 "id": 656577,
                                 "fullName": "Alex Jackson",
                                 "link": "/api/v1/people/656577"
-                            },
-                            "second": {
-                                "id": 807712,
-                                "fullName": "Luke Keaschall",
-                                "link": "/api/v1/people/807712"
                             },
                             "pitcher": {
                                 "id": 808970,
@@ -899,16 +892,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 116,
+                                "name": "Detroit Tigers",
+                                "link": "/api/v1/teams/116"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 116,
-                                "name": "Detroit Tigers",
-                                "link": "/api/v1/teams/116"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1005,16 +998,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 116,
+                                "name": "Detroit Tigers",
+                                "link": "/api/v1/teams/116"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 116,
-                                "name": "Detroit Tigers",
-                                "link": "/api/v1/teams/116"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
