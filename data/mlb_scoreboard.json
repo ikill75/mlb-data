@@ -238,13 +238,15 @@
                                 "runs": 6,
                                 "hits": 11,
                                 "errors": 1,
-                                "leftOnBase": 10
+                                "leftOnBase": 10,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 8,
                                 "hits": 12,
                                 "errors": 1,
-                                "leftOnBase": 10
+                                "leftOnBase": 10,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -330,6 +332,16 @@
                                 "id": 673548,
                                 "fullName": "Seiya Suzuki",
                                 "link": "/api/v1/people/673548"
+                            },
+                            "first": {
+                                "id": 621020,
+                                "fullName": "Dansby Swanson",
+                                "link": "/api/v1/people/621020"
+                            },
+                            "third": {
+                                "id": 699393,
+                                "fullName": "Pedro Ramírez",
+                                "link": "/api/v1/people/699393"
                             },
                             "pitcher": {
                                 "id": 665871,
