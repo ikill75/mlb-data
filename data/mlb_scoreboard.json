@@ -238,15 +238,13 @@
                                 "runs": 6,
                                 "hits": 11,
                                 "errors": 1,
-                                "leftOnBase": 10,
-                                "isWinner": false
+                                "leftOnBase": 10
                             },
                             "away": {
                                 "runs": 8,
                                 "hits": 12,
                                 "errors": 1,
-                                "leftOnBase": 10,
-                                "isWinner": true
+                                "leftOnBase": 10
                             }
                         },
                         "defense": {
@@ -332,16 +330,6 @@
                                 "id": 673548,
                                 "fullName": "Seiya Suzuki",
                                 "link": "/api/v1/people/673548"
-                            },
-                            "first": {
-                                "id": 621020,
-                                "fullName": "Dansby Swanson",
-                                "link": "/api/v1/people/621020"
-                            },
-                            "third": {
-                                "id": 699393,
-                                "fullName": "Pedro Ramírez",
-                                "link": "/api/v1/people/699393"
                             },
                             "pitcher": {
                                 "id": 665871,
@@ -761,9 +749,9 @@
                     "officialDate": "2026-07-22",
                     "status": {
                         "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
                         "startTimeTBD": false,
                         "abstractGameCode": "P"
                     },
@@ -780,6 +768,7 @@
                                 "ties": 0,
                                 "pct": ".465"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 33
                         },
@@ -795,18 +784,110 @@
                                 "ties": 0,
                                 "pct": ".564"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 33
                         }
                     },
                     "linescore": {
+                        "currentInning": 1,
+                        "currentInningOrdinal": "1st",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
-                        "innings": [],
+                        "innings": [
+                            {
+                                "num": 1,
+                                "ordinalNum": "1st",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            }
+                        ],
                         "teams": {
-                            "home": {},
-                            "away": {}
+                            "home": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            }
                         },
                         "defense": {
+                            "pitcher": {
+                                "id": 607067,
+                                "fullName": "Colin Rea",
+                                "link": "/api/v1/people/607067"
+                            },
+                            "catcher": {
+                                "id": 608348,
+                                "fullName": "Carson Kelly",
+                                "link": "/api/v1/people/608348"
+                            },
+                            "first": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "second": {
+                                "id": 663538,
+                                "fullName": "Nico Hoerner",
+                                "link": "/api/v1/people/663538"
+                            },
+                            "third": {
+                                "id": 608324,
+                                "fullName": "Alex Bregman",
+                                "link": "/api/v1/people/608324"
+                            },
+                            "shortstop": {
+                                "id": 621020,
+                                "fullName": "Dansby Swanson",
+                                "link": "/api/v1/people/621020"
+                            },
+                            "left": {
+                                "id": 664023,
+                                "fullName": "Ian Happ",
+                                "link": "/api/v1/people/664023"
+                            },
+                            "center": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "right": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "inHole": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
@@ -814,12 +895,36 @@
                             }
                         },
                         "offense": {
+                            "batter": {
+                                "id": 805808,
+                                "fullName": "Kevin McGonigle",
+                                "link": "/api/v1/people/805808"
+                            },
+                            "onDeck": {
+                                "id": 693307,
+                                "fullName": "Dillon Dingler",
+                                "link": "/api/v1/people/693307"
+                            },
+                            "inHole": {
+                                "id": 690993,
+                                "fullName": "Colt Keith",
+                                "link": "/api/v1/people/690993"
+                            },
+                            "pitcher": {
+                                "id": 672456,
+                                "fullName": "Keider Montero",
+                                "link": "/api/v1/people/672456"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 116,
                                 "name": "Detroit Tigers",
                                 "link": "/api/v1/teams/116"
                             }
-                        }
+                        },
+                        "balls": 0,
+                        "strikes": 0,
+                        "outs": 0
                     },
                     "venue": {
                         "id": 17,
@@ -896,10 +1001,10 @@
                                 "link": "/api/v1/teams/134"
                             },
                             "leagueRecord": {
-                                "wins": 52,
+                                "wins": 53,
                                 "losses": 49,
                                 "ties": 0,
-                                "pct": ".515"
+                                "pct": ".520"
                             },
                             "splitSquad": false,
                             "seriesNumber": 34
@@ -1002,10 +1107,10 @@
                                 "link": "/api/v1/teams/134"
                             },
                             "leagueRecord": {
-                                "wins": 52,
+                                "wins": 53,
                                 "losses": 49,
                                 "ties": 0,
-                                "pct": ".515"
+                                "pct": ".520"
                             },
                             "splitSquad": false,
                             "seriesNumber": 34
@@ -1108,10 +1213,10 @@
                                 "link": "/api/v1/teams/134"
                             },
                             "leagueRecord": {
-                                "wins": 52,
+                                "wins": 53,
                                 "losses": 49,
                                 "ties": 0,
-                                "pct": ".515"
+                                "pct": ".520"
                             },
                             "splitSquad": false,
                             "seriesNumber": 34
@@ -1624,9 +1729,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 56,
-                                "losses": 44,
+                                "losses": 45,
                                 "ties": 0,
-                                "pct": ".560"
+                                "pct": ".554"
                             },
                             "splitSquad": false,
                             "seriesNumber": 36
@@ -1730,9 +1835,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 56,
-                                "losses": 44,
+                                "losses": 45,
                                 "ties": 0,
-                                "pct": ".560"
+                                "pct": ".554"
                             },
                             "splitSquad": false,
                             "seriesNumber": 36
@@ -1836,9 +1941,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 56,
-                                "losses": 44,
+                                "losses": 45,
                                 "ties": 0,
-                                "pct": ".560"
+                                "pct": ".554"
                             },
                             "splitSquad": false,
                             "seriesNumber": 36
@@ -2383,10 +2488,10 @@
                                 "link": "/api/v1/teams/118"
                             },
                             "leagueRecord": {
-                                "wins": 42,
+                                "wins": 43,
                                 "losses": 60,
                                 "ties": 0,
-                                "pct": ".412"
+                                "pct": ".417"
                             },
                             "splitSquad": false,
                             "seriesNumber": 38
@@ -2489,10 +2594,10 @@
                                 "link": "/api/v1/teams/118"
                             },
                             "leagueRecord": {
-                                "wins": 42,
+                                "wins": 43,
                                 "losses": 60,
                                 "ties": 0,
-                                "pct": ".412"
+                                "pct": ".417"
                             },
                             "splitSquad": false,
                             "seriesNumber": 38
@@ -2595,10 +2700,10 @@
                                 "link": "/api/v1/teams/118"
                             },
                             "leagueRecord": {
-                                "wins": 42,
+                                "wins": 43,
                                 "losses": 60,
                                 "ties": 0,
-                                "pct": ".412"
+                                "pct": ".417"
                             },
                             "splitSquad": false,
                             "seriesNumber": 38
