@@ -594,15 +594,13 @@
                                 "runs": 1,
                                 "hits": 4,
                                 "errors": 0,
-                                "leftOnBase": 5,
-                                "isWinner": false
+                                "leftOnBase": 5
                             },
                             "away": {
                                 "runs": 5,
                                 "hits": 9,
                                 "errors": 1,
-                                "leftOnBase": 4,
-                                "isWinner": true
+                                "leftOnBase": 4
                             }
                         },
                         "defense": {
@@ -666,7 +664,7 @@
                                 "fullName": "Matt Vierling",
                                 "link": "/api/v1/people/663837"
                             },
-                            "battingOrder": 1,
+                            "battingOrder": 10,
                             "team": {
                                 "id": 116,
                                 "name": "Detroit Tigers",
@@ -688,11 +686,6 @@
                                 "id": 608348,
                                 "fullName": "Carson Kelly",
                                 "link": "/api/v1/people/608348"
-                            },
-                            "second": {
-                                "id": 664023,
-                                "fullName": "Ian Happ",
-                                "link": "/api/v1/people/664023"
                             },
                             "pitcher": {
                                 "id": 621053,
@@ -910,16 +903,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 134,
+                                "name": "Pittsburgh Pirates",
+                                "link": "/api/v1/teams/134"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 134,
-                                "name": "Pittsburgh Pirates",
-                                "link": "/api/v1/teams/134"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1016,16 +1009,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 134,
+                                "name": "Pittsburgh Pirates",
+                                "link": "/api/v1/teams/134"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 134,
-                                "name": "Pittsburgh Pirates",
-                                "link": "/api/v1/teams/134"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
