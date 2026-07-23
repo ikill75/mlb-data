@@ -221,13 +221,15 @@
                                 "runs": 11,
                                 "hits": 11,
                                 "errors": 0,
-                                "leftOnBase": 12
+                                "leftOnBase": 12,
+                                "isWinner": true
                             },
                             "away": {
                                 "runs": 2,
                                 "hits": 7,
                                 "errors": 0,
-                                "leftOnBase": 8
+                                "leftOnBase": 8,
+                                "isWinner": false
                             }
                         },
                         "defense": {
@@ -313,6 +315,21 @@
                                 "id": 701678,
                                 "fullName": "Hao-Yu Lee",
                                 "link": "/api/v1/people/701678"
+                            },
+                            "first": {
+                                "id": 668670,
+                                "fullName": "Jake Rogers",
+                                "link": "/api/v1/people/668670"
+                            },
+                            "second": {
+                                "id": 701162,
+                                "fullName": "Ben Malgeri",
+                                "link": "/api/v1/people/701162"
+                            },
+                            "third": {
+                                "id": 679529,
+                                "fullName": "Spencer Torkelson",
+                                "link": "/api/v1/people/679529"
                             },
                             "pitcher": {
                                 "id": 668670,
@@ -780,16 +797,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 134,
+                                "name": "Pittsburgh Pirates",
+                                "link": "/api/v1/teams/134"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 134,
-                                "name": "Pittsburgh Pirates",
-                                "link": "/api/v1/teams/134"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -886,16 +903,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 134,
+                                "name": "Pittsburgh Pirates",
+                                "link": "/api/v1/teams/134"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 134,
-                                "name": "Pittsburgh Pirates",
-                                "link": "/api/v1/teams/134"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -992,16 +1009,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 134,
+                                "name": "Pittsburgh Pirates",
+                                "link": "/api/v1/teams/134"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 134,
-                                "name": "Pittsburgh Pirates",
-                                "link": "/api/v1/teams/134"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
