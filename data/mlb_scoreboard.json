@@ -3,7 +3,7 @@
     "totalItems": 30,
     "totalEvents": 0,
     "totalGames": 30,
-    "totalGamesInProgress": 0,
+    "totalGamesInProgress": 1,
     "dates": [
         {
             "date": "2026-07-22",
@@ -373,7 +373,7 @@
             "totalItems": 1,
             "totalEvents": 0,
             "totalGames": 1,
-            "totalGamesInProgress": 0,
+            "totalGamesInProgress": 1,
             "games": [
                 {
                     "gamePk": 823352,
@@ -384,12 +384,12 @@
                     "gameDate": "2026-07-24T22:40:00Z",
                     "officialDate": "2026-07-24",
                     "status": {
-                        "abstractGameState": "Preview",
-                        "codedGameState": "P",
-                        "detailedState": "Pre-Game",
-                        "statusCode": "P",
+                        "abstractGameState": "Live",
+                        "codedGameState": "I",
+                        "detailedState": "In Progress",
+                        "statusCode": "I",
                         "startTimeTBD": false,
-                        "abstractGameCode": "P"
+                        "abstractGameCode": "L"
                     },
                     "teams": {
                         "away": {
@@ -532,26 +532,26 @@
                         },
                         "offense": {
                             "batter": {
-                                "id": 691718,
-                                "fullName": "Pete Crow-Armstrong",
-                                "link": "/api/v1/people/691718"
-                            },
-                            "onDeck": {
                                 "id": 673548,
                                 "fullName": "Seiya Suzuki",
                                 "link": "/api/v1/people/673548"
                             },
-                            "inHole": {
+                            "onDeck": {
                                 "id": 683737,
                                 "fullName": "Michael Busch",
                                 "link": "/api/v1/people/683737"
+                            },
+                            "inHole": {
+                                "id": 608324,
+                                "fullName": "Alex Bregman",
+                                "link": "/api/v1/people/608324"
                             },
                             "pitcher": {
                                 "id": 571510,
                                 "fullName": "Matthew Boyd",
                                 "link": "/api/v1/people/571510"
                             },
-                            "battingOrder": 1,
+                            "battingOrder": 2,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
@@ -560,7 +560,7 @@
                         },
                         "balls": 0,
                         "strikes": 0,
-                        "outs": 0
+                        "outs": 1
                     },
                     "venue": {
                         "id": 31,
