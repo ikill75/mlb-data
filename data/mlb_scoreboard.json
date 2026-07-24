@@ -426,22 +426,87 @@
                         }
                     },
                     "linescore": {
-                        "currentInning": 1,
-                        "currentInningOrdinal": "1st",
-                        "inningState": "Top",
-                        "inningHalf": "Top",
-                        "isTopInning": true,
+                        "currentInning": 5,
+                        "currentInningOrdinal": "5th",
+                        "inningState": "Bottom",
+                        "inningHalf": "Bottom",
+                        "isTopInning": false,
                         "scheduledInnings": 9,
                         "innings": [
                             {
                                 "num": 1,
                                 "ordinalNum": "1st",
                                 "home": {
+                                    "runs": 0,
                                     "hits": 0,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 },
                                 "away": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            },
+                            {
+                                "num": 2,
+                                "ordinalNum": "2nd",
+                                "home": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                }
+                            },
+                            {
+                                "num": 3,
+                                "ordinalNum": "3rd",
+                                "home": {
+                                    "runs": 0,
+                                    "hits": 2,
+                                    "errors": 0,
+                                    "leftOnBase": 2
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                }
+                            },
+                            {
+                                "num": 4,
+                                "ordinalNum": "4th",
+                                "home": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            },
+                            {
+                                "num": 5,
+                                "ordinalNum": "5th",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "runs": 0,
                                     "hits": 0,
                                     "errors": 0,
                                     "leftOnBase": 0
@@ -451,116 +516,126 @@
                         "teams": {
                             "home": {
                                 "runs": 0,
-                                "hits": 0,
+                                "hits": 2,
                                 "errors": 0,
-                                "leftOnBase": 0
+                                "leftOnBase": 2
                             },
                             "away": {
                                 "runs": 0,
-                                "hits": 0,
+                                "hits": 1,
                                 "errors": 0,
-                                "leftOnBase": 0
+                                "leftOnBase": 2
                             }
                         },
                         "defense": {
-                            "pitcher": {
-                                "id": 683003,
-                                "fullName": "Jared Jones",
-                                "link": "/api/v1/people/683003"
-                            },
-                            "catcher": {
-                                "id": 680779,
-                                "fullName": "Henry Davis",
-                                "link": "/api/v1/people/680779"
-                            },
-                            "first": {
-                                "id": 656811,
-                                "fullName": "Ryan O'Hearn",
-                                "link": "/api/v1/people/656811"
-                            },
-                            "second": {
-                                "id": 664040,
-                                "fullName": "Brandon Lowe",
-                                "link": "/api/v1/people/664040"
-                            },
-                            "third": {
-                                "id": 693304,
-                                "fullName": "Nick Gonzales",
-                                "link": "/api/v1/people/693304"
-                            },
-                            "shortstop": {
-                                "id": 669707,
-                                "fullName": "Jared Triolo",
-                                "link": "/api/v1/people/669707"
-                            },
-                            "left": {
-                                "id": 668804,
-                                "fullName": "Bryan Reynolds",
-                                "link": "/api/v1/people/668804"
-                            },
-                            "center": {
-                                "id": 663968,
-                                "fullName": "Jake Mangum",
-                                "link": "/api/v1/people/663968"
-                            },
-                            "right": {
-                                "id": 699013,
-                                "fullName": "Esmerlyn Valdez",
-                                "link": "/api/v1/people/699013"
-                            },
-                            "batter": {
-                                "id": 663968,
-                                "fullName": "Jake Mangum",
-                                "link": "/api/v1/people/663968"
-                            },
-                            "onDeck": {
-                                "id": 693304,
-                                "fullName": "Nick Gonzales",
-                                "link": "/api/v1/people/693304"
-                            },
-                            "inHole": {
-                                "id": 668804,
-                                "fullName": "Bryan Reynolds",
-                                "link": "/api/v1/people/668804"
-                            },
-                            "battingOrder": 1,
-                            "team": {
-                                "id": 134,
-                                "name": "Pittsburgh Pirates",
-                                "link": "/api/v1/teams/134"
-                            }
-                        },
-                        "offense": {
-                            "batter": {
-                                "id": 673548,
-                                "fullName": "Seiya Suzuki",
-                                "link": "/api/v1/people/673548"
-                            },
-                            "onDeck": {
-                                "id": 683737,
-                                "fullName": "Michael Busch",
-                                "link": "/api/v1/people/683737"
-                            },
-                            "inHole": {
-                                "id": 608324,
-                                "fullName": "Alex Bregman",
-                                "link": "/api/v1/people/608324"
-                            },
                             "pitcher": {
                                 "id": 571510,
                                 "fullName": "Matthew Boyd",
                                 "link": "/api/v1/people/571510"
                             },
-                            "battingOrder": 2,
+                            "catcher": {
+                                "id": 608348,
+                                "fullName": "Carson Kelly",
+                                "link": "/api/v1/people/608348"
+                            },
+                            "first": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "second": {
+                                "id": 663538,
+                                "fullName": "Nico Hoerner",
+                                "link": "/api/v1/people/663538"
+                            },
+                            "third": {
+                                "id": 608324,
+                                "fullName": "Alex Bregman",
+                                "link": "/api/v1/people/608324"
+                            },
+                            "shortstop": {
+                                "id": 621020,
+                                "fullName": "Dansby Swanson",
+                                "link": "/api/v1/people/621020"
+                            },
+                            "left": {
+                                "id": 664023,
+                                "fullName": "Ian Happ",
+                                "link": "/api/v1/people/664023"
+                            },
+                            "center": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "right": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "batter": {
+                                "id": 621020,
+                                "fullName": "Dansby Swanson",
+                                "link": "/api/v1/people/621020"
+                            },
+                            "onDeck": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "inHole": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "battingOrder": 9,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
                         },
+                        "offense": {
+                            "batter": {
+                                "id": 669707,
+                                "fullName": "Jared Triolo",
+                                "link": "/api/v1/people/669707"
+                            },
+                            "onDeck": {
+                                "id": 680779,
+                                "fullName": "Henry Davis",
+                                "link": "/api/v1/people/680779"
+                            },
+                            "inHole": {
+                                "id": 663968,
+                                "fullName": "Jake Mangum",
+                                "link": "/api/v1/people/663968"
+                            },
+                            "first": {
+                                "id": 664040,
+                                "fullName": "Brandon Lowe",
+                                "link": "/api/v1/people/664040"
+                            },
+                            "second": {
+                                "id": 542303,
+                                "fullName": "Marcell Ozuna",
+                                "link": "/api/v1/people/542303"
+                            },
+                            "pitcher": {
+                                "id": 683003,
+                                "fullName": "Jared Jones",
+                                "link": "/api/v1/people/683003"
+                            },
+                            "battingOrder": 8,
+                            "team": {
+                                "id": 134,
+                                "name": "Pittsburgh Pirates",
+                                "link": "/api/v1/teams/134"
+                            }
+                        },
                         "balls": 0,
                         "strikes": 0,
-                        "outs": 1
+                        "outs": 0
                     },
                     "venue": {
                         "id": 31,
