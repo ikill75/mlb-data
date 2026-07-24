@@ -538,16 +538,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 134,
+                                "name": "Pittsburgh Pirates",
+                                "link": "/api/v1/teams/134"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 134,
-                                "name": "Pittsburgh Pirates",
-                                "link": "/api/v1/teams/134"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1902,9 +1902,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 43,
-                                "losses": 60,
+                                "losses": 61,
                                 "ties": 0,
-                                "pct": ".417"
+                                "pct": ".413"
                             },
                             "splitSquad": false,
                             "seriesNumber": 38
@@ -2008,9 +2008,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 43,
-                                "losses": 60,
+                                "losses": 61,
                                 "ties": 0,
-                                "pct": ".417"
+                                "pct": ".413"
                             },
                             "splitSquad": false,
                             "seriesNumber": 38
@@ -2114,9 +2114,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 43,
-                                "losses": 60,
+                                "losses": 61,
                                 "ties": 0,
-                                "pct": ".417"
+                                "pct": ".413"
                             },
                             "splitSquad": false,
                             "seriesNumber": 38
