@@ -394,9 +394,9 @@
                     "officialDate": "2026-07-25",
                     "status": {
                         "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
                         "startTimeTBD": false,
                         "abstractGameCode": "P"
                     },
@@ -413,6 +413,7 @@
                                 "ties": 0,
                                 "pct": ".563"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 34
                         },
@@ -428,18 +429,110 @@
                                 "ties": 0,
                                 "pct": ".510"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 34
                         }
                     },
                     "linescore": {
+                        "currentInning": 1,
+                        "currentInningOrdinal": "1st",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
-                        "innings": [],
+                        "innings": [
+                            {
+                                "num": 1,
+                                "ordinalNum": "1st",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            }
+                        ],
                         "teams": {
-                            "home": {},
-                            "away": {}
+                            "home": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            }
                         },
                         "defense": {
+                            "pitcher": {
+                                "id": 694973,
+                                "fullName": "Paul Skenes",
+                                "link": "/api/v1/people/694973"
+                            },
+                            "catcher": {
+                                "id": 680779,
+                                "fullName": "Henry Davis",
+                                "link": "/api/v1/people/680779"
+                            },
+                            "first": {
+                                "id": 656811,
+                                "fullName": "Ryan O'Hearn",
+                                "link": "/api/v1/people/656811"
+                            },
+                            "second": {
+                                "id": 693304,
+                                "fullName": "Nick Gonzales",
+                                "link": "/api/v1/people/693304"
+                            },
+                            "third": {
+                                "id": 669707,
+                                "fullName": "Jared Triolo",
+                                "link": "/api/v1/people/669707"
+                            },
+                            "shortstop": {
+                                "id": 694378,
+                                "fullName": "Jacob Gonzalez",
+                                "link": "/api/v1/people/694378"
+                            },
+                            "left": {
+                                "id": 668804,
+                                "fullName": "Bryan Reynolds",
+                                "link": "/api/v1/people/668804"
+                            },
+                            "center": {
+                                "id": 663968,
+                                "fullName": "Jake Mangum",
+                                "link": "/api/v1/people/663968"
+                            },
+                            "right": {
+                                "id": 699013,
+                                "fullName": "Esmerlyn Valdez",
+                                "link": "/api/v1/people/699013"
+                            },
+                            "batter": {
+                                "id": 663968,
+                                "fullName": "Jake Mangum",
+                                "link": "/api/v1/people/663968"
+                            },
+                            "onDeck": {
+                                "id": 693304,
+                                "fullName": "Nick Gonzales",
+                                "link": "/api/v1/people/693304"
+                            },
+                            "inHole": {
+                                "id": 668804,
+                                "fullName": "Bryan Reynolds",
+                                "link": "/api/v1/people/668804"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 134,
                                 "name": "Pittsburgh Pirates",
@@ -447,12 +540,36 @@
                             }
                         },
                         "offense": {
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "inHole": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "pitcher": {
+                                "id": 684007,
+                                "fullName": "Shota Imanaga",
+                                "link": "/api/v1/people/684007"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
-                        }
+                        },
+                        "balls": 0,
+                        "strikes": 0,
+                        "outs": 0
                     },
                     "venue": {
                         "id": 31,
