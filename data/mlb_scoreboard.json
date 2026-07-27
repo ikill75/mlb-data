@@ -222,15 +222,13 @@
                                 "runs": 0,
                                 "hits": 5,
                                 "errors": 1,
-                                "leftOnBase": 7,
-                                "isWinner": false
+                                "leftOnBase": 7
                             },
                             "away": {
                                 "runs": 11,
                                 "hits": 16,
                                 "errors": 1,
-                                "leftOnBase": 11,
-                                "isWinner": true
+                                "leftOnBase": 11
                             }
                         },
                         "defense": {
@@ -316,11 +314,6 @@
                                 "id": 680779,
                                 "fullName": "Henry Davis",
                                 "link": "/api/v1/people/680779"
-                            },
-                            "first": {
-                                "id": 695257,
-                                "fullName": "Billy Cook",
-                                "link": "/api/v1/people/695257"
                             },
                             "pitcher": {
                                 "id": 682997,
@@ -584,15 +577,13 @@
                                 "runs": 8,
                                 "hits": 11,
                                 "errors": 0,
-                                "leftOnBase": 4,
-                                "isWinner": true
+                                "leftOnBase": 4
                             },
                             "away": {
                                 "runs": 7,
                                 "hits": 12,
                                 "errors": 0,
-                                "leftOnBase": 6,
-                                "isWinner": false
+                                "leftOnBase": 6
                             }
                         },
                         "defense": {
@@ -656,7 +647,7 @@
                                 "fullName": "Bryan Reynolds",
                                 "link": "/api/v1/people/668804"
                             },
-                            "battingOrder": 1,
+                            "battingOrder": 10,
                             "team": {
                                 "id": 134,
                                 "name": "Pittsburgh Pirates",
@@ -1181,9 +1172,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 59,
-                                "losses": 45,
+                                "losses": 46,
                                 "ties": 0,
-                                "pct": ".567"
+                                "pct": ".562"
                             },
                             "splitSquad": false,
                             "seriesNumber": 36
@@ -1287,9 +1278,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 59,
-                                "losses": 45,
+                                "losses": 46,
                                 "ties": 0,
-                                "pct": ".567"
+                                "pct": ".562"
                             },
                             "splitSquad": false,
                             "seriesNumber": 36
@@ -1393,9 +1384,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 59,
-                                "losses": 45,
+                                "losses": 46,
                                 "ties": 0,
-                                "pct": ".567"
+                                "pct": ".562"
                             },
                             "splitSquad": false,
                             "seriesNumber": 36
