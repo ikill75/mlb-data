@@ -6,378 +6,6 @@
     "totalGamesInProgress": 0,
     "dates": [
         {
-            "date": "2026-07-24",
-            "totalItems": 1,
-            "totalEvents": 0,
-            "totalGames": 1,
-            "totalGamesInProgress": 0,
-            "games": [
-                {
-                    "gamePk": 823352,
-                    "gameGuid": "589377c5-3cf7-44c5-8a51-5fc778d98e9b",
-                    "link": "/api/v1.1/game/823352/feed/live",
-                    "gameType": "R",
-                    "season": "2026",
-                    "gameDate": "2026-07-24T22:40:00Z",
-                    "officialDate": "2026-07-24",
-                    "status": {
-                        "abstractGameState": "Final",
-                        "codedGameState": "F",
-                        "detailedState": "Final",
-                        "statusCode": "F",
-                        "startTimeTBD": false,
-                        "abstractGameCode": "F"
-                    },
-                    "teams": {
-                        "away": {
-                            "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
-                            },
-                            "leagueRecord": {
-                                "wins": 58,
-                                "losses": 45,
-                                "ties": 0,
-                                "pct": ".563"
-                            },
-                            "score": 3,
-                            "isWinner": true,
-                            "splitSquad": false,
-                            "seriesNumber": 34
-                        },
-                        "home": {
-                            "team": {
-                                "id": 134,
-                                "name": "Pittsburgh Pirates",
-                                "link": "/api/v1/teams/134"
-                            },
-                            "leagueRecord": {
-                                "wins": 53,
-                                "losses": 51,
-                                "ties": 0,
-                                "pct": ".510"
-                            },
-                            "score": 2,
-                            "isWinner": false,
-                            "splitSquad": false,
-                            "seriesNumber": 34
-                        }
-                    },
-                    "linescore": {
-                        "currentInning": 10,
-                        "currentInningOrdinal": "10th",
-                        "inningState": "Bottom",
-                        "inningHalf": "Bottom",
-                        "isTopInning": false,
-                        "scheduledInnings": 9,
-                        "innings": [
-                            {
-                                "num": 1,
-                                "ordinalNum": "1st",
-                                "home": {
-                                    "runs": 0,
-                                    "hits": 0,
-                                    "errors": 0,
-                                    "leftOnBase": 0
-                                },
-                                "away": {
-                                    "runs": 0,
-                                    "hits": 0,
-                                    "errors": 0,
-                                    "leftOnBase": 0
-                                }
-                            },
-                            {
-                                "num": 2,
-                                "ordinalNum": "2nd",
-                                "home": {
-                                    "runs": 0,
-                                    "hits": 0,
-                                    "errors": 0,
-                                    "leftOnBase": 0
-                                },
-                                "away": {
-                                    "runs": 0,
-                                    "hits": 0,
-                                    "errors": 0,
-                                    "leftOnBase": 1
-                                }
-                            },
-                            {
-                                "num": 3,
-                                "ordinalNum": "3rd",
-                                "home": {
-                                    "runs": 0,
-                                    "hits": 2,
-                                    "errors": 0,
-                                    "leftOnBase": 2
-                                },
-                                "away": {
-                                    "runs": 0,
-                                    "hits": 1,
-                                    "errors": 0,
-                                    "leftOnBase": 1
-                                }
-                            },
-                            {
-                                "num": 4,
-                                "ordinalNum": "4th",
-                                "home": {
-                                    "runs": 0,
-                                    "hits": 0,
-                                    "errors": 0,
-                                    "leftOnBase": 0
-                                },
-                                "away": {
-                                    "runs": 0,
-                                    "hits": 0,
-                                    "errors": 0,
-                                    "leftOnBase": 0
-                                }
-                            },
-                            {
-                                "num": 5,
-                                "ordinalNum": "5th",
-                                "home": {
-                                    "runs": 1,
-                                    "hits": 2,
-                                    "errors": 0,
-                                    "leftOnBase": 3
-                                },
-                                "away": {
-                                    "runs": 0,
-                                    "hits": 0,
-                                    "errors": 0,
-                                    "leftOnBase": 0
-                                }
-                            },
-                            {
-                                "num": 6,
-                                "ordinalNum": "6th",
-                                "home": {
-                                    "runs": 0,
-                                    "hits": 1,
-                                    "errors": 0,
-                                    "leftOnBase": 1
-                                },
-                                "away": {
-                                    "runs": 1,
-                                    "hits": 1,
-                                    "errors": 0,
-                                    "leftOnBase": 0
-                                }
-                            },
-                            {
-                                "num": 7,
-                                "ordinalNum": "7th",
-                                "home": {
-                                    "runs": 0,
-                                    "hits": 2,
-                                    "errors": 0,
-                                    "leftOnBase": 1
-                                },
-                                "away": {
-                                    "runs": 0,
-                                    "hits": 2,
-                                    "errors": 0,
-                                    "leftOnBase": 2
-                                }
-                            },
-                            {
-                                "num": 8,
-                                "ordinalNum": "8th",
-                                "home": {
-                                    "runs": 0,
-                                    "hits": 1,
-                                    "errors": 0,
-                                    "leftOnBase": 1
-                                },
-                                "away": {
-                                    "runs": 0,
-                                    "hits": 0,
-                                    "errors": 0,
-                                    "leftOnBase": 0
-                                }
-                            },
-                            {
-                                "num": 9,
-                                "ordinalNum": "9th",
-                                "home": {
-                                    "runs": 0,
-                                    "hits": 0,
-                                    "errors": 0,
-                                    "leftOnBase": 0
-                                },
-                                "away": {
-                                    "runs": 0,
-                                    "hits": 0,
-                                    "errors": 0,
-                                    "leftOnBase": 0
-                                }
-                            },
-                            {
-                                "num": 10,
-                                "ordinalNum": "10th",
-                                "home": {
-                                    "runs": 1,
-                                    "hits": 0,
-                                    "errors": 0,
-                                    "leftOnBase": 0
-                                },
-                                "away": {
-                                    "runs": 2,
-                                    "hits": 2,
-                                    "errors": 0,
-                                    "leftOnBase": 3
-                                }
-                            }
-                        ],
-                        "teams": {
-                            "home": {
-                                "runs": 2,
-                                "hits": 8,
-                                "errors": 0,
-                                "leftOnBase": 8
-                            },
-                            "away": {
-                                "runs": 3,
-                                "hits": 6,
-                                "errors": 0,
-                                "leftOnBase": 7
-                            }
-                        },
-                        "defense": {
-                            "pitcher": {
-                                "id": 668970,
-                                "fullName": "Gavin Hollowell",
-                                "link": "/api/v1/people/668970"
-                            },
-                            "catcher": {
-                                "id": 665804,
-                                "fullName": "Miguel Amaya",
-                                "link": "/api/v1/people/665804"
-                            },
-                            "first": {
-                                "id": 683737,
-                                "fullName": "Michael Busch",
-                                "link": "/api/v1/people/683737"
-                            },
-                            "second": {
-                                "id": 663538,
-                                "fullName": "Nico Hoerner",
-                                "link": "/api/v1/people/663538"
-                            },
-                            "third": {
-                                "id": 608324,
-                                "fullName": "Alex Bregman",
-                                "link": "/api/v1/people/608324"
-                            },
-                            "shortstop": {
-                                "id": 621020,
-                                "fullName": "Dansby Swanson",
-                                "link": "/api/v1/people/621020"
-                            },
-                            "left": {
-                                "id": 664023,
-                                "fullName": "Ian Happ",
-                                "link": "/api/v1/people/664023"
-                            },
-                            "center": {
-                                "id": 691718,
-                                "fullName": "Pete Crow-Armstrong",
-                                "link": "/api/v1/people/691718"
-                            },
-                            "right": {
-                                "id": 673548,
-                                "fullName": "Seiya Suzuki",
-                                "link": "/api/v1/people/673548"
-                            },
-                            "batter": {
-                                "id": 608324,
-                                "fullName": "Alex Bregman",
-                                "link": "/api/v1/people/608324"
-                            },
-                            "onDeck": {
-                                "id": 664023,
-                                "fullName": "Ian Happ",
-                                "link": "/api/v1/people/664023"
-                            },
-                            "inHole": {
-                                "id": 663538,
-                                "fullName": "Nico Hoerner",
-                                "link": "/api/v1/people/663538"
-                            },
-                            "battingOrder": 4,
-                            "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
-                            }
-                        },
-                        "offense": {
-                            "batter": {
-                                "id": 668804,
-                                "fullName": "Bryan Reynolds",
-                                "link": "/api/v1/people/668804"
-                            },
-                            "onDeck": {
-                                "id": 699013,
-                                "fullName": "Esmerlyn Valdez",
-                                "link": "/api/v1/people/699013"
-                            },
-                            "inHole": {
-                                "id": 656811,
-                                "fullName": "Ryan O'Hearn",
-                                "link": "/api/v1/people/656811"
-                            },
-                            "pitcher": {
-                                "id": 670990,
-                                "fullName": "Yohan Ramírez",
-                                "link": "/api/v1/people/670990"
-                            },
-                            "battingOrder": 3,
-                            "team": {
-                                "id": 134,
-                                "name": "Pittsburgh Pirates",
-                                "link": "/api/v1/teams/134"
-                            }
-                        },
-                        "balls": 0,
-                        "strikes": 1,
-                        "outs": 3
-                    },
-                    "venue": {
-                        "id": 31,
-                        "name": "PNC Park",
-                        "link": "/api/v1/venues/31"
-                    },
-                    "content": {
-                        "link": "/api/v1/game/823352/content"
-                    },
-                    "isTie": false,
-                    "gameNumber": 1,
-                    "publicFacing": true,
-                    "doubleHeader": "N",
-                    "gamedayType": "P",
-                    "tiebreaker": "N",
-                    "calendarEventID": "14-823352-2026-07-24",
-                    "seasonDisplay": "2026",
-                    "dayNight": "night",
-                    "scheduledInnings": 9,
-                    "reverseHomeAwayStatus": false,
-                    "inningBreakLength": 120,
-                    "gamesInSeries": 3,
-                    "seriesGameNumber": 1,
-                    "seriesDescription": "Regular Season",
-                    "recordSource": "S",
-                    "ifNecessary": "N",
-                    "ifNecessaryDescription": "Normal Game"
-                }
-            ],
-            "events": []
-        },
-        {
             "date": "2026-07-25",
             "totalItems": 1,
             "totalEvents": 0,
@@ -594,13 +222,15 @@
                                 "runs": 0,
                                 "hits": 5,
                                 "errors": 1,
-                                "leftOnBase": 7
+                                "leftOnBase": 7,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 11,
                                 "hits": 16,
                                 "errors": 1,
-                                "leftOnBase": 11
+                                "leftOnBase": 11,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -686,6 +316,11 @@
                                 "id": 680779,
                                 "fullName": "Henry Davis",
                                 "link": "/api/v1/people/680779"
+                            },
+                            "first": {
+                                "id": 695257,
+                                "fullName": "Billy Cook",
+                                "link": "/api/v1/people/695257"
                             },
                             "pitcher": {
                                 "id": 682997,
@@ -949,13 +584,15 @@
                                 "runs": 8,
                                 "hits": 11,
                                 "errors": 0,
-                                "leftOnBase": 4
+                                "leftOnBase": 4,
+                                "isWinner": true
                             },
                             "away": {
                                 "runs": 7,
                                 "hits": 12,
                                 "errors": 0,
-                                "leftOnBase": 6
+                                "leftOnBase": 6,
+                                "isWinner": false
                             }
                         },
                         "defense": {
@@ -1019,7 +656,7 @@
                                 "fullName": "Bryan Reynolds",
                                 "link": "/api/v1/people/668804"
                             },
-                            "battingOrder": 10,
+                            "battingOrder": 1,
                             "team": {
                                 "id": 134,
                                 "name": "Pittsburgh Pirates",
@@ -4051,6 +3688,112 @@
                     "inningBreakLength": 120,
                     "gamesInSeries": 3,
                     "seriesGameNumber": 2,
+                    "seriesDescription": "Regular Season",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                }
+            ],
+            "events": []
+        },
+        {
+            "date": "2026-08-26",
+            "totalItems": 1,
+            "totalEvents": 0,
+            "totalGames": 1,
+            "totalGamesInProgress": 0,
+            "games": [
+                {
+                    "gamePk": 825039,
+                    "gameGuid": "3aba1d56-9116-428a-8e4c-aae941ad811c",
+                    "link": "/api/v1.1/game/825039/feed/live",
+                    "gameType": "R",
+                    "season": "2026",
+                    "gameDate": "2026-08-26T19:40:00Z",
+                    "officialDate": "2026-08-26",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "S",
+                        "detailedState": "Scheduled",
+                        "statusCode": "S",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            },
+                            "leagueRecord": {
+                                "wins": 59,
+                                "losses": 46,
+                                "ties": 0,
+                                "pct": ".562"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 44
+                        },
+                        "home": {
+                            "team": {
+                                "id": 109,
+                                "name": "Arizona Diamondbacks",
+                                "link": "/api/v1/teams/109"
+                            },
+                            "leagueRecord": {
+                                "wins": 55,
+                                "losses": 51,
+                                "ties": 0,
+                                "pct": ".519"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 44
+                        }
+                    },
+                    "linescore": {
+                        "scheduledInnings": 9,
+                        "innings": [],
+                        "teams": {
+                            "home": {},
+                            "away": {}
+                        },
+                        "defense": {
+                            "team": {
+                                "id": 109,
+                                "name": "Arizona Diamondbacks",
+                                "link": "/api/v1/teams/109"
+                            }
+                        },
+                        "offense": {
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "id": 15,
+                        "name": "Chase Field",
+                        "link": "/api/v1/venues/15"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/825039/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-825039-2026-08-26",
+                    "seasonDisplay": "2026",
+                    "dayNight": "day",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 3,
+                    "seriesGameNumber": 3,
                     "seriesDescription": "Regular Season",
                     "recordSource": "S",
                     "ifNecessary": "N",
