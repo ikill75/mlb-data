@@ -222,15 +222,13 @@
                                 "runs": 3,
                                 "hits": 7,
                                 "errors": 0,
-                                "leftOnBase": 6,
-                                "isWinner": false
+                                "leftOnBase": 6
                             },
                             "away": {
                                 "runs": 7,
                                 "hits": 15,
                                 "errors": 0,
-                                "leftOnBase": 9,
-                                "isWinner": true
+                                "leftOnBase": 9
                             }
                         },
                         "defense": {
@@ -316,11 +314,6 @@
                                 "id": 691023,
                                 "fullName": "Jordan Walker",
                                 "link": "/api/v1/people/691023"
-                            },
-                            "second": {
-                                "id": 663457,
-                                "fullName": "Lars Nootbaar",
-                                "link": "/api/v1/people/663457"
                             },
                             "pitcher": {
                                 "id": 690928,
@@ -585,15 +578,13 @@
                                 "runs": 2,
                                 "hits": 7,
                                 "errors": 0,
-                                "leftOnBase": 7,
-                                "isWinner": false
+                                "leftOnBase": 7
                             },
                             "away": {
                                 "runs": 10,
                                 "hits": 17,
                                 "errors": 0,
-                                "leftOnBase": 9,
-                                "isWinner": true
+                                "leftOnBase": 9
                             }
                         },
                         "defense": {
@@ -679,11 +670,6 @@
                                 "id": 691458,
                                 "fullName": "Blaze Jordan",
                                 "link": "/api/v1/people/691458"
-                            },
-                            "second": {
-                                "id": 691026,
-                                "fullName": "Masyn Winn",
-                                "link": "/api/v1/people/691026"
                             },
                             "pitcher": {
                                 "id": 694335,
@@ -795,16 +781,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         }
                     },
@@ -901,16 +887,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         }
                     },
