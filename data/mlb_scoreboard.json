@@ -222,15 +222,13 @@
                                 "runs": 3,
                                 "hits": 7,
                                 "errors": 0,
-                                "leftOnBase": 6,
-                                "isWinner": false
+                                "leftOnBase": 6
                             },
                             "away": {
                                 "runs": 7,
                                 "hits": 15,
                                 "errors": 0,
-                                "leftOnBase": 9,
-                                "isWinner": true
+                                "leftOnBase": 9
                             }
                         },
                         "defense": {
@@ -316,11 +314,6 @@
                                 "id": 691023,
                                 "fullName": "Jordan Walker",
                                 "link": "/api/v1/people/691023"
-                            },
-                            "second": {
-                                "id": 663457,
-                                "fullName": "Lars Nootbaar",
-                                "link": "/api/v1/people/663457"
                             },
                             "pitcher": {
                                 "id": 690928,
@@ -585,15 +578,13 @@
                                 "runs": 2,
                                 "hits": 7,
                                 "errors": 0,
-                                "leftOnBase": 7,
-                                "isWinner": false
+                                "leftOnBase": 7
                             },
                             "away": {
                                 "runs": 10,
                                 "hits": 17,
                                 "errors": 0,
-                                "leftOnBase": 9,
-                                "isWinner": true
+                                "leftOnBase": 9
                             }
                         },
                         "defense": {
@@ -680,11 +671,6 @@
                                 "fullName": "Blaze Jordan",
                                 "link": "/api/v1/people/691458"
                             },
-                            "second": {
-                                "id": 691026,
-                                "fullName": "Masyn Winn",
-                                "link": "/api/v1/people/691026"
-                            },
                             "pitcher": {
                                 "id": 694335,
                                 "fullName": "Matt Svanson",
@@ -748,9 +734,9 @@
                     "officialDate": "2026-07-29",
                     "status": {
                         "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
                         "startTimeTBD": false,
                         "abstractGameCode": "P"
                     },
@@ -795,16 +781,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         }
                     },
@@ -901,16 +887,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         }
                     },
@@ -1612,10 +1598,10 @@
                                 "link": "/api/v1/teams/141"
                             },
                             "leagueRecord": {
-                                "wins": 49,
+                                "wins": 50,
                                 "losses": 59,
                                 "ties": 0,
-                                "pct": ".454"
+                                "pct": ".459"
                             },
                             "splitSquad": false,
                             "seriesNumber": 38
@@ -2053,9 +2039,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 55,
-                                "losses": 53,
+                                "losses": 54,
                                 "ties": 0,
-                                "pct": ".509"
+                                "pct": ".505"
                             },
                             "splitSquad": false,
                             "seriesNumber": 39
@@ -2159,9 +2145,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 55,
-                                "losses": 53,
+                                "losses": 54,
                                 "ties": 0,
-                                "pct": ".509"
+                                "pct": ".505"
                             },
                             "splitSquad": false,
                             "seriesNumber": 39
@@ -2265,9 +2251,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 55,
-                                "losses": 53,
+                                "losses": 54,
                                 "ties": 0,
-                                "pct": ".509"
+                                "pct": ".505"
                             },
                             "splitSquad": false,
                             "seriesNumber": 39
