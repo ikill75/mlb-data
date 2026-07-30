@@ -775,7 +775,7 @@
                                 "ties": 0,
                                 "pct": ".565"
                             },
-                            "score": 1,
+                            "score": 2,
                             "splitSquad": false,
                             "seriesNumber": 35
                         },
@@ -791,17 +791,17 @@
                                 "ties": 0,
                                 "pct": ".500"
                             },
-                            "score": 1,
+                            "score": 2,
                             "splitSquad": false,
                             "seriesNumber": 36
                         }
                     },
                     "linescore": {
-                        "currentInning": 5,
-                        "currentInningOrdinal": "5th",
-                        "inningState": "Bottom",
-                        "inningHalf": "Bottom",
-                        "isTopInning": false,
+                        "currentInning": 9,
+                        "currentInningOrdinal": "9th",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
                         "innings": [
                             {
@@ -872,6 +872,23 @@
                                 "num": 5,
                                 "ordinalNum": "5th",
                                 "home": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 2
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 2
+                                }
+                            },
+                            {
+                                "num": 6,
+                                "ordinalNum": "6th",
+                                "home": {
+                                    "runs": 0,
                                     "hits": 1,
                                     "errors": 0,
                                     "leftOnBase": 0
@@ -880,128 +897,169 @@
                                     "runs": 0,
                                     "hits": 1,
                                     "errors": 0,
-                                    "leftOnBase": 2
+                                    "leftOnBase": 1
+                                }
+                            },
+                            {
+                                "num": 7,
+                                "ordinalNum": "7th",
+                                "home": {
+                                    "runs": 1,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "runs": 1,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 3
+                                }
+                            },
+                            {
+                                "num": 8,
+                                "ordinalNum": "8th",
+                                "home": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            },
+                            {
+                                "num": 9,
+                                "ordinalNum": "9th",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
                                 }
                             }
                         ],
                         "teams": {
                             "home": {
-                                "runs": 1,
-                                "hits": 6,
+                                "runs": 2,
+                                "hits": 9,
                                 "errors": 1,
-                                "leftOnBase": 5
+                                "leftOnBase": 8
                             },
                             "away": {
-                                "runs": 1,
-                                "hits": 6,
+                                "runs": 2,
+                                "hits": 9,
                                 "errors": 0,
-                                "leftOnBase": 5
+                                "leftOnBase": 9
                             }
                         },
                         "defense": {
                             "pitcher": {
-                                "id": 665871,
-                                "fullName": "Javier Assad",
-                                "link": "/api/v1/people/665871"
+                                "id": 676617,
+                                "fullName": "Riley O'Brien",
+                                "link": "/api/v1/people/676617"
                             },
                             "catcher": {
-                                "id": 608348,
-                                "fullName": "Carson Kelly",
-                                "link": "/api/v1/people/608348"
+                                "id": 686780,
+                                "fullName": "Pedro Pagés",
+                                "link": "/api/v1/people/686780"
                             },
                             "first": {
-                                "id": 683737,
-                                "fullName": "Michael Busch",
-                                "link": "/api/v1/people/683737"
-                            },
-                            "second": {
-                                "id": 663538,
-                                "fullName": "Nico Hoerner",
-                                "link": "/api/v1/people/663538"
-                            },
-                            "third": {
-                                "id": 608324,
-                                "fullName": "Alex Bregman",
-                                "link": "/api/v1/people/608324"
-                            },
-                            "shortstop": {
-                                "id": 621020,
-                                "fullName": "Dansby Swanson",
-                                "link": "/api/v1/people/621020"
-                            },
-                            "left": {
-                                "id": 664023,
-                                "fullName": "Ian Happ",
-                                "link": "/api/v1/people/664023"
-                            },
-                            "center": {
-                                "id": 691718,
-                                "fullName": "Pete Crow-Armstrong",
-                                "link": "/api/v1/people/691718"
-                            },
-                            "right": {
-                                "id": 624424,
-                                "fullName": "Michael Conforto",
-                                "link": "/api/v1/people/624424"
-                            },
-                            "batter": {
-                                "id": 608324,
-                                "fullName": "Alex Bregman",
-                                "link": "/api/v1/people/608324"
-                            },
-                            "onDeck": {
-                                "id": 664023,
-                                "fullName": "Ian Happ",
-                                "link": "/api/v1/people/664023"
-                            },
-                            "inHole": {
-                                "id": 663538,
-                                "fullName": "Nico Hoerner",
-                                "link": "/api/v1/people/663538"
-                            },
-                            "battingOrder": 4,
-                            "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
-                            }
-                        },
-                        "offense": {
-                            "batter": {
-                                "id": 691023,
-                                "fullName": "Jordan Walker",
-                                "link": "/api/v1/people/691023"
-                            },
-                            "onDeck": {
                                 "id": 676475,
                                 "fullName": "Alec Burleson",
                                 "link": "/api/v1/people/676475"
                             },
-                            "inHole": {
-                                "id": 671056,
-                                "fullName": "Iván Herrera",
-                                "link": "/api/v1/people/671056"
-                            },
-                            "first": {
+                            "second": {
                                 "id": 802139,
                                 "fullName": "JJ Wetherholt",
                                 "link": "/api/v1/people/802139"
                             },
-                            "pitcher": {
-                                "id": 669467,
-                                "fullName": "Andre Pallante",
-                                "link": "/api/v1/people/669467"
+                            "third": {
+                                "id": 691458,
+                                "fullName": "Blaze Jordan",
+                                "link": "/api/v1/people/691458"
                             },
-                            "battingOrder": 2,
+                            "shortstop": {
+                                "id": 691026,
+                                "fullName": "Masyn Winn",
+                                "link": "/api/v1/people/691026"
+                            },
+                            "left": {
+                                "id": 663494,
+                                "fullName": "Bryan Torres",
+                                "link": "/api/v1/people/663494"
+                            },
+                            "center": {
+                                "id": 665877,
+                                "fullName": "José Fermín",
+                                "link": "/api/v1/people/665877"
+                            },
+                            "right": {
+                                "id": 663457,
+                                "fullName": "Lars Nootbaar",
+                                "link": "/api/v1/people/663457"
+                            },
+                            "batter": {
+                                "id": 691458,
+                                "fullName": "Blaze Jordan",
+                                "link": "/api/v1/people/691458"
+                            },
+                            "onDeck": {
+                                "id": 665877,
+                                "fullName": "José Fermín",
+                                "link": "/api/v1/people/665877"
+                            },
+                            "inHole": {
+                                "id": 802139,
+                                "fullName": "JJ Wetherholt",
+                                "link": "/api/v1/people/802139"
+                            },
+                            "battingOrder": 8,
                             "team": {
                                 "id": 138,
                                 "name": "St. Louis Cardinals",
                                 "link": "/api/v1/teams/138"
                             }
                         },
-                        "balls": 0,
-                        "strikes": 2,
-                        "outs": 0
+                        "offense": {
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "inHole": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "pitcher": {
+                                "id": 668970,
+                                "fullName": "Gavin Hollowell",
+                                "link": "/api/v1/people/668970"
+                            },
+                            "battingOrder": 1,
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            }
+                        },
+                        "balls": 1,
+                        "strikes": 1,
+                        "outs": 1
                     },
                     "venue": {
                         "id": 2889,
@@ -1824,9 +1882,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 46,
-                                "losses": 63,
+                                "losses": 64,
                                 "ties": 0,
-                                "pct": ".422"
+                                "pct": ".418"
                             },
                             "splitSquad": false,
                             "seriesNumber": 38
@@ -1930,9 +1988,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 46,
-                                "losses": 63,
+                                "losses": 64,
                                 "ties": 0,
-                                "pct": ".422"
+                                "pct": ".418"
                             },
                             "splitSquad": false,
                             "seriesNumber": 38
@@ -2036,9 +2094,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 46,
-                                "losses": 63,
+                                "losses": 64,
                                 "ties": 0,
-                                "pct": ".422"
+                                "pct": ".418"
                             },
                             "splitSquad": false,
                             "seriesNumber": 38
