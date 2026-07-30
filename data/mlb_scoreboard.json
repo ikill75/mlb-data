@@ -222,13 +222,15 @@
                                 "runs": 2,
                                 "hits": 7,
                                 "errors": 0,
-                                "leftOnBase": 7
+                                "leftOnBase": 7,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 10,
                                 "hits": 17,
                                 "errors": 0,
-                                "leftOnBase": 9
+                                "leftOnBase": 9,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -314,6 +316,11 @@
                                 "id": 691458,
                                 "fullName": "Blaze Jordan",
                                 "link": "/api/v1/people/691458"
+                            },
+                            "second": {
+                                "id": 691026,
+                                "fullName": "Masyn Winn",
+                                "link": "/api/v1/people/691026"
                             },
                             "pitcher": {
                                 "id": 694335,
@@ -595,13 +602,15 @@
                                 "runs": 3,
                                 "hits": 7,
                                 "errors": 1,
-                                "leftOnBase": 9
+                                "leftOnBase": 9,
+                                "isWinner": true
                             },
                             "away": {
                                 "runs": 2,
                                 "hits": 3,
                                 "errors": 0,
-                                "leftOnBase": 8
+                                "leftOnBase": 8,
+                                "isWinner": false
                             }
                         },
                         "defense": {
