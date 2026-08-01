@@ -238,13 +238,15 @@
                                 "runs": 2,
                                 "hits": 10,
                                 "errors": 1,
-                                "leftOnBase": 10
+                                "leftOnBase": 10,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 4,
                                 "hits": 11,
                                 "errors": 0,
-                                "leftOnBase": 10
+                                "leftOnBase": 10,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -330,6 +332,11 @@
                                 "id": 663494,
                                 "fullName": "Bryan Torres",
                                 "link": "/api/v1/people/663494"
+                            },
+                            "second": {
+                                "id": 691023,
+                                "fullName": "Jordan Walker",
+                                "link": "/api/v1/people/691023"
                             },
                             "pitcher": {
                                 "id": 703725,
@@ -594,13 +601,15 @@
                                 "runs": 0,
                                 "hits": 5,
                                 "errors": 0,
-                                "leftOnBase": 4
+                                "leftOnBase": 4,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 2,
                                 "hits": 4,
                                 "errors": 0,
-                                "leftOnBase": 3
+                                "leftOnBase": 3,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -686,6 +695,11 @@
                                 "id": 663538,
                                 "fullName": "Nico Hoerner",
                                 "link": "/api/v1/people/663538"
+                            },
+                            "second": {
+                                "id": 699393,
+                                "fullName": "Pedro Ramírez",
+                                "link": "/api/v1/people/699393"
                             },
                             "pitcher": {
                                 "id": 681520,
@@ -797,16 +811,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 147,
-                                "name": "New York Yankees",
-                                "link": "/api/v1/teams/147"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 147,
+                                "name": "New York Yankees",
+                                "link": "/api/v1/teams/147"
                             }
                         }
                     },
@@ -903,16 +917,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 147,
-                                "name": "New York Yankees",
-                                "link": "/api/v1/teams/147"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 147,
+                                "name": "New York Yankees",
+                                "link": "/api/v1/teams/147"
                             }
                         }
                     },
