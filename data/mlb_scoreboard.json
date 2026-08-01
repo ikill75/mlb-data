@@ -783,6 +783,7 @@
                                 "ties": 0,
                                 "pct": ".564"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 36
                         },
@@ -798,31 +799,147 @@
                                 "ties": 0,
                                 "pct": ".564"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 36
                         }
                     },
                     "linescore": {
+                        "currentInning": 1,
+                        "currentInningOrdinal": "1st",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
-                        "innings": [],
+                        "innings": [
+                            {
+                                "num": 1,
+                                "ordinalNum": "1st",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            }
+                        ],
                         "teams": {
-                            "home": {},
-                            "away": {}
+                            "home": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            }
                         },
                         "defense": {
+                            "pitcher": {
+                                "id": 656849,
+                                "fullName": "David Peterson",
+                                "link": "/api/v1/people/656849"
+                            },
+                            "catcher": {
+                                "id": 608348,
+                                "fullName": "Carson Kelly",
+                                "link": "/api/v1/people/608348"
+                            },
+                            "first": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "second": {
+                                "id": 663538,
+                                "fullName": "Nico Hoerner",
+                                "link": "/api/v1/people/663538"
+                            },
+                            "third": {
+                                "id": 608324,
+                                "fullName": "Alex Bregman",
+                                "link": "/api/v1/people/608324"
+                            },
+                            "shortstop": {
+                                "id": 621020,
+                                "fullName": "Dansby Swanson",
+                                "link": "/api/v1/people/621020"
+                            },
+                            "left": {
+                                "id": 664023,
+                                "fullName": "Ian Happ",
+                                "link": "/api/v1/people/664023"
+                            },
+                            "center": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "right": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "inHole": {
+                                "id": 608324,
+                                "fullName": "Alex Bregman",
+                                "link": "/api/v1/people/608324"
+                            },
+                            "battingOrder": 1,
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            }
+                        },
+                        "offense": {
+                            "batter": {
+                                "id": 680474,
+                                "fullName": "Max Schuemann",
+                                "link": "/api/v1/people/680474"
+                            },
+                            "onDeck": {
+                                "id": 502671,
+                                "fullName": "Paul Goldschmidt",
+                                "link": "/api/v1/people/502671"
+                            },
+                            "inHole": {
+                                "id": 642708,
+                                "fullName": "Amed Rosario",
+                                "link": "/api/v1/people/642708"
+                            },
+                            "pitcher": {
+                                "id": 608331,
+                                "fullName": "Max Fried",
+                                "link": "/api/v1/people/608331"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 147,
                                 "name": "New York Yankees",
                                 "link": "/api/v1/teams/147"
                             }
                         },
-                        "offense": {
-                            "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
-                            }
-                        }
+                        "balls": 0,
+                        "strikes": 0,
+                        "outs": 0
                     },
                     "venue": {
                         "id": 17,
@@ -1310,10 +1427,10 @@
                                 "link": "/api/v1/teams/141"
                             },
                             "leagueRecord": {
-                                "wins": 51,
+                                "wins": 52,
                                 "losses": 59,
                                 "ties": 0,
-                                "pct": ".464"
+                                "pct": ".468"
                             },
                             "splitSquad": false,
                             "seriesNumber": 38
@@ -2054,9 +2171,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 54,
-                                "losses": 56,
+                                "losses": 57,
                                 "ties": 0,
-                                "pct": ".491"
+                                "pct": ".486"
                             },
                             "splitSquad": false,
                             "seriesNumber": 41
@@ -2160,9 +2277,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 54,
-                                "losses": 56,
+                                "losses": 57,
                                 "ties": 0,
-                                "pct": ".491"
+                                "pct": ".486"
                             },
                             "splitSquad": false,
                             "seriesNumber": 41
@@ -2266,9 +2383,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 54,
-                                "losses": 56,
+                                "losses": 57,
                                 "ties": 0,
-                                "pct": ".491"
+                                "pct": ".486"
                             },
                             "splitSquad": false,
                             "seriesNumber": 41
@@ -3570,16 +3687,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 113,
-                                "name": "Cincinnati Reds",
-                                "link": "/api/v1/teams/113"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
                             }
                         }
                     },
