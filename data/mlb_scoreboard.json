@@ -594,15 +594,13 @@
                                 "runs": 0,
                                 "hits": 5,
                                 "errors": 0,
-                                "leftOnBase": 4,
-                                "isWinner": false
+                                "leftOnBase": 4
                             },
                             "away": {
                                 "runs": 2,
                                 "hits": 4,
                                 "errors": 0,
-                                "leftOnBase": 3,
-                                "isWinner": true
+                                "leftOnBase": 3
                             }
                         },
                         "defense": {
@@ -688,11 +686,6 @@
                                 "id": 663538,
                                 "fullName": "Nico Hoerner",
                                 "link": "/api/v1/people/663538"
-                            },
-                            "second": {
-                                "id": 699393,
-                                "fullName": "Pedro Ramírez",
-                                "link": "/api/v1/people/699393"
                             },
                             "pitcher": {
                                 "id": 681520,
@@ -1122,16 +1115,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 119,
-                                "name": "Los Angeles Dodgers",
-                                "link": "/api/v1/teams/119"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 119,
+                                "name": "Los Angeles Dodgers",
+                                "link": "/api/v1/teams/119"
                             }
                         }
                     },
@@ -1228,16 +1221,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 119,
-                                "name": "Los Angeles Dodgers",
-                                "link": "/api/v1/teams/119"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 119,
+                                "name": "Los Angeles Dodgers",
+                                "link": "/api/v1/teams/119"
                             }
                         }
                     },
