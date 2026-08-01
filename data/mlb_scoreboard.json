@@ -763,12 +763,12 @@
                     "gameDate": "2026-08-01T23:15:00Z",
                     "officialDate": "2026-08-01",
                     "status": {
-                        "abstractGameState": "Preview",
+                        "abstractGameState": "Live",
                         "codedGameState": "P",
-                        "detailedState": "Pre-Game",
-                        "statusCode": "P",
+                        "detailedState": "Warmup",
+                        "statusCode": "PW",
                         "startTimeTBD": false,
-                        "abstractGameCode": "P"
+                        "abstractGameCode": "L"
                     },
                     "teams": {
                         "away": {
@@ -2489,9 +2489,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 58,
-                                "losses": 51,
+                                "losses": 52,
                                 "ties": 0,
-                                "pct": ".532"
+                                "pct": ".527"
                             },
                             "splitSquad": false,
                             "seriesNumber": 41
@@ -2595,9 +2595,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 58,
-                                "losses": 51,
+                                "losses": 52,
                                 "ties": 0,
-                                "pct": ".532"
+                                "pct": ".527"
                             },
                             "splitSquad": false,
                             "seriesNumber": 41
@@ -2701,9 +2701,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 58,
-                                "losses": 51,
+                                "losses": 52,
                                 "ties": 0,
-                                "pct": ".532"
+                                "pct": ".527"
                             },
                             "splitSquad": false,
                             "seriesNumber": 41
