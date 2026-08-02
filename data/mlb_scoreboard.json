@@ -2824,10 +2824,10 @@
                                 "link": "/api/v1/teams/136"
                             },
                             "leagueRecord": {
-                                "wins": 54,
+                                "wins": 55,
                                 "losses": 58,
                                 "ties": 0,
-                                "pct": ".482"
+                                "pct": ".487"
                             },
                             "splitSquad": false,
                             "seriesNumber": 42
@@ -2930,10 +2930,10 @@
                                 "link": "/api/v1/teams/136"
                             },
                             "leagueRecord": {
-                                "wins": 54,
+                                "wins": 55,
                                 "losses": 58,
                                 "ties": 0,
-                                "pct": ".482"
+                                "pct": ".487"
                             },
                             "splitSquad": false,
                             "seriesNumber": 42
@@ -3036,10 +3036,10 @@
                                 "link": "/api/v1/teams/136"
                             },
                             "leagueRecord": {
-                                "wins": 54,
+                                "wins": 55,
                                 "losses": 58,
                                 "ties": 0,
-                                "pct": ".482"
+                                "pct": ".487"
                             },
                             "splitSquad": false,
                             "seriesNumber": 42
@@ -3690,16 +3690,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 113,
-                                "name": "Cincinnati Reds",
-                                "link": "/api/v1/teams/113"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
