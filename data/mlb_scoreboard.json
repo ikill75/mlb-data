@@ -732,12 +732,12 @@
                     "gameDate": "2026-08-04T00:05:00Z",
                     "officialDate": "2026-08-03",
                     "status": {
-                        "abstractGameState": "Preview",
+                        "abstractGameState": "Live",
                         "codedGameState": "P",
-                        "detailedState": "Pre-Game",
-                        "statusCode": "P",
+                        "detailedState": "Warmup",
+                        "statusCode": "PW",
                         "startTimeTBD": false,
-                        "abstractGameCode": "P"
+                        "abstractGameCode": "L"
                     },
                     "teams": {
                         "away": {
@@ -752,6 +752,7 @@
                                 "ties": 0,
                                 "pct": ".616"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 37
                         },
@@ -767,31 +768,147 @@
                                 "ties": 0,
                                 "pct": ".563"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 37
                         }
                     },
                     "linescore": {
+                        "currentInning": 1,
+                        "currentInningOrdinal": "1st",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
-                        "innings": [],
+                        "innings": [
+                            {
+                                "num": 1,
+                                "ordinalNum": "1st",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            }
+                        ],
                         "teams": {
-                            "home": {},
-                            "away": {}
+                            "home": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            }
                         },
                         "defense": {
+                            "pitcher": {
+                                "id": 571510,
+                                "fullName": "Matthew Boyd",
+                                "link": "/api/v1/people/571510"
+                            },
+                            "catcher": {
+                                "id": 608348,
+                                "fullName": "Carson Kelly",
+                                "link": "/api/v1/people/608348"
+                            },
+                            "first": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "second": {
+                                "id": 663538,
+                                "fullName": "Nico Hoerner",
+                                "link": "/api/v1/people/663538"
+                            },
+                            "third": {
+                                "id": 699393,
+                                "fullName": "Pedro Ramírez",
+                                "link": "/api/v1/people/699393"
+                            },
+                            "shortstop": {
+                                "id": 621020,
+                                "fullName": "Dansby Swanson",
+                                "link": "/api/v1/people/621020"
+                            },
+                            "left": {
+                                "id": 682634,
+                                "fullName": "Kevin Alcántara",
+                                "link": "/api/v1/people/682634"
+                            },
+                            "center": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "right": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "inHole": {
+                                "id": 608324,
+                                "fullName": "Alex Bregman",
+                                "link": "/api/v1/people/608324"
+                            },
+                            "battingOrder": 1,
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            }
+                        },
+                        "offense": {
+                            "batter": {
+                                "id": 660271,
+                                "fullName": "Shohei Ohtani",
+                                "link": "/api/v1/people/660271"
+                            },
+                            "onDeck": {
+                                "id": 681624,
+                                "fullName": "Andy Pages",
+                                "link": "/api/v1/people/681624"
+                            },
+                            "inHole": {
+                                "id": 669242,
+                                "fullName": "Tommy Edman",
+                                "link": "/api/v1/people/669242"
+                            },
+                            "pitcher": {
+                                "id": 680736,
+                                "fullName": "Justin Wrobleski",
+                                "link": "/api/v1/people/680736"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 119,
                                 "name": "Los Angeles Dodgers",
                                 "link": "/api/v1/teams/119"
                             }
                         },
-                        "offense": {
-                            "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
-                            }
-                        }
+                        "balls": 0,
+                        "strikes": 0,
+                        "outs": 0
                     },
                     "venue": {
                         "id": 17,
