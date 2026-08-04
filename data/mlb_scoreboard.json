@@ -222,13 +222,15 @@
                                 "runs": 1,
                                 "hits": 4,
                                 "errors": 1,
-                                "leftOnBase": 8
+                                "leftOnBase": 8,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 2,
                                 "hits": 5,
                                 "errors": 0,
-                                "leftOnBase": 5
+                                "leftOnBase": 5,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -314,6 +316,11 @@
                                 "id": 673548,
                                 "fullName": "Seiya Suzuki",
                                 "link": "/api/v1/people/673548"
+                            },
+                            "second": {
+                                "id": 699393,
+                                "fullName": "Pedro Ramírez",
+                                "link": "/api/v1/people/699393"
                             },
                             "pitcher": {
                                 "id": 650644,
@@ -886,16 +893,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 119,
+                                "name": "Los Angeles Dodgers",
+                                "link": "/api/v1/teams/119"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 119,
-                                "name": "Los Angeles Dodgers",
-                                "link": "/api/v1/teams/119"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -3221,16 +3228,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 113,
-                                "name": "Cincinnati Reds",
-                                "link": "/api/v1/teams/113"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
                             }
                         }
                     },
