@@ -3,7 +3,7 @@
     "totalItems": 30,
     "totalEvents": 0,
     "totalGames": 30,
-    "totalGamesInProgress": 0,
+    "totalGamesInProgress": 1,
     "dates": [
         {
             "date": "2026-08-03",
@@ -221,13 +221,15 @@
                                 "runs": 10,
                                 "hits": 10,
                                 "errors": 1,
-                                "leftOnBase": 6
+                                "leftOnBase": 6,
+                                "isWinner": true
                             },
                             "away": {
                                 "runs": 5,
                                 "hits": 10,
                                 "errors": 1,
-                                "leftOnBase": 3
+                                "leftOnBase": 3,
+                                "isWinner": false
                             }
                         },
                         "defense": {
@@ -720,7 +722,7 @@
             "totalItems": 1,
             "totalEvents": 0,
             "totalGames": 1,
-            "totalGamesInProgress": 0,
+            "totalGamesInProgress": 1,
             "games": [
                 {
                     "gamePk": 824646,
@@ -731,12 +733,12 @@
                     "gameDate": "2026-08-05T18:20:00Z",
                     "officialDate": "2026-08-05",
                     "status": {
-                        "abstractGameState": "Preview",
-                        "codedGameState": "P",
-                        "detailedState": "Pre-Game",
-                        "statusCode": "P",
+                        "abstractGameState": "Live",
+                        "codedGameState": "I",
+                        "detailedState": "In Progress",
+                        "statusCode": "I",
                         "startTimeTBD": false,
-                        "abstractGameCode": "P"
+                        "abstractGameCode": "L"
                     },
                     "teams": {
                         "away": {
@@ -751,7 +753,7 @@
                                 "ties": 0,
                                 "pct": ".605"
                             },
-                            "score": 0,
+                            "score": 1,
                             "splitSquad": false,
                             "seriesNumber": 37
                         },
@@ -767,117 +769,111 @@
                                 "ties": 0,
                                 "pct": ".570"
                             },
-                            "score": 0,
+                            "score": 1,
                             "splitSquad": false,
                             "seriesNumber": 37
                         }
                     },
                     "linescore": {
-                        "currentInning": 1,
-                        "currentInningOrdinal": "1st",
-                        "inningState": "Top",
-                        "inningHalf": "Top",
-                        "isTopInning": true,
+                        "currentInning": 2,
+                        "currentInningOrdinal": "2nd",
+                        "inningState": "Bottom",
+                        "inningHalf": "Bottom",
+                        "isTopInning": false,
                         "scheduledInnings": 9,
                         "innings": [
                             {
                                 "num": 1,
                                 "ordinalNum": "1st",
                                 "home": {
-                                    "hits": 0,
+                                    "runs": 1,
+                                    "hits": 2,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                },
+                                "away": {
+                                    "runs": 1,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            },
+                            {
+                                "num": 2,
+                                "ordinalNum": "2nd",
+                                "home": {
+                                    "hits": 1,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 },
                                 "away": {
-                                    "hits": 0,
+                                    "runs": 0,
+                                    "hits": 2,
                                     "errors": 0,
-                                    "leftOnBase": 0
+                                    "leftOnBase": 2
                                 }
                             }
                         ],
                         "teams": {
                             "home": {
-                                "runs": 0,
-                                "hits": 0,
+                                "runs": 1,
+                                "hits": 3,
                                 "errors": 0,
-                                "leftOnBase": 0
+                                "leftOnBase": 1
                             },
                             "away": {
-                                "runs": 0,
-                                "hits": 0,
+                                "runs": 1,
+                                "hits": 3,
                                 "errors": 0,
-                                "leftOnBase": 0
+                                "leftOnBase": 2
                             }
                         },
                         "defense": {
                             "pitcher": {
-                                "id": 684007,
-                                "fullName": "Shota Imanaga",
-                                "link": "/api/v1/people/684007"
+                                "id": 641778,
+                                "fullName": "Eric Lauer",
+                                "link": "/api/v1/people/641778"
                             },
                             "catcher": {
-                                "id": 608348,
-                                "fullName": "Carson Kelly",
-                                "link": "/api/v1/people/608348"
+                                "id": 676439,
+                                "fullName": "Hunter Feduccia",
+                                "link": "/api/v1/people/676439"
                             },
                             "first": {
-                                "id": 683737,
-                                "fullName": "Michael Busch",
-                                "link": "/api/v1/people/683737"
+                                "id": 518692,
+                                "fullName": "Freddie Freeman",
+                                "link": "/api/v1/people/518692"
                             },
                             "second": {
-                                "id": 663538,
-                                "fullName": "Nico Hoerner",
-                                "link": "/api/v1/people/663538"
+                                "id": 500743,
+                                "fullName": "Miguel Rojas",
+                                "link": "/api/v1/people/500743"
                             },
                             "third": {
-                                "id": 608324,
-                                "fullName": "Alex Bregman",
-                                "link": "/api/v1/people/608324"
+                                "id": 571970,
+                                "fullName": "Max Muncy",
+                                "link": "/api/v1/people/571970"
                             },
                             "shortstop": {
-                                "id": 621020,
-                                "fullName": "Dansby Swanson",
-                                "link": "/api/v1/people/621020"
+                                "id": 605141,
+                                "fullName": "Mookie Betts",
+                                "link": "/api/v1/people/605141"
                             },
                             "left": {
-                                "id": 664023,
-                                "fullName": "Ian Happ",
-                                "link": "/api/v1/people/664023"
+                                "id": 669242,
+                                "fullName": "Tommy Edman",
+                                "link": "/api/v1/people/669242"
                             },
                             "center": {
-                                "id": 621438,
-                                "fullName": "Tyrone Taylor",
-                                "link": "/api/v1/people/621438"
+                                "id": 681624,
+                                "fullName": "Andy Pages",
+                                "link": "/api/v1/people/681624"
                             },
                             "right": {
-                                "id": 673548,
-                                "fullName": "Seiya Suzuki",
-                                "link": "/api/v1/people/673548"
+                                "id": 663656,
+                                "fullName": "Kyle Tucker",
+                                "link": "/api/v1/people/663656"
                             },
-                            "batter": {
-                                "id": 691718,
-                                "fullName": "Pete Crow-Armstrong",
-                                "link": "/api/v1/people/691718"
-                            },
-                            "onDeck": {
-                                "id": 673548,
-                                "fullName": "Seiya Suzuki",
-                                "link": "/api/v1/people/673548"
-                            },
-                            "inHole": {
-                                "id": 608324,
-                                "fullName": "Alex Bregman",
-                                "link": "/api/v1/people/608324"
-                            },
-                            "battingOrder": 1,
-                            "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
-                            }
-                        },
-                        "offense": {
                             "batter": {
                                 "id": 660271,
                                 "fullName": "Shohei Ohtani",
@@ -893,21 +889,49 @@
                                 "fullName": "Freddie Freeman",
                                 "link": "/api/v1/people/518692"
                             },
-                            "pitcher": {
-                                "id": 641778,
-                                "fullName": "Eric Lauer",
-                                "link": "/api/v1/people/641778"
-                            },
-                            "battingOrder": 1,
+                            "battingOrder": 10,
                             "team": {
                                 "id": 119,
                                 "name": "Los Angeles Dodgers",
                                 "link": "/api/v1/teams/119"
                             }
                         },
+                        "offense": {
+                            "batter": {
+                                "id": 621020,
+                                "fullName": "Dansby Swanson",
+                                "link": "/api/v1/people/621020"
+                            },
+                            "onDeck": {
+                                "id": 621438,
+                                "fullName": "Tyrone Taylor",
+                                "link": "/api/v1/people/621438"
+                            },
+                            "inHole": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "first": {
+                                "id": 663538,
+                                "fullName": "Nico Hoerner",
+                                "link": "/api/v1/people/663538"
+                            },
+                            "pitcher": {
+                                "id": 684007,
+                                "fullName": "Shota Imanaga",
+                                "link": "/api/v1/people/684007"
+                            },
+                            "battingOrder": 8,
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            }
+                        },
                         "balls": 0,
-                        "strikes": 0,
-                        "outs": 0
+                        "strikes": 1,
+                        "outs": 1
                     },
                     "venue": {
                         "id": 17,
@@ -1959,16 +1983,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         }
                     },
