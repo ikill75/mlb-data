@@ -776,9 +776,9 @@
                     "officialDate": "2026-08-07",
                     "status": {
                         "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
                         "startTimeTBD": false,
                         "abstractGameCode": "P"
                     },
@@ -795,6 +795,7 @@
                                 "ties": 0,
                                 "pct": ".578"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 39
                         },
@@ -810,31 +811,147 @@
                                 "ties": 0,
                                 "pct": ".414"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 38
                         }
                     },
                     "linescore": {
+                        "currentInning": 1,
+                        "currentInningOrdinal": "1st",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
-                        "innings": [],
+                        "innings": [
+                            {
+                                "num": 1,
+                                "ordinalNum": "1st",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            }
+                        ],
                         "teams": {
-                            "home": {},
-                            "away": {}
+                            "home": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            }
                         },
                         "defense": {
+                            "pitcher": {
+                                "id": 663738,
+                                "fullName": "Daniel Lynch IV",
+                                "link": "/api/v1/people/663738"
+                            },
+                            "catcher": {
+                                "id": 695600,
+                                "fullName": "Carter Jensen",
+                                "link": "/api/v1/people/695600"
+                            },
+                            "first": {
+                                "id": 695506,
+                                "fullName": "Jac Caglianone",
+                                "link": "/api/v1/people/695506"
+                            },
+                            "second": {
+                                "id": 686681,
+                                "fullName": "Michael Massey",
+                                "link": "/api/v1/people/686681"
+                            },
+                            "third": {
+                                "id": 679845,
+                                "fullName": "Nick Loftin",
+                                "link": "/api/v1/people/679845"
+                            },
+                            "shortstop": {
+                                "id": 677951,
+                                "fullName": "Bobby Witt Jr.",
+                                "link": "/api/v1/people/677951"
+                            },
+                            "left": {
+                                "id": 686555,
+                                "fullName": "Isaac Collins",
+                                "link": "/api/v1/people/686555"
+                            },
+                            "center": {
+                                "id": 686475,
+                                "fullName": "Tyler Tolbert",
+                                "link": "/api/v1/people/686475"
+                            },
+                            "right": {
+                                "id": 516782,
+                                "fullName": "Starling Marte",
+                                "link": "/api/v1/people/516782"
+                            },
+                            "batter": {
+                                "id": 695600,
+                                "fullName": "Carter Jensen",
+                                "link": "/api/v1/people/695600"
+                            },
+                            "onDeck": {
+                                "id": 677951,
+                                "fullName": "Bobby Witt Jr.",
+                                "link": "/api/v1/people/677951"
+                            },
+                            "inHole": {
+                                "id": 695506,
+                                "fullName": "Jac Caglianone",
+                                "link": "/api/v1/people/695506"
+                            },
+                            "battingOrder": 1,
+                            "team": {
+                                "id": 118,
+                                "name": "Kansas City Royals",
+                                "link": "/api/v1/teams/118"
+                            }
+                        },
+                        "offense": {
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "inHole": {
+                                "id": 608324,
+                                "fullName": "Alex Bregman",
+                                "link": "/api/v1/people/608324"
+                            },
+                            "pitcher": {
+                                "id": 592332,
+                                "fullName": "Kevin Gausman",
+                                "link": "/api/v1/people/592332"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
                         },
-                        "offense": {
-                            "team": {
-                                "id": 118,
-                                "name": "Kansas City Royals",
-                                "link": "/api/v1/teams/118"
-                            }
-                        }
+                        "balls": 0,
+                        "strikes": 0,
+                        "outs": 0
                     },
                     "venue": {
                         "id": 7,
