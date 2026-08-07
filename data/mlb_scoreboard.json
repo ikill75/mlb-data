@@ -221,13 +221,15 @@
                                 "runs": 7,
                                 "hits": 15,
                                 "errors": 0,
-                                "leftOnBase": 10
+                                "leftOnBase": 10,
+                                "isWinner": true
                             },
                             "away": {
                                 "runs": 6,
                                 "hits": 14,
                                 "errors": 1,
-                                "leftOnBase": 9
+                                "leftOnBase": 9,
+                                "isWinner": false
                             }
                         },
                         "defense": {
@@ -804,9 +806,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 48,
-                                "losses": 67,
+                                "losses": 68,
                                 "ties": 0,
-                                "pct": ".417"
+                                "pct": ".414"
                             },
                             "splitSquad": false,
                             "seriesNumber": 38
@@ -821,16 +823,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 118,
-                                "name": "Kansas City Royals",
-                                "link": "/api/v1/teams/118"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 118,
+                                "name": "Kansas City Royals",
+                                "link": "/api/v1/teams/118"
                             }
                         }
                     },
@@ -910,9 +912,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 48,
-                                "losses": 67,
+                                "losses": 68,
                                 "ties": 0,
-                                "pct": ".417"
+                                "pct": ".414"
                             },
                             "splitSquad": false,
                             "seriesNumber": 38
@@ -1016,9 +1018,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 48,
-                                "losses": 67,
+                                "losses": 68,
                                 "ties": 0,
-                                "pct": ".417"
+                                "pct": ".414"
                             },
                             "splitSquad": false,
                             "seriesNumber": 38
@@ -1122,9 +1124,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 56,
-                                "losses": 60,
+                                "losses": 61,
                                 "ties": 0,
-                                "pct": ".483"
+                                "pct": ".479"
                             },
                             "splitSquad": false,
                             "seriesNumber": 39
@@ -1228,9 +1230,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 56,
-                                "losses": 60,
+                                "losses": 61,
                                 "ties": 0,
-                                "pct": ".483"
+                                "pct": ".479"
                             },
                             "splitSquad": false,
                             "seriesNumber": 39
@@ -1334,9 +1336,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 56,
-                                "losses": 60,
+                                "losses": 61,
                                 "ties": 0,
-                                "pct": ".483"
+                                "pct": ".479"
                             },
                             "splitSquad": false,
                             "seriesNumber": 39
@@ -3454,9 +3456,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 58,
-                                "losses": 57,
+                                "losses": 58,
                                 "ties": 0,
-                                "pct": ".504"
+                                "pct": ".500"
                             },
                             "splitSquad": false,
                             "seriesNumber": 46
@@ -3560,9 +3562,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 58,
-                                "losses": 57,
+                                "losses": 58,
                                 "ties": 0,
-                                "pct": ".504"
+                                "pct": ".500"
                             },
                             "splitSquad": false,
                             "seriesNumber": 46
@@ -3666,9 +3668,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 58,
-                                "losses": 57,
+                                "losses": 58,
                                 "ties": 0,
-                                "pct": ".504"
+                                "pct": ".500"
                             },
                             "splitSquad": false,
                             "seriesNumber": 46
