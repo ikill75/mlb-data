@@ -621,13 +621,15 @@
                                 "runs": 4,
                                 "hits": 7,
                                 "errors": 1,
-                                "leftOnBase": 5
+                                "leftOnBase": 5,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 6,
                                 "hits": 9,
                                 "errors": 0,
-                                "leftOnBase": 8
+                                "leftOnBase": 8,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -796,6 +798,7 @@
                                 "ties": 0,
                                 "pct": ".581"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 39
                         },
@@ -811,31 +814,147 @@
                                 "ties": 0,
                                 "pct": ".410"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 38
                         }
                     },
                     "linescore": {
+                        "currentInning": 1,
+                        "currentInningOrdinal": "1st",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
-                        "innings": [],
+                        "innings": [
+                            {
+                                "num": 1,
+                                "ordinalNum": "1st",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            }
+                        ],
                         "teams": {
-                            "home": {},
-                            "away": {}
+                            "home": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            }
                         },
                         "defense": {
+                            "pitcher": {
+                                "id": 607625,
+                                "fullName": "Seth Lugo",
+                                "link": "/api/v1/people/607625"
+                            },
+                            "catcher": {
+                                "id": 695600,
+                                "fullName": "Carter Jensen",
+                                "link": "/api/v1/people/695600"
+                            },
+                            "first": {
+                                "id": 695506,
+                                "fullName": "Jac Caglianone",
+                                "link": "/api/v1/people/695506"
+                            },
+                            "second": {
+                                "id": 686681,
+                                "fullName": "Michael Massey",
+                                "link": "/api/v1/people/686681"
+                            },
+                            "third": {
+                                "id": 679845,
+                                "fullName": "Nick Loftin",
+                                "link": "/api/v1/people/679845"
+                            },
+                            "shortstop": {
+                                "id": 677951,
+                                "fullName": "Bobby Witt Jr.",
+                                "link": "/api/v1/people/677951"
+                            },
+                            "left": {
+                                "id": 686555,
+                                "fullName": "Isaac Collins",
+                                "link": "/api/v1/people/686555"
+                            },
+                            "center": {
+                                "id": 664728,
+                                "fullName": "Kyle Isbel",
+                                "link": "/api/v1/people/664728"
+                            },
+                            "right": {
+                                "id": 670231,
+                                "fullName": "John Rave",
+                                "link": "/api/v1/people/670231"
+                            },
+                            "batter": {
+                                "id": 695600,
+                                "fullName": "Carter Jensen",
+                                "link": "/api/v1/people/695600"
+                            },
+                            "onDeck": {
+                                "id": 677951,
+                                "fullName": "Bobby Witt Jr.",
+                                "link": "/api/v1/people/677951"
+                            },
+                            "inHole": {
+                                "id": 695506,
+                                "fullName": "Jac Caglianone",
+                                "link": "/api/v1/people/695506"
+                            },
+                            "battingOrder": 1,
+                            "team": {
+                                "id": 118,
+                                "name": "Kansas City Royals",
+                                "link": "/api/v1/teams/118"
+                            }
+                        },
+                        "offense": {
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "inHole": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "pitcher": {
+                                "id": 605280,
+                                "fullName": "Clay Holmes",
+                                "link": "/api/v1/people/605280"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
                         },
-                        "offense": {
-                            "team": {
-                                "id": 118,
-                                "name": "Kansas City Royals",
-                                "link": "/api/v1/teams/118"
-                            }
-                        }
+                        "balls": 0,
+                        "strikes": 0,
+                        "outs": 0
                     },
                     "venue": {
                         "id": 7,
@@ -930,16 +1049,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 118,
+                                "name": "Kansas City Royals",
+                                "link": "/api/v1/teams/118"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 118,
-                                "name": "Kansas City Royals",
-                                "link": "/api/v1/teams/118"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1354,16 +1473,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         }
                     },
@@ -1566,16 +1685,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         }
                     },
