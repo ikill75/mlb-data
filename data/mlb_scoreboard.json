@@ -3,7 +3,7 @@
     "totalItems": 30,
     "totalEvents": 0,
     "totalGames": 30,
-    "totalGamesInProgress": 0,
+    "totalGamesInProgress": 1,
     "dates": [
         {
             "date": "2026-08-06",
@@ -767,7 +767,7 @@
             "totalItems": 1,
             "totalEvents": 0,
             "totalGames": 1,
-            "totalGamesInProgress": 0,
+            "totalGamesInProgress": 1,
             "games": [
                 {
                     "gamePk": 824079,
@@ -779,9 +779,9 @@
                     "officialDate": "2026-08-08",
                     "status": {
                         "abstractGameState": "Live",
-                        "codedGameState": "P",
-                        "detailedState": "Warmup",
-                        "statusCode": "PW",
+                        "codedGameState": "I",
+                        "detailedState": "In Progress",
+                        "statusCode": "I",
                         "startTimeTBD": false,
                         "abstractGameCode": "L"
                     },
@@ -814,14 +814,14 @@
                                 "ties": 0,
                                 "pct": ".410"
                             },
-                            "score": 0,
+                            "score": 3,
                             "splitSquad": false,
                             "seriesNumber": 38
                         }
                     },
                     "linescore": {
-                        "currentInning": 1,
-                        "currentInningOrdinal": "1st",
+                        "currentInning": 3,
+                        "currentInningOrdinal": "3rd",
                         "inningState": "Top",
                         "inningHalf": "Top",
                         "isTopInning": true,
@@ -831,12 +831,44 @@
                                 "num": 1,
                                 "ordinalNum": "1st",
                                 "home": {
+                                    "runs": 1,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            },
+                            {
+                                "num": 2,
+                                "ordinalNum": "2nd",
+                                "home": {
+                                    "runs": 2,
+                                    "hits": 2,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            },
+                            {
+                                "num": 3,
+                                "ordinalNum": "3rd",
+                                "home": {
                                     "hits": 0,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 },
                                 "away": {
-                                    "hits": 0,
+                                    "hits": 1,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 }
@@ -844,14 +876,14 @@
                         ],
                         "teams": {
                             "home": {
-                                "runs": 0,
-                                "hits": 0,
+                                "runs": 3,
+                                "hits": 3,
                                 "errors": 0,
                                 "leftOnBase": 0
                             },
                             "away": {
                                 "runs": 0,
-                                "hits": 0,
+                                "hits": 1,
                                 "errors": 0,
                                 "leftOnBase": 0
                             }
@@ -917,7 +949,7 @@
                                 "fullName": "Jac Caglianone",
                                 "link": "/api/v1/people/695506"
                             },
-                            "battingOrder": 1,
+                            "battingOrder": 10,
                             "team": {
                                 "id": 118,
                                 "name": "Kansas City Royals",
@@ -940,6 +972,11 @@
                                 "fullName": "Michael Busch",
                                 "link": "/api/v1/people/683737"
                             },
+                            "first": {
+                                "id": 621438,
+                                "fullName": "Tyrone Taylor",
+                                "link": "/api/v1/people/621438"
+                            },
                             "pitcher": {
                                 "id": 605280,
                                 "fullName": "Clay Holmes",
@@ -952,9 +989,9 @@
                                 "link": "/api/v1/teams/112"
                             }
                         },
-                        "balls": 0,
+                        "balls": 2,
                         "strikes": 0,
-                        "outs": 0
+                        "outs": 2
                     },
                     "venue": {
                         "id": 7,
