@@ -761,7 +761,7 @@
                                 "ties": 0,
                                 "pct": ".576"
                             },
-                            "score": 4,
+                            "score": 10,
                             "splitSquad": false,
                             "seriesNumber": 39
                         },
@@ -783,8 +783,8 @@
                         }
                     },
                     "linescore": {
-                        "currentInning": 6,
-                        "currentInningOrdinal": "6th",
+                        "currentInning": 7,
+                        "currentInningOrdinal": "7th",
                         "inningState": "Top",
                         "inningHalf": "Top",
                         "isTopInning": true,
@@ -874,12 +874,29 @@
                                 "num": 6,
                                 "ordinalNum": "6th",
                                 "home": {
+                                    "runs": 0,
                                     "hits": 0,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 },
                                 "away": {
+                                    "runs": 3,
+                                    "hits": 2,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            },
+                            {
+                                "num": 7,
+                                "ordinalNum": "7th",
+                                "home": {
                                     "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "runs": 3,
+                                    "hits": 3,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 }
@@ -893,8 +910,8 @@
                                 "leftOnBase": 2
                             },
                             "away": {
-                                "runs": 4,
-                                "hits": 10,
+                                "runs": 10,
+                                "hits": 15,
                                 "errors": 0,
                                 "leftOnBase": 7
                             }
@@ -946,21 +963,21 @@
                                 "link": "/api/v1/people/695506"
                             },
                             "batter": {
-                                "id": 677951,
-                                "fullName": "Bobby Witt Jr.",
-                                "link": "/api/v1/people/677951"
+                                "id": 516782,
+                                "fullName": "Starling Marte",
+                                "link": "/api/v1/people/516782"
                             },
                             "onDeck": {
-                                "id": 695506,
-                                "fullName": "Jac Caglianone",
-                                "link": "/api/v1/people/695506"
+                                "id": 686681,
+                                "fullName": "Michael Massey",
+                                "link": "/api/v1/people/686681"
                             },
                             "inHole": {
-                                "id": 521692,
-                                "fullName": "Salvador Perez",
-                                "link": "/api/v1/people/521692"
+                                "id": 686475,
+                                "fullName": "Tyler Tolbert",
+                                "link": "/api/v1/people/686475"
                             },
-                            "battingOrder": 2,
+                            "battingOrder": 5,
                             "team": {
                                 "id": 118,
                                 "name": "Kansas City Royals",
@@ -969,35 +986,40 @@
                         },
                         "offense": {
                             "batter": {
-                                "id": 621438,
-                                "fullName": "Tyrone Taylor",
-                                "link": "/api/v1/people/621438"
-                            },
-                            "onDeck": {
-                                "id": 691718,
-                                "fullName": "Pete Crow-Armstrong",
-                                "link": "/api/v1/people/691718"
-                            },
-                            "inHole": {
                                 "id": 683737,
                                 "fullName": "Michael Busch",
                                 "link": "/api/v1/people/683737"
+                            },
+                            "onDeck": {
+                                "id": 608324,
+                                "fullName": "Alex Bregman",
+                                "link": "/api/v1/people/608324"
+                            },
+                            "inHole": {
+                                "id": 664023,
+                                "fullName": "Ian Happ",
+                                "link": "/api/v1/people/664023"
+                            },
+                            "second": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
                             },
                             "pitcher": {
                                 "id": 571510,
                                 "fullName": "Matthew Boyd",
                                 "link": "/api/v1/people/571510"
                             },
-                            "battingOrder": 9,
+                            "battingOrder": 2,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
                         },
-                        "balls": 0,
-                        "strikes": 0,
-                        "outs": 0
+                        "balls": 2,
+                        "strikes": 1,
+                        "outs": 1
                     },
                     "venue": {
                         "id": 7,
