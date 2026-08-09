@@ -579,15 +579,13 @@
                                 "runs": 6,
                                 "hits": 10,
                                 "errors": 1,
-                                "leftOnBase": 6,
-                                "isWinner": true
+                                "leftOnBase": 6
                             },
                             "away": {
                                 "runs": 3,
                                 "hits": 7,
                                 "errors": 0,
-                                "leftOnBase": 7,
-                                "isWinner": false
+                                "leftOnBase": 7
                             }
                         },
                         "defense": {
@@ -651,7 +649,7 @@
                                 "fullName": "Jac Caglianone",
                                 "link": "/api/v1/people/695506"
                             },
-                            "battingOrder": 1,
+                            "battingOrder": 10,
                             "team": {
                                 "id": 118,
                                 "name": "Kansas City Royals",
@@ -673,11 +671,6 @@
                                 "id": 683737,
                                 "fullName": "Michael Busch",
                                 "link": "/api/v1/people/683737"
-                            },
-                            "second": {
-                                "id": 624424,
-                                "fullName": "Michael Conforto",
-                                "link": "/api/v1/people/624424"
                             },
                             "pitcher": {
                                 "id": 607067,
@@ -789,16 +782,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 118,
+                                "name": "Kansas City Royals",
+                                "link": "/api/v1/teams/118"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 118,
-                                "name": "Kansas City Royals",
-                                "link": "/api/v1/teams/118"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1213,16 +1206,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         }
                     },
@@ -1425,16 +1418,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         }
                     },
