@@ -1679,10 +1679,10 @@
                                 "link": "/api/v1/teams/109"
                             },
                             "leagueRecord": {
-                                "wins": 63,
+                                "wins": 64,
                                 "losses": 56,
                                 "ties": 0,
-                                "pct": ".529"
+                                "pct": ".533"
                             },
                             "splitSquad": false,
                             "seriesNumber": 44
@@ -1785,10 +1785,10 @@
                                 "link": "/api/v1/teams/109"
                             },
                             "leagueRecord": {
-                                "wins": 63,
+                                "wins": 64,
                                 "losses": 56,
                                 "ties": 0,
-                                "pct": ".529"
+                                "pct": ".533"
                             },
                             "splitSquad": false,
                             "seriesNumber": 44
@@ -1891,10 +1891,10 @@
                                 "link": "/api/v1/teams/109"
                             },
                             "leagueRecord": {
-                                "wins": 63,
+                                "wins": 64,
                                 "losses": 56,
                                 "ties": 0,
-                                "pct": ".529"
+                                "pct": ".533"
                             },
                             "splitSquad": false,
                             "seriesNumber": 44
