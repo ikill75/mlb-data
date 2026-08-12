@@ -377,12 +377,12 @@
                     "gameDate": "2026-08-12T22:45:00Z",
                     "officialDate": "2026-08-12",
                     "status": {
-                        "abstractGameState": "Preview",
+                        "abstractGameState": "Live",
                         "codedGameState": "P",
-                        "detailedState": "Pre-Game",
-                        "statusCode": "P",
+                        "detailedState": "Warmup",
+                        "statusCode": "PW",
                         "startTimeTBD": false,
-                        "abstractGameCode": "P"
+                        "abstractGameCode": "L"
                     },
                     "teams": {
                         "away": {
@@ -648,16 +648,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 120,
-                                "name": "Washington Nationals",
-                                "link": "/api/v1/teams/120"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 120,
+                                "name": "Washington Nationals",
+                                "link": "/api/v1/teams/120"
                             }
                         }
                     },
@@ -1691,9 +1691,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 64,
-                                "losses": 57,
+                                "losses": 58,
                                 "ties": 0,
-                                "pct": ".529"
+                                "pct": ".525"
                             },
                             "splitSquad": false,
                             "seriesNumber": 44
@@ -1797,9 +1797,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 64,
-                                "losses": 57,
+                                "losses": 58,
                                 "ties": 0,
-                                "pct": ".529"
+                                "pct": ".525"
                             },
                             "splitSquad": false,
                             "seriesNumber": 44
@@ -1903,9 +1903,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 64,
-                                "losses": 57,
+                                "losses": 58,
                                 "ties": 0,
-                                "pct": ".529"
+                                "pct": ".525"
                             },
                             "splitSquad": false,
                             "seriesNumber": 44
