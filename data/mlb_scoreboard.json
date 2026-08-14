@@ -772,15 +772,15 @@
                                 "ties": 0,
                                 "pct": ".582"
                             },
-                            "score": 0,
+                            "score": 3,
                             "splitSquad": false,
                             "seriesNumber": 41
                         }
                     },
                     "linescore": {
-                        "currentInning": 6,
-                        "currentInningOrdinal": "6th",
-                        "inningState": "Top",
+                        "currentInning": 7,
+                        "currentInningOrdinal": "7th",
+                        "inningState": "Middle",
                         "inningHalf": "Top",
                         "isTopInning": true,
                         "scheduledInnings": 9,
@@ -869,130 +869,147 @@
                                 "num": 6,
                                 "ordinalNum": "6th",
                                 "home": {
+                                    "runs": 3,
+                                    "hits": 3,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                }
+                            },
+                            {
+                                "num": 7,
+                                "ordinalNum": "7th",
+                                "home": {
                                     "hits": 0,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 },
                                 "away": {
+                                    "runs": 0,
                                     "hits": 0,
                                     "errors": 0,
-                                    "leftOnBase": 0
+                                    "leftOnBase": 1
                                 }
                             }
                         ],
                         "teams": {
                             "home": {
-                                "runs": 0,
-                                "hits": 1,
+                                "runs": 3,
+                                "hits": 4,
                                 "errors": 0,
-                                "leftOnBase": 1
+                                "leftOnBase": 2
                             },
                             "away": {
                                 "runs": 0,
-                                "hits": 0,
+                                "hits": 1,
                                 "errors": 0,
-                                "leftOnBase": 0
+                                "leftOnBase": 2
                             }
                         },
                         "defense": {
                             "pitcher": {
-                                "id": 605280,
-                                "fullName": "Clay Holmes",
-                                "link": "/api/v1/people/605280"
+                                "id": 666277,
+                                "fullName": "George Soriano",
+                                "link": "/api/v1/people/666277"
                             },
                             "catcher": {
-                                "id": 608348,
-                                "fullName": "Carson Kelly",
-                                "link": "/api/v1/people/608348"
+                                "id": 671056,
+                                "fullName": "Iván Herrera",
+                                "link": "/api/v1/people/671056"
                             },
                             "first": {
-                                "id": 683737,
-                                "fullName": "Michael Busch",
-                                "link": "/api/v1/people/683737"
+                                "id": 676475,
+                                "fullName": "Alec Burleson",
+                                "link": "/api/v1/people/676475"
                             },
                             "second": {
-                                "id": 663538,
-                                "fullName": "Nico Hoerner",
-                                "link": "/api/v1/people/663538"
-                            },
-                            "third": {
-                                "id": 608324,
-                                "fullName": "Alex Bregman",
-                                "link": "/api/v1/people/608324"
-                            },
-                            "shortstop": {
-                                "id": 621020,
-                                "fullName": "Dansby Swanson",
-                                "link": "/api/v1/people/621020"
-                            },
-                            "left": {
-                                "id": 664023,
-                                "fullName": "Ian Happ",
-                                "link": "/api/v1/people/664023"
-                            },
-                            "center": {
-                                "id": 691718,
-                                "fullName": "Pete Crow-Armstrong",
-                                "link": "/api/v1/people/691718"
-                            },
-                            "right": {
-                                "id": 621438,
-                                "fullName": "Tyrone Taylor",
-                                "link": "/api/v1/people/621438"
-                            },
-                            "batter": {
-                                "id": 621438,
-                                "fullName": "Tyrone Taylor",
-                                "link": "/api/v1/people/621438"
-                            },
-                            "onDeck": {
-                                "id": 621020,
-                                "fullName": "Dansby Swanson",
-                                "link": "/api/v1/people/621020"
-                            },
-                            "inHole": {
-                                "id": 691718,
-                                "fullName": "Pete Crow-Armstrong",
-                                "link": "/api/v1/people/691718"
-                            },
-                            "battingOrder": 8,
-                            "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
-                            }
-                        },
-                        "offense": {
-                            "batter": {
-                                "id": 665877,
-                                "fullName": "José Fermín",
-                                "link": "/api/v1/people/665877"
-                            },
-                            "onDeck": {
-                                "id": 693409,
-                                "fullName": "César Prieto",
-                                "link": "/api/v1/people/693409"
-                            },
-                            "inHole": {
                                 "id": 802139,
                                 "fullName": "JJ Wetherholt",
                                 "link": "/api/v1/people/802139"
                             },
-                            "pitcher": {
-                                "id": 669461,
-                                "fullName": "Matthew Liberatore",
-                                "link": "/api/v1/people/669461"
+                            "third": {
+                                "id": 693409,
+                                "fullName": "César Prieto",
+                                "link": "/api/v1/people/693409"
                             },
-                            "battingOrder": 8,
+                            "shortstop": {
+                                "id": 691026,
+                                "fullName": "Masyn Winn",
+                                "link": "/api/v1/people/691026"
+                            },
+                            "left": {
+                                "id": 665877,
+                                "fullName": "José Fermín",
+                                "link": "/api/v1/people/665877"
+                            },
+                            "center": {
+                                "id": 701675,
+                                "fullName": "Nathan Church",
+                                "link": "/api/v1/people/701675"
+                            },
+                            "right": {
+                                "id": 691023,
+                                "fullName": "Jordan Walker",
+                                "link": "/api/v1/people/691023"
+                            },
+                            "batter": {
+                                "id": 691026,
+                                "fullName": "Masyn Winn",
+                                "link": "/api/v1/people/691026"
+                            },
+                            "onDeck": {
+                                "id": 663494,
+                                "fullName": "Bryan Torres",
+                                "link": "/api/v1/people/663494"
+                            },
+                            "inHole": {
+                                "id": 665877,
+                                "fullName": "José Fermín",
+                                "link": "/api/v1/people/665877"
+                            },
+                            "battingOrder": 6,
                             "team": {
                                 "id": 138,
                                 "name": "St. Louis Cardinals",
                                 "link": "/api/v1/teams/138"
                             }
                         },
-                        "balls": 1,
-                        "strikes": 1,
-                        "outs": 1
+                        "offense": {
+                            "batter": {
+                                "id": 608348,
+                                "fullName": "Carson Kelly",
+                                "link": "/api/v1/people/608348"
+                            },
+                            "onDeck": {
+                                "id": 664023,
+                                "fullName": "Ian Happ",
+                                "link": "/api/v1/people/664023"
+                            },
+                            "inHole": {
+                                "id": 621438,
+                                "fullName": "Tyrone Taylor",
+                                "link": "/api/v1/people/621438"
+                            },
+                            "pitcher": {
+                                "id": 669020,
+                                "fullName": "Ryan Rolison",
+                                "link": "/api/v1/people/669020"
+                            },
+                            "battingOrder": 6,
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            }
+                        },
+                        "balls": 2,
+                        "strikes": 2,
+                        "outs": 3
                     },
                     "venue": {
                         "id": 17,
