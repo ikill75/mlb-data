@@ -579,15 +579,13 @@
                                 "runs": 7,
                                 "hits": 10,
                                 "errors": 0,
-                                "leftOnBase": 4,
-                                "isWinner": true
+                                "leftOnBase": 4
                             },
                             "away": {
                                 "runs": 0,
                                 "hits": 1,
                                 "errors": 0,
-                                "leftOnBase": 2,
-                                "isWinner": false
+                                "leftOnBase": 2
                             }
                         },
                         "defense": {
@@ -737,9 +735,9 @@
                     "officialDate": "2026-08-14",
                     "status": {
                         "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
                         "startTimeTBD": false,
                         "abstractGameCode": "P"
                     },
@@ -784,16 +782,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -890,16 +888,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -996,16 +994,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
