@@ -778,8 +778,8 @@
                         }
                     },
                     "linescore": {
-                        "currentInning": 2,
-                        "currentInningOrdinal": "2nd",
+                        "currentInning": 6,
+                        "currentInningOrdinal": "6th",
                         "inningState": "Top",
                         "inningHalf": "Top",
                         "isTopInning": true,
@@ -805,6 +805,70 @@
                                 "num": 2,
                                 "ordinalNum": "2nd",
                                 "home": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            },
+                            {
+                                "num": 3,
+                                "ordinalNum": "3rd",
+                                "home": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            },
+                            {
+                                "num": 4,
+                                "ordinalNum": "4th",
+                                "home": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            },
+                            {
+                                "num": 5,
+                                "ordinalNum": "5th",
+                                "home": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            },
+                            {
+                                "num": 6,
+                                "ordinalNum": "6th",
+                                "home": {
                                     "hits": 0,
                                     "errors": 0,
                                     "leftOnBase": 0
@@ -819,9 +883,9 @@
                         "teams": {
                             "home": {
                                 "runs": 0,
-                                "hits": 0,
+                                "hits": 1,
                                 "errors": 0,
-                                "leftOnBase": 0
+                                "leftOnBase": 1
                             },
                             "away": {
                                 "runs": 0,
@@ -877,21 +941,21 @@
                                 "link": "/api/v1/people/621438"
                             },
                             "batter": {
-                                "id": 683737,
-                                "fullName": "Michael Busch",
-                                "link": "/api/v1/people/683737"
+                                "id": 621438,
+                                "fullName": "Tyrone Taylor",
+                                "link": "/api/v1/people/621438"
                             },
                             "onDeck": {
-                                "id": 663538,
-                                "fullName": "Nico Hoerner",
-                                "link": "/api/v1/people/663538"
+                                "id": 621020,
+                                "fullName": "Dansby Swanson",
+                                "link": "/api/v1/people/621020"
                             },
                             "inHole": {
-                                "id": 608348,
-                                "fullName": "Carson Kelly",
-                                "link": "/api/v1/people/608348"
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
                             },
-                            "battingOrder": 4,
+                            "battingOrder": 8,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
@@ -900,35 +964,35 @@
                         },
                         "offense": {
                             "batter": {
-                                "id": 691023,
-                                "fullName": "Jordan Walker",
-                                "link": "/api/v1/people/691023"
+                                "id": 665877,
+                                "fullName": "José Fermín",
+                                "link": "/api/v1/people/665877"
                             },
                             "onDeck": {
-                                "id": 701675,
-                                "fullName": "Nathan Church",
-                                "link": "/api/v1/people/701675"
+                                "id": 693409,
+                                "fullName": "César Prieto",
+                                "link": "/api/v1/people/693409"
                             },
                             "inHole": {
-                                "id": 691026,
-                                "fullName": "Masyn Winn",
-                                "link": "/api/v1/people/691026"
+                                "id": 802139,
+                                "fullName": "JJ Wetherholt",
+                                "link": "/api/v1/people/802139"
                             },
                             "pitcher": {
                                 "id": 669461,
                                 "fullName": "Matthew Liberatore",
                                 "link": "/api/v1/people/669461"
                             },
-                            "battingOrder": 4,
+                            "battingOrder": 8,
                             "team": {
                                 "id": 138,
                                 "name": "St. Louis Cardinals",
                                 "link": "/api/v1/teams/138"
                             }
                         },
-                        "balls": 0,
-                        "strikes": 0,
-                        "outs": 0
+                        "balls": 1,
+                        "strikes": 1,
+                        "outs": 1
                     },
                     "venue": {
                         "id": 17,
