@@ -579,13 +579,15 @@
                                 "runs": 7,
                                 "hits": 10,
                                 "errors": 0,
-                                "leftOnBase": 4
+                                "leftOnBase": 4,
+                                "isWinner": true
                             },
                             "away": {
                                 "runs": 0,
                                 "hits": 1,
                                 "errors": 0,
-                                "leftOnBase": 2
+                                "leftOnBase": 2,
+                                "isWinner": false
                             }
                         },
                         "defense": {
@@ -735,9 +737,9 @@
                     "officialDate": "2026-08-14",
                     "status": {
                         "abstractGameState": "Final",
-                        "codedGameState": "O",
-                        "detailedState": "Game Over",
-                        "statusCode": "O",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
                         "startTimeTBD": false,
                         "abstractGameCode": "F"
                     },
@@ -1137,16 +1139,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         }
                     },
