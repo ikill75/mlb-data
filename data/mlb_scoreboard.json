@@ -760,7 +760,7 @@
                                 "ties": 0,
                                 "pct": ".500"
                             },
-                            "score": 6,
+                            "score": 8,
                             "splitSquad": false,
                             "seriesNumber": 41
                         },
@@ -782,8 +782,8 @@
                         }
                     },
                     "linescore": {
-                        "currentInning": 6,
-                        "currentInningOrdinal": "6th",
+                        "currentInning": 8,
+                        "currentInningOrdinal": "8th",
                         "inningState": "Top",
                         "inningHalf": "Top",
                         "isTopInning": true,
@@ -873,12 +873,44 @@
                                 "num": 6,
                                 "ordinalNum": "6th",
                                 "home": {
+                                    "runs": 0,
                                     "hits": 0,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 },
                                 "away": {
-                                    "runs": 2,
+                                    "runs": 3,
+                                    "hits": 2,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            },
+                            {
+                                "num": 7,
+                                "ordinalNum": "7th",
+                                "home": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            },
+                            {
+                                "num": 8,
+                                "ordinalNum": "8th",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "runs": 1,
                                     "hits": 1,
                                     "errors": 0,
                                     "leftOnBase": 0
@@ -888,22 +920,22 @@
                         "teams": {
                             "home": {
                                 "runs": 3,
-                                "hits": 5,
+                                "hits": 6,
                                 "errors": 0,
                                 "leftOnBase": 4
                             },
                             "away": {
-                                "runs": 6,
-                                "hits": 4,
+                                "runs": 8,
+                                "hits": 6,
                                 "errors": 1,
                                 "leftOnBase": 2
                             }
                         },
                         "defense": {
                             "pitcher": {
-                                "id": 571510,
-                                "fullName": "Matthew Boyd",
-                                "link": "/api/v1/people/571510"
+                                "id": 607067,
+                                "fullName": "Colin Rea",
+                                "link": "/api/v1/people/607067"
                             },
                             "catcher": {
                                 "id": 665804,
@@ -946,21 +978,21 @@
                                 "link": "/api/v1/people/673548"
                             },
                             "batter": {
-                                "id": 664023,
-                                "fullName": "Ian Happ",
-                                "link": "/api/v1/people/664023"
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
                             },
                             "onDeck": {
-                                "id": 663538,
-                                "fullName": "Nico Hoerner",
-                                "link": "/api/v1/people/663538"
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
                             },
                             "inHole": {
-                                "id": 699393,
-                                "fullName": "Pedro Ramírez",
-                                "link": "/api/v1/people/699393"
+                                "id": 608324,
+                                "fullName": "Alex Bregman",
+                                "link": "/api/v1/people/608324"
                             },
-                            "battingOrder": 5,
+                            "battingOrder": 2,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
@@ -969,34 +1001,34 @@
                         },
                         "offense": {
                             "batter": {
+                                "id": 695491,
+                                "fullName": "Joshua Báez",
+                                "link": "/api/v1/people/695491"
+                            },
+                            "onDeck": {
                                 "id": 691026,
                                 "fullName": "Masyn Winn",
                                 "link": "/api/v1/people/691026"
                             },
-                            "onDeck": {
+                            "inHole": {
                                 "id": 691458,
                                 "fullName": "Blaze Jordan",
                                 "link": "/api/v1/people/691458"
                             },
-                            "inHole": {
-                                "id": 677592,
-                                "fullName": "Everson Pereira",
-                                "link": "/api/v1/people/677592"
-                            },
                             "pitcher": {
-                                "id": 700241,
-                                "fullName": "Michael McGreevy",
-                                "link": "/api/v1/people/700241"
+                                "id": 677865,
+                                "fullName": "Justin Bruihl",
+                                "link": "/api/v1/people/677865"
                             },
-                            "battingOrder": 6,
+                            "battingOrder": 5,
                             "team": {
                                 "id": 138,
                                 "name": "St. Louis Cardinals",
                                 "link": "/api/v1/teams/138"
                             }
                         },
-                        "balls": 0,
-                        "strikes": 0,
+                        "balls": 1,
+                        "strikes": 1,
                         "outs": 0
                     },
                     "venue": {
@@ -1198,16 +1230,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 145,
+                                "name": "Chicago White Sox",
+                                "link": "/api/v1/teams/145"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 145,
-                                "name": "Chicago White Sox",
-                                "link": "/api/v1/teams/145"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1304,16 +1336,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 145,
+                                "name": "Chicago White Sox",
+                                "link": "/api/v1/teams/145"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 145,
-                                "name": "Chicago White Sox",
-                                "link": "/api/v1/teams/145"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
