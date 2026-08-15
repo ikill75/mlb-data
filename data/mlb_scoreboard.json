@@ -578,15 +578,13 @@
                                 "runs": 3,
                                 "hits": 6,
                                 "errors": 0,
-                                "leftOnBase": 5,
-                                "isWinner": true
+                                "leftOnBase": 5
                             },
                             "away": {
                                 "runs": 0,
                                 "hits": 3,
                                 "errors": 0,
-                                "leftOnBase": 5,
-                                "isWinner": false
+                                "leftOnBase": 5
                             }
                         },
                         "defense": {
@@ -672,11 +670,6 @@
                                 "id": 663494,
                                 "fullName": "Bryan Torres",
                                 "link": "/api/v1/people/663494"
-                            },
-                            "second": {
-                                "id": 676475,
-                                "fullName": "Alec Burleson",
-                                "link": "/api/v1/people/676475"
                             },
                             "pitcher": {
                                 "id": 657265,
@@ -788,16 +781,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
                             }
                         }
                     },
@@ -1000,16 +993,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 145,
+                                "name": "Chicago White Sox",
+                                "link": "/api/v1/teams/145"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 145,
-                                "name": "Chicago White Sox",
-                                "link": "/api/v1/teams/145"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1106,16 +1099,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 145,
+                                "name": "Chicago White Sox",
+                                "link": "/api/v1/teams/145"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 145,
-                                "name": "Chicago White Sox",
-                                "link": "/api/v1/teams/145"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
