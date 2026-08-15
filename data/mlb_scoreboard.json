@@ -760,7 +760,7 @@
                                 "ties": 0,
                                 "pct": ".500"
                             },
-                            "score": 4,
+                            "score": 6,
                             "splitSquad": false,
                             "seriesNumber": 41
                         },
@@ -782,8 +782,8 @@
                         }
                     },
                     "linescore": {
-                        "currentInning": 5,
-                        "currentInningOrdinal": "5th",
+                        "currentInning": 6,
+                        "currentInningOrdinal": "6th",
                         "inningState": "Top",
                         "inningHalf": "Top",
                         "isTopInning": true,
@@ -857,12 +857,29 @@
                                 "num": 5,
                                 "ordinalNum": "5th",
                                 "home": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                }
+                            },
+                            {
+                                "num": 6,
+                                "ordinalNum": "6th",
+                                "home": {
                                     "hits": 0,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 },
                                 "away": {
-                                    "hits": 0,
+                                    "runs": 2,
+                                    "hits": 1,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 }
@@ -873,13 +890,13 @@
                                 "runs": 3,
                                 "hits": 5,
                                 "errors": 0,
-                                "leftOnBase": 3
+                                "leftOnBase": 4
                             },
                             "away": {
-                                "runs": 4,
-                                "hits": 2,
+                                "runs": 6,
+                                "hits": 4,
                                 "errors": 1,
-                                "leftOnBase": 1
+                                "leftOnBase": 2
                             }
                         },
                         "defense": {
@@ -929,21 +946,21 @@
                                 "link": "/api/v1/people/673548"
                             },
                             "batter": {
-                                "id": 691718,
-                                "fullName": "Pete Crow-Armstrong",
-                                "link": "/api/v1/people/691718"
+                                "id": 664023,
+                                "fullName": "Ian Happ",
+                                "link": "/api/v1/people/664023"
                             },
                             "onDeck": {
-                                "id": 673548,
-                                "fullName": "Seiya Suzuki",
-                                "link": "/api/v1/people/673548"
+                                "id": 663538,
+                                "fullName": "Nico Hoerner",
+                                "link": "/api/v1/people/663538"
                             },
                             "inHole": {
-                                "id": 683737,
-                                "fullName": "Michael Busch",
-                                "link": "/api/v1/people/683737"
+                                "id": 699393,
+                                "fullName": "Pedro Ramírez",
+                                "link": "/api/v1/people/699393"
                             },
-                            "battingOrder": 10,
+                            "battingOrder": 5,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
@@ -952,34 +969,34 @@
                         },
                         "offense": {
                             "batter": {
-                                "id": 686780,
-                                "fullName": "Pedro Pagés",
-                                "link": "/api/v1/people/686780"
+                                "id": 691026,
+                                "fullName": "Masyn Winn",
+                                "link": "/api/v1/people/691026"
                             },
                             "onDeck": {
-                                "id": 802139,
-                                "fullName": "JJ Wetherholt",
-                                "link": "/api/v1/people/802139"
+                                "id": 691458,
+                                "fullName": "Blaze Jordan",
+                                "link": "/api/v1/people/691458"
                             },
                             "inHole": {
-                                "id": 671056,
-                                "fullName": "Iván Herrera",
-                                "link": "/api/v1/people/671056"
+                                "id": 677592,
+                                "fullName": "Everson Pereira",
+                                "link": "/api/v1/people/677592"
                             },
                             "pitcher": {
                                 "id": 700241,
                                 "fullName": "Michael McGreevy",
                                 "link": "/api/v1/people/700241"
                             },
-                            "battingOrder": 9,
+                            "battingOrder": 6,
                             "team": {
                                 "id": 138,
                                 "name": "St. Louis Cardinals",
                                 "link": "/api/v1/teams/138"
                             }
                         },
-                        "balls": 1,
-                        "strikes": 1,
+                        "balls": 0,
+                        "strikes": 0,
                         "outs": 0
                     },
                     "venue": {
@@ -1148,10 +1165,10 @@
                                 "link": "/api/v1/teams/145"
                             },
                             "leagueRecord": {
-                                "wins": 63,
+                                "wins": 64,
                                 "losses": 58,
                                 "ties": 0,
-                                "pct": ".521"
+                                "pct": ".525"
                             },
                             "splitSquad": false,
                             "seriesNumber": 41
@@ -1254,10 +1271,10 @@
                                 "link": "/api/v1/teams/145"
                             },
                             "leagueRecord": {
-                                "wins": 63,
+                                "wins": 64,
                                 "losses": 58,
                                 "ties": 0,
-                                "pct": ".521"
+                                "pct": ".525"
                             },
                             "splitSquad": false,
                             "seriesNumber": 41
@@ -1360,10 +1377,10 @@
                                 "link": "/api/v1/teams/145"
                             },
                             "leagueRecord": {
-                                "wins": 63,
+                                "wins": 64,
                                 "losses": 58,
                                 "ties": 0,
-                                "pct": ".521"
+                                "pct": ".525"
                             },
                             "splitSquad": false,
                             "seriesNumber": 41
