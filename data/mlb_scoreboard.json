@@ -761,7 +761,7 @@
                                 "ties": 0,
                                 "pct": ".504"
                             },
-                            "score": 9,
+                            "score": 11,
                             "splitSquad": false,
                             "seriesNumber": 41
                         },
@@ -783,8 +783,8 @@
                         }
                     },
                     "linescore": {
-                        "currentInning": 7,
-                        "currentInningOrdinal": "7th",
+                        "currentInning": 8,
+                        "currentInningOrdinal": "8th",
                         "inningState": "Top",
                         "inningHalf": "Top",
                         "isTopInning": true,
@@ -890,12 +890,29 @@
                                 "num": 7,
                                 "ordinalNum": "7th",
                                 "home": {
+                                    "runs": 0,
                                     "hits": 0,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 },
                                 "away": {
+                                    "runs": 0,
                                     "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            },
+                            {
+                                "num": 8,
+                                "ordinalNum": "8th",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "runs": 2,
+                                    "hits": 2,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 }
@@ -909,17 +926,17 @@
                                 "leftOnBase": 5
                             },
                             "away": {
-                                "runs": 9,
-                                "hits": 10,
+                                "runs": 11,
+                                "hits": 12,
                                 "errors": 0,
                                 "leftOnBase": 5
                             }
                         },
                         "defense": {
                             "pitcher": {
-                                "id": 650644,
-                                "fullName": "Aaron Civale",
-                                "link": "/api/v1/people/650644"
+                                "id": 663423,
+                                "fullName": "Trent Thornton",
+                                "link": "/api/v1/people/663423"
                             },
                             "catcher": {
                                 "id": 665804,
@@ -962,21 +979,21 @@
                                 "link": "/api/v1/people/673548"
                             },
                             "batter": {
-                                "id": 624424,
-                                "fullName": "Michael Conforto",
-                                "link": "/api/v1/people/624424"
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
                             },
                             "onDeck": {
-                                "id": 665804,
-                                "fullName": "Miguel Amaya",
-                                "link": "/api/v1/people/665804"
+                                "id": 608324,
+                                "fullName": "Alex Bregman",
+                                "link": "/api/v1/people/608324"
                             },
                             "inHole": {
-                                "id": 691718,
-                                "fullName": "Pete Crow-Armstrong",
-                                "link": "/api/v1/people/691718"
+                                "id": 664023,
+                                "fullName": "Ian Happ",
+                                "link": "/api/v1/people/664023"
                             },
-                            "battingOrder": 8,
+                            "battingOrder": 2,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
@@ -985,33 +1002,38 @@
                         },
                         "offense": {
                             "batter": {
-                                "id": 699625,
-                                "fullName": "Jimmy Crooks",
-                                "link": "/api/v1/people/699625"
+                                "id": 695491,
+                                "fullName": "Joshua Báez",
+                                "link": "/api/v1/people/695491"
                             },
                             "onDeck": {
-                                "id": 691458,
-                                "fullName": "Blaze Jordan",
-                                "link": "/api/v1/people/691458"
+                                "id": 701675,
+                                "fullName": "Nathan Church",
+                                "link": "/api/v1/people/701675"
                             },
                             "inHole": {
-                                "id": 802139,
-                                "fullName": "JJ Wetherholt",
-                                "link": "/api/v1/people/802139"
+                                "id": 691026,
+                                "fullName": "Masyn Winn",
+                                "link": "/api/v1/people/691026"
+                            },
+                            "second": {
+                                "id": 691023,
+                                "fullName": "Jordan Walker",
+                                "link": "/api/v1/people/691023"
                             },
                             "pitcher": {
                                 "id": 703725,
                                 "fullName": "Luis Gastelum",
                                 "link": "/api/v1/people/703725"
                             },
-                            "battingOrder": 8,
+                            "battingOrder": 5,
                             "team": {
                                 "id": 138,
                                 "name": "St. Louis Cardinals",
                                 "link": "/api/v1/teams/138"
                             }
                         },
-                        "balls": 2,
+                        "balls": 0,
                         "strikes": 2,
                         "outs": 2
                     },
