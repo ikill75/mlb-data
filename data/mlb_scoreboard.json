@@ -3,7 +3,7 @@
     "totalItems": 30,
     "totalEvents": 0,
     "totalGames": 30,
-    "totalGamesInProgress": 1,
+    "totalGamesInProgress": 0,
     "dates": [
         {
             "date": "2026-08-14",
@@ -730,7 +730,7 @@
             "totalItems": 1,
             "totalEvents": 0,
             "totalGames": 1,
-            "totalGamesInProgress": 1,
+            "totalGamesInProgress": 0,
             "games": [
                 {
                     "gamePk": 824642,
@@ -741,12 +741,12 @@
                     "gameDate": "2026-08-16T19:15:00Z",
                     "officialDate": "2026-08-16",
                     "status": {
-                        "abstractGameState": "Live",
-                        "codedGameState": "I",
-                        "detailedState": "In Progress",
-                        "statusCode": "I",
+                        "abstractGameState": "Final",
+                        "codedGameState": "O",
+                        "detailedState": "Game Over",
+                        "statusCode": "O",
                         "startTimeTBD": false,
-                        "abstractGameCode": "L"
+                        "abstractGameCode": "F"
                     },
                     "teams": {
                         "away": {
@@ -756,12 +756,13 @@
                                 "link": "/api/v1/teams/138"
                             },
                             "leagueRecord": {
-                                "wins": 62,
+                                "wins": 63,
                                 "losses": 61,
                                 "ties": 0,
-                                "pct": ".504"
+                                "pct": ".508"
                             },
                             "score": 11,
+                            "isWinner": true,
                             "splitSquad": false,
                             "seriesNumber": 41
                         },
@@ -773,21 +774,22 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
-                            "score": 2,
+                            "score": 4,
+                            "isWinner": false,
                             "splitSquad": false,
                             "seriesNumber": 41
                         }
                     },
                     "linescore": {
-                        "currentInning": 8,
-                        "currentInningOrdinal": "8th",
-                        "inningState": "Top",
-                        "inningHalf": "Top",
-                        "isTopInning": true,
+                        "currentInning": 9,
+                        "currentInningOrdinal": "9th",
+                        "inningState": "Bottom",
+                        "inningHalf": "Bottom",
+                        "isTopInning": false,
                         "scheduledInnings": 9,
                         "innings": [
                             {
@@ -906,78 +908,118 @@
                                 "num": 8,
                                 "ordinalNum": "8th",
                                 "home": {
-                                    "hits": 0,
+                                    "runs": 1,
+                                    "hits": 2,
                                     "errors": 0,
-                                    "leftOnBase": 0
+                                    "leftOnBase": 2
                                 },
                                 "away": {
                                     "runs": 2,
                                     "hits": 2,
                                     "errors": 0,
+                                    "leftOnBase": 1
+                                }
+                            },
+                            {
+                                "num": 9,
+                                "ordinalNum": "9th",
+                                "home": {
+                                    "runs": 1,
+                                    "hits": 1,
+                                    "errors": 0,
                                     "leftOnBase": 0
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 1
                                 }
                             }
                         ],
                         "teams": {
                             "home": {
-                                "runs": 2,
-                                "hits": 3,
+                                "runs": 4,
+                                "hits": 6,
                                 "errors": 0,
-                                "leftOnBase": 5
+                                "leftOnBase": 7
                             },
                             "away": {
                                 "runs": 11,
-                                "hits": 12,
+                                "hits": 13,
                                 "errors": 0,
-                                "leftOnBase": 5
+                                "leftOnBase": 7
                             }
                         },
                         "defense": {
                             "pitcher": {
-                                "id": 663423,
-                                "fullName": "Trent Thornton",
-                                "link": "/api/v1/people/663423"
+                                "id": 657571,
+                                "fullName": "Caleb Ferguson",
+                                "link": "/api/v1/people/657571"
                             },
                             "catcher": {
-                                "id": 665804,
-                                "fullName": "Miguel Amaya",
-                                "link": "/api/v1/people/665804"
+                                "id": 699625,
+                                "fullName": "Jimmy Crooks",
+                                "link": "/api/v1/people/699625"
                             },
                             "first": {
-                                "id": 699393,
-                                "fullName": "Pedro Ramírez",
-                                "link": "/api/v1/people/699393"
+                                "id": 676475,
+                                "fullName": "Alec Burleson",
+                                "link": "/api/v1/people/676475"
                             },
                             "second": {
-                                "id": 701649,
-                                "fullName": "James Triantos",
-                                "link": "/api/v1/people/701649"
+                                "id": 802139,
+                                "fullName": "JJ Wetherholt",
+                                "link": "/api/v1/people/802139"
                             },
                             "third": {
-                                "id": 608324,
-                                "fullName": "Alex Bregman",
-                                "link": "/api/v1/people/608324"
+                                "id": 691458,
+                                "fullName": "Blaze Jordan",
+                                "link": "/api/v1/people/691458"
                             },
                             "shortstop": {
-                                "id": 663538,
-                                "fullName": "Nico Hoerner",
-                                "link": "/api/v1/people/663538"
+                                "id": 691026,
+                                "fullName": "Masyn Winn",
+                                "link": "/api/v1/people/691026"
                             },
                             "left": {
-                                "id": 664023,
-                                "fullName": "Ian Happ",
-                                "link": "/api/v1/people/664023"
+                                "id": 677592,
+                                "fullName": "Everson Pereira",
+                                "link": "/api/v1/people/677592"
                             },
                             "center": {
-                                "id": 691718,
-                                "fullName": "Pete Crow-Armstrong",
-                                "link": "/api/v1/people/691718"
+                                "id": 701675,
+                                "fullName": "Nathan Church",
+                                "link": "/api/v1/people/701675"
                             },
                             "right": {
-                                "id": 673548,
-                                "fullName": "Seiya Suzuki",
-                                "link": "/api/v1/people/673548"
+                                "id": 691023,
+                                "fullName": "Jordan Walker",
+                                "link": "/api/v1/people/691023"
                             },
+                            "batter": {
+                                "id": 802139,
+                                "fullName": "JJ Wetherholt",
+                                "link": "/api/v1/people/802139"
+                            },
+                            "onDeck": {
+                                "id": 671056,
+                                "fullName": "Iván Herrera",
+                                "link": "/api/v1/people/671056"
+                            },
+                            "inHole": {
+                                "id": 676475,
+                                "fullName": "Alec Burleson",
+                                "link": "/api/v1/people/676475"
+                            },
+                            "battingOrder": 10,
+                            "team": {
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
+                            }
+                        },
+                        "offense": {
                             "batter": {
                                 "id": 673548,
                                 "fullName": "Seiya Suzuki",
@@ -989,9 +1031,14 @@
                                 "link": "/api/v1/people/608324"
                             },
                             "inHole": {
-                                "id": 664023,
-                                "fullName": "Ian Happ",
-                                "link": "/api/v1/people/664023"
+                                "id": 621438,
+                                "fullName": "Tyrone Taylor",
+                                "link": "/api/v1/people/621438"
+                            },
+                            "pitcher": {
+                                "id": 608348,
+                                "fullName": "Carson Kelly",
+                                "link": "/api/v1/people/608348"
                             },
                             "battingOrder": 2,
                             "team": {
@@ -1000,42 +1047,9 @@
                                 "link": "/api/v1/teams/112"
                             }
                         },
-                        "offense": {
-                            "batter": {
-                                "id": 695491,
-                                "fullName": "Joshua Báez",
-                                "link": "/api/v1/people/695491"
-                            },
-                            "onDeck": {
-                                "id": 701675,
-                                "fullName": "Nathan Church",
-                                "link": "/api/v1/people/701675"
-                            },
-                            "inHole": {
-                                "id": 691026,
-                                "fullName": "Masyn Winn",
-                                "link": "/api/v1/people/691026"
-                            },
-                            "second": {
-                                "id": 691023,
-                                "fullName": "Jordan Walker",
-                                "link": "/api/v1/people/691023"
-                            },
-                            "pitcher": {
-                                "id": 703725,
-                                "fullName": "Luis Gastelum",
-                                "link": "/api/v1/people/703725"
-                            },
-                            "battingOrder": 5,
-                            "team": {
-                                "id": 138,
-                                "name": "St. Louis Cardinals",
-                                "link": "/api/v1/teams/138"
-                            }
-                        },
-                        "balls": 0,
-                        "strikes": 2,
-                        "outs": 2
+                        "balls": 1,
+                        "strikes": 1,
+                        "outs": 3
                     },
                     "venue": {
                         "id": 17,
@@ -1045,6 +1059,7 @@
                     "content": {
                         "link": "/api/v1/game/824642/content"
                     },
+                    "isTie": false,
                     "gameNumber": 1,
                     "publicFacing": true,
                     "doubleHeader": "N",
@@ -1113,9 +1128,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 42
@@ -1219,9 +1234,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 42
@@ -1325,9 +1340,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 42
@@ -1416,9 +1431,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 43
@@ -1522,9 +1537,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 43
@@ -1628,9 +1643,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 43
@@ -1734,9 +1749,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 44
@@ -1840,9 +1855,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 44
@@ -1946,9 +1961,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 44
@@ -2067,9 +2082,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 45
@@ -2173,9 +2188,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 45
@@ -2279,9 +2294,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 45
@@ -2385,9 +2400,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 46
@@ -2491,9 +2506,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 46
@@ -2597,9 +2612,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 46
@@ -2703,9 +2718,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 46
@@ -2794,9 +2809,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 47
@@ -2900,9 +2915,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 47
@@ -3006,9 +3021,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 47
@@ -3112,9 +3127,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 48
@@ -3218,9 +3233,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 48
@@ -3324,9 +3339,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 48
@@ -3445,9 +3460,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 49
@@ -3551,9 +3566,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 49
@@ -3657,9 +3672,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 49
@@ -3763,9 +3778,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 50
@@ -3869,9 +3884,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 72,
-                                "losses": 52,
+                                "losses": 53,
                                 "ties": 0,
-                                "pct": ".581"
+                                "pct": ".576"
                             },
                             "splitSquad": false,
                             "seriesNumber": 50
