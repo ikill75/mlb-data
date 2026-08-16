@@ -783,8 +783,8 @@
                         }
                     },
                     "linescore": {
-                        "currentInning": 6,
-                        "currentInningOrdinal": "6th",
+                        "currentInning": 7,
+                        "currentInningOrdinal": "7th",
                         "inningState": "Top",
                         "inningHalf": "Top",
                         "isTopInning": true,
@@ -874,6 +874,22 @@
                                 "num": 6,
                                 "ordinalNum": "6th",
                                 "home": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 2
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 2,
+                                    "errors": 0,
+                                    "leftOnBase": 3
+                                }
+                            },
+                            {
+                                "num": 7,
+                                "ordinalNum": "7th",
+                                "home": {
                                     "hits": 0,
                                     "errors": 0,
                                     "leftOnBase": 0
@@ -888,15 +904,15 @@
                         "teams": {
                             "home": {
                                 "runs": 2,
-                                "hits": 2,
+                                "hits": 3,
                                 "errors": 0,
-                                "leftOnBase": 3
+                                "leftOnBase": 5
                             },
                             "away": {
                                 "runs": 9,
-                                "hits": 8,
+                                "hits": 10,
                                 "errors": 0,
-                                "leftOnBase": 2
+                                "leftOnBase": 5
                             }
                         },
                         "defense": {
@@ -946,21 +962,21 @@
                                 "link": "/api/v1/people/673548"
                             },
                             "batter": {
-                                "id": 608324,
-                                "fullName": "Alex Bregman",
-                                "link": "/api/v1/people/608324"
+                                "id": 624424,
+                                "fullName": "Michael Conforto",
+                                "link": "/api/v1/people/624424"
                             },
                             "onDeck": {
-                                "id": 664023,
-                                "fullName": "Ian Happ",
-                                "link": "/api/v1/people/664023"
+                                "id": 665804,
+                                "fullName": "Miguel Amaya",
+                                "link": "/api/v1/people/665804"
                             },
                             "inHole": {
-                                "id": 663538,
-                                "fullName": "Nico Hoerner",
-                                "link": "/api/v1/people/663538"
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
                             },
-                            "battingOrder": 3,
+                            "battingOrder": 8,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
@@ -969,35 +985,35 @@
                         },
                         "offense": {
                             "batter": {
+                                "id": 699625,
+                                "fullName": "Jimmy Crooks",
+                                "link": "/api/v1/people/699625"
+                            },
+                            "onDeck": {
                                 "id": 691458,
                                 "fullName": "Blaze Jordan",
                                 "link": "/api/v1/people/691458"
                             },
-                            "onDeck": {
+                            "inHole": {
                                 "id": 802139,
                                 "fullName": "JJ Wetherholt",
                                 "link": "/api/v1/people/802139"
                             },
-                            "inHole": {
-                                "id": 671056,
-                                "fullName": "Iván Herrera",
-                                "link": "/api/v1/people/671056"
-                            },
                             "pitcher": {
-                                "id": 690928,
-                                "fullName": "Hunter Dobbins",
-                                "link": "/api/v1/people/690928"
+                                "id": 703725,
+                                "fullName": "Luis Gastelum",
+                                "link": "/api/v1/people/703725"
                             },
-                            "battingOrder": 9,
+                            "battingOrder": 8,
                             "team": {
                                 "id": 138,
                                 "name": "St. Louis Cardinals",
                                 "link": "/api/v1/teams/138"
                             }
                         },
-                        "balls": 0,
-                        "strikes": 0,
-                        "outs": 0
+                        "balls": 2,
+                        "strikes": 2,
+                        "outs": 2
                     },
                     "venue": {
                         "id": 17,
