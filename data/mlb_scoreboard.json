@@ -742,9 +742,9 @@
                     "officialDate": "2026-08-16",
                     "status": {
                         "abstractGameState": "Final",
-                        "codedGameState": "O",
-                        "detailedState": "Game Over",
-                        "statusCode": "O",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
                         "startTimeTBD": false,
                         "abstractGameCode": "F"
                     },
@@ -3444,10 +3444,10 @@
                                 "link": "/api/v1/teams/134"
                             },
                             "leagueRecord": {
-                                "wins": 60,
+                                "wins": 61,
                                 "losses": 65,
                                 "ties": 0,
-                                "pct": ".480"
+                                "pct": ".484"
                             },
                             "splitSquad": false,
                             "seriesNumber": 48
@@ -3550,10 +3550,10 @@
                                 "link": "/api/v1/teams/134"
                             },
                             "leagueRecord": {
-                                "wins": 60,
+                                "wins": 61,
                                 "losses": 65,
                                 "ties": 0,
-                                "pct": ".480"
+                                "pct": ".484"
                             },
                             "splitSquad": false,
                             "seriesNumber": 48
@@ -3656,10 +3656,10 @@
                                 "link": "/api/v1/teams/134"
                             },
                             "leagueRecord": {
-                                "wins": 60,
+                                "wins": 61,
                                 "losses": 65,
                                 "ties": 0,
-                                "pct": ".480"
+                                "pct": ".484"
                             },
                             "splitSquad": false,
                             "seriesNumber": 48
