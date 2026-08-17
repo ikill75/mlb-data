@@ -222,15 +222,13 @@
                                 "runs": 4,
                                 "hits": 8,
                                 "errors": 0,
-                                "leftOnBase": 4,
-                                "isWinner": false
+                                "leftOnBase": 4
                             },
                             "away": {
                                 "runs": 8,
                                 "hits": 7,
                                 "errors": 1,
-                                "leftOnBase": 3,
-                                "isWinner": true
+                                "leftOnBase": 3
                             }
                         },
                         "defense": {
@@ -736,9 +734,9 @@
                     "officialDate": "2026-08-17",
                     "status": {
                         "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
                         "startTimeTBD": false,
                         "abstractGameCode": "P"
                     },
@@ -1705,9 +1703,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 59,
-                                "losses": 64,
+                                "losses": 65,
                                 "ties": 0,
-                                "pct": ".480"
+                                "pct": ".476"
                             },
                             "splitSquad": false,
                             "seriesNumber": 44
@@ -1811,9 +1809,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 59,
-                                "losses": 64,
+                                "losses": 65,
                                 "ties": 0,
-                                "pct": ".480"
+                                "pct": ".476"
                             },
                             "splitSquad": false,
                             "seriesNumber": 44
@@ -1917,9 +1915,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 59,
-                                "losses": 64,
+                                "losses": 65,
                                 "ties": 0,
-                                "pct": ".480"
+                                "pct": ".476"
                             },
                             "splitSquad": false,
                             "seriesNumber": 44
