@@ -222,15 +222,13 @@
                                 "runs": 4,
                                 "hits": 6,
                                 "errors": 0,
-                                "leftOnBase": 7,
-                                "isWinner": false
+                                "leftOnBase": 7
                             },
                             "away": {
                                 "runs": 11,
                                 "hits": 13,
                                 "errors": 0,
-                                "leftOnBase": 7,
-                                "isWinner": true
+                                "leftOnBase": 7
                             }
                         },
                         "defense": {
@@ -294,7 +292,7 @@
                                 "fullName": "Alec Burleson",
                                 "link": "/api/v1/people/676475"
                             },
-                            "battingOrder": 1,
+                            "battingOrder": 10,
                             "team": {
                                 "id": 138,
                                 "name": "St. Louis Cardinals",
@@ -597,15 +595,13 @@
                                 "runs": 7,
                                 "hits": 14,
                                 "errors": 0,
-                                "leftOnBase": 13,
-                                "isWinner": true
+                                "leftOnBase": 13
                             },
                             "away": {
                                 "runs": 5,
                                 "hits": 4,
                                 "errors": 2,
-                                "leftOnBase": 8,
-                                "isWinner": false
+                                "leftOnBase": 8
                             }
                         },
                         "defense": {
@@ -802,16 +798,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 145,
+                                "name": "Chicago White Sox",
+                                "link": "/api/v1/teams/145"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 145,
-                                "name": "Chicago White Sox",
-                                "link": "/api/v1/teams/145"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
