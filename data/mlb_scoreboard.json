@@ -803,8 +803,8 @@
                         }
                     },
                     "linescore": {
-                        "currentInning": 3,
-                        "currentInningOrdinal": "3rd",
+                        "currentInning": 5,
+                        "currentInningOrdinal": "5th",
                         "inningState": "Top",
                         "inningHalf": "Top",
                         "isTopInning": true,
@@ -846,12 +846,44 @@
                                 "num": 3,
                                 "ordinalNum": "3rd",
                                 "home": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 2
+                                }
+                            },
+                            {
+                                "num": 4,
+                                "ordinalNum": "4th",
+                                "home": {
+                                    "runs": 0,
                                     "hits": 0,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 },
                                 "away": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            },
+                            {
+                                "num": 5,
+                                "ordinalNum": "5th",
+                                "home": {
                                     "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 1,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 }
@@ -860,15 +892,15 @@
                         "teams": {
                             "home": {
                                 "runs": 0,
-                                "hits": 0,
-                                "errors": 0,
-                                "leftOnBase": 1
-                            },
-                            "away": {
-                                "runs": 0,
                                 "hits": 1,
                                 "errors": 0,
                                 "leftOnBase": 2
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 4,
+                                "errors": 0,
+                                "leftOnBase": 4
                             }
                         },
                         "defense": {
@@ -918,21 +950,21 @@
                                 "link": "/api/v1/people/673548"
                             },
                             "batter": {
+                                "id": 699393,
+                                "fullName": "Pedro Ramírez",
+                                "link": "/api/v1/people/699393"
+                            },
+                            "onDeck": {
+                                "id": 608348,
+                                "fullName": "Carson Kelly",
+                                "link": "/api/v1/people/608348"
+                            },
+                            "inHole": {
                                 "id": 664023,
                                 "fullName": "Ian Happ",
                                 "link": "/api/v1/people/664023"
                             },
-                            "onDeck": {
-                                "id": 621438,
-                                "fullName": "Tyrone Taylor",
-                                "link": "/api/v1/people/621438"
-                            },
-                            "inHole": {
-                                "id": 691718,
-                                "fullName": "Pete Crow-Armstrong",
-                                "link": "/api/v1/people/691718"
-                            },
-                            "battingOrder": 8,
+                            "battingOrder": 6,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
@@ -941,35 +973,40 @@
                         },
                         "offense": {
                             "batter": {
-                                "id": 803011,
-                                "fullName": "Sam Antonacci",
-                                "link": "/api/v1/people/803011"
-                            },
-                            "onDeck": {
                                 "id": 808959,
                                 "fullName": "Munetaka Murakami",
                                 "link": "/api/v1/people/808959"
                             },
-                            "inHole": {
+                            "onDeck": {
                                 "id": 678246,
                                 "fullName": "Miguel Vargas",
                                 "link": "/api/v1/people/678246"
                             },
-                            "pitcher": {
-                                "id": 656794,
-                                "fullName": "Sean Newcomb",
-                                "link": "/api/v1/people/656794"
+                            "inHole": {
+                                "id": 643217,
+                                "fullName": "Andrew Benintendi",
+                                "link": "/api/v1/people/643217"
                             },
-                            "battingOrder": 1,
+                            "first": {
+                                "id": 803011,
+                                "fullName": "Sam Antonacci",
+                                "link": "/api/v1/people/803011"
+                            },
+                            "pitcher": {
+                                "id": 664353,
+                                "fullName": "José Urquidy",
+                                "link": "/api/v1/people/664353"
+                            },
+                            "battingOrder": 2,
                             "team": {
                                 "id": 145,
                                 "name": "Chicago White Sox",
                                 "link": "/api/v1/teams/145"
                             }
                         },
-                        "balls": 1,
-                        "strikes": 0,
-                        "outs": 1
+                        "balls": 3,
+                        "strikes": 1,
+                        "outs": 2
                     },
                     "venue": {
                         "id": 17,
