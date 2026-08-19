@@ -781,7 +781,7 @@
                                 "ties": 0,
                                 "pct": ".520"
                             },
-                            "score": 1,
+                            "score": 3,
                             "splitSquad": false,
                             "seriesNumber": 41
                         },
@@ -803,11 +803,11 @@
                         }
                     },
                     "linescore": {
-                        "currentInning": 6,
-                        "currentInningOrdinal": "6th",
-                        "inningState": "Bottom",
-                        "inningHalf": "Bottom",
-                        "isTopInning": false,
+                        "currentInning": 9,
+                        "currentInningOrdinal": "9th",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
                         "innings": [
                             {
@@ -894,6 +894,7 @@
                                 "num": 6,
                                 "ordinalNum": "6th",
                                 "home": {
+                                    "runs": 0,
                                     "hits": 1,
                                     "errors": 0,
                                     "leftOnBase": 0
@@ -901,6 +902,52 @@
                                 "away": {
                                     "runs": 1,
                                     "hits": 2,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            },
+                            {
+                                "num": 7,
+                                "ordinalNum": "7th",
+                                "home": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                }
+                            },
+                            {
+                                "num": 8,
+                                "ordinalNum": "8th",
+                                "home": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "runs": 2,
+                                    "hits": 2,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                }
+                            },
+                            {
+                                "num": 9,
+                                "ordinalNum": "9th",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 }
@@ -914,111 +961,111 @@
                                 "leftOnBase": 2
                             },
                             "away": {
-                                "runs": 1,
-                                "hits": 6,
+                                "runs": 3,
+                                "hits": 9,
                                 "errors": 0,
-                                "leftOnBase": 5
+                                "leftOnBase": 7
                             }
                         },
                         "defense": {
                             "pitcher": {
-                                "id": 664353,
-                                "fullName": "José Urquidy",
-                                "link": "/api/v1/people/664353"
+                                "id": 650644,
+                                "fullName": "Aaron Civale",
+                                "link": "/api/v1/people/650644"
                             },
                             "catcher": {
-                                "id": 668670,
-                                "fullName": "Jake Rogers",
-                                "link": "/api/v1/people/668670"
+                                "id": 608348,
+                                "fullName": "Carson Kelly",
+                                "link": "/api/v1/people/608348"
                             },
                             "first": {
-                                "id": 808959,
-                                "fullName": "Munetaka Murakami",
-                                "link": "/api/v1/people/808959"
-                            },
-                            "second": {
-                                "id": 805367,
-                                "fullName": "Chase Meidroth",
-                                "link": "/api/v1/people/805367"
-                            },
-                            "third": {
-                                "id": 678246,
-                                "fullName": "Miguel Vargas",
-                                "link": "/api/v1/people/678246"
-                            },
-                            "shortstop": {
-                                "id": 695657,
-                                "fullName": "Colson Montgomery",
-                                "link": "/api/v1/people/695657"
-                            },
-                            "left": {
-                                "id": 803011,
-                                "fullName": "Sam Antonacci",
-                                "link": "/api/v1/people/803011"
-                            },
-                            "center": {
-                                "id": 671976,
-                                "fullName": "Tristan Peters",
-                                "link": "/api/v1/people/671976"
-                            },
-                            "right": {
-                                "id": 695731,
-                                "fullName": "Braden Montgomery",
-                                "link": "/api/v1/people/695731"
-                            },
-                            "batter": {
-                                "id": 805367,
-                                "fullName": "Chase Meidroth",
-                                "link": "/api/v1/people/805367"
-                            },
-                            "onDeck": {
-                                "id": 671976,
-                                "fullName": "Tristan Peters",
-                                "link": "/api/v1/people/671976"
-                            },
-                            "inHole": {
-                                "id": 668670,
-                                "fullName": "Jake Rogers",
-                                "link": "/api/v1/people/668670"
-                            },
-                            "battingOrder": 7,
-                            "team": {
-                                "id": 145,
-                                "name": "Chicago White Sox",
-                                "link": "/api/v1/teams/145"
-                            }
-                        },
-                        "offense": {
-                            "batter": {
-                                "id": 673548,
-                                "fullName": "Seiya Suzuki",
-                                "link": "/api/v1/people/673548"
-                            },
-                            "onDeck": {
-                                "id": 608324,
-                                "fullName": "Alex Bregman",
-                                "link": "/api/v1/people/608324"
-                            },
-                            "inHole": {
                                 "id": 683737,
                                 "fullName": "Michael Busch",
                                 "link": "/api/v1/people/683737"
                             },
-                            "pitcher": {
-                                "id": 573204,
-                                "fullName": "Caleb Thielbar",
-                                "link": "/api/v1/people/573204"
+                            "second": {
+                                "id": 699393,
+                                "fullName": "Pedro Ramírez",
+                                "link": "/api/v1/people/699393"
                             },
-                            "battingOrder": 2,
+                            "third": {
+                                "id": 608324,
+                                "fullName": "Alex Bregman",
+                                "link": "/api/v1/people/608324"
+                            },
+                            "shortstop": {
+                                "id": 663538,
+                                "fullName": "Nico Hoerner",
+                                "link": "/api/v1/people/663538"
+                            },
+                            "left": {
+                                "id": 664023,
+                                "fullName": "Ian Happ",
+                                "link": "/api/v1/people/664023"
+                            },
+                            "center": {
+                                "id": 621438,
+                                "fullName": "Tyrone Taylor",
+                                "link": "/api/v1/people/621438"
+                            },
+                            "right": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "batter": {
+                                "id": 621438,
+                                "fullName": "Tyrone Taylor",
+                                "link": "/api/v1/people/621438"
+                            },
+                            "onDeck": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "inHole": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "battingOrder": 9,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
                         },
+                        "offense": {
+                            "batter": {
+                                "id": 671976,
+                                "fullName": "Tristan Peters",
+                                "link": "/api/v1/people/671976"
+                            },
+                            "onDeck": {
+                                "id": 668670,
+                                "fullName": "Jake Rogers",
+                                "link": "/api/v1/people/668670"
+                            },
+                            "inHole": {
+                                "id": 803011,
+                                "fullName": "Sam Antonacci",
+                                "link": "/api/v1/people/803011"
+                            },
+                            "pitcher": {
+                                "id": 664353,
+                                "fullName": "José Urquidy",
+                                "link": "/api/v1/people/664353"
+                            },
+                            "battingOrder": 8,
+                            "team": {
+                                "id": 145,
+                                "name": "Chicago White Sox",
+                                "link": "/api/v1/teams/145"
+                            }
+                        },
                         "balls": 0,
                         "strikes": 0,
-                        "outs": 2
+                        "outs": 0
                     },
                     "venue": {
                         "id": 17,
