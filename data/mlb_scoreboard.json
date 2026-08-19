@@ -598,13 +598,15 @@
                                 "runs": 4,
                                 "hits": 8,
                                 "errors": 1,
-                                "leftOnBase": 9
+                                "leftOnBase": 9,
+                                "isWinner": true
                             },
                             "away": {
                                 "runs": 3,
                                 "hits": 10,
                                 "errors": 0,
-                                "leftOnBase": 8
+                                "leftOnBase": 8,
+                                "isWinner": false
                             }
                         },
                         "defense": {
@@ -1167,16 +1169,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 136,
-                                "name": "Seattle Mariners",
-                                "link": "/api/v1/teams/136"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 136,
+                                "name": "Seattle Mariners",
+                                "link": "/api/v1/teams/136"
                             }
                         }
                     },
@@ -1379,16 +1381,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 136,
-                                "name": "Seattle Mariners",
-                                "link": "/api/v1/teams/136"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 136,
+                                "name": "Seattle Mariners",
+                                "link": "/api/v1/teams/136"
                             }
                         }
                     },
@@ -1467,10 +1469,10 @@
                                 "link": "/api/v1/teams/109"
                             },
                             "leagueRecord": {
-                                "wins": 66,
+                                "wins": 67,
                                 "losses": 61,
                                 "ties": 0,
-                                "pct": ".520"
+                                "pct": ".523"
                             },
                             "splitSquad": false,
                             "seriesNumber": 44
@@ -1573,10 +1575,10 @@
                                 "link": "/api/v1/teams/109"
                             },
                             "leagueRecord": {
-                                "wins": 66,
+                                "wins": 67,
                                 "losses": 61,
                                 "ties": 0,
-                                "pct": ".520"
+                                "pct": ".523"
                             },
                             "splitSquad": false,
                             "seriesNumber": 44
@@ -1679,10 +1681,10 @@
                                 "link": "/api/v1/teams/109"
                             },
                             "leagueRecord": {
-                                "wins": 66,
+                                "wins": 67,
                                 "losses": 61,
                                 "ties": 0,
-                                "pct": ".520"
+                                "pct": ".523"
                             },
                             "splitSquad": false,
                             "seriesNumber": 44
