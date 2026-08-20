@@ -223,13 +223,15 @@
                                 "runs": 4,
                                 "hits": 8,
                                 "errors": 1,
-                                "leftOnBase": 9
+                                "leftOnBase": 9,
+                                "isWinner": true
                             },
                             "away": {
                                 "runs": 3,
                                 "hits": 10,
                                 "errors": 0,
-                                "leftOnBase": 8
+                                "leftOnBase": 8,
+                                "isWinner": false
                             }
                         },
                         "defense": {
@@ -1640,16 +1642,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 113,
-                                "name": "Cincinnati Reds",
-                                "link": "/api/v1/teams/113"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1671,7 +1673,7 @@
                     "dayNight": "night",
                     "scheduledInnings": 9,
                     "reverseHomeAwayStatus": false,
-                    "inningBreakLength": 120,
+                    "inningBreakLength": 145,
                     "gamesInSeries": 3,
                     "seriesGameNumber": 3,
                     "seriesDescription": "Regular Season",
