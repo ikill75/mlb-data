@@ -404,6 +404,7 @@
                                 "ties": 0,
                                 "pct": ".578"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 43
                         },
@@ -419,31 +420,147 @@
                                 "ties": 0,
                                 "pct": ".469"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 42
                         }
                     },
                     "linescore": {
+                        "currentInning": 1,
+                        "currentInningOrdinal": "1st",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
-                        "innings": [],
+                        "innings": [
+                            {
+                                "num": 1,
+                                "ordinalNum": "1st",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            }
+                        ],
                         "teams": {
-                            "home": {},
-                            "away": {}
+                            "home": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            }
                         },
                         "defense": {
+                            "pitcher": {
+                                "id": 676106,
+                                "fullName": "Emerson Hancock",
+                                "link": "/api/v1/people/676106"
+                            },
+                            "catcher": {
+                                "id": 663728,
+                                "fullName": "Cal Raleigh",
+                                "link": "/api/v1/people/663728"
+                            },
+                            "first": {
+                                "id": 647304,
+                                "fullName": "Josh Naylor",
+                                "link": "/api/v1/people/647304"
+                            },
+                            "second": {
+                                "id": 702284,
+                                "fullName": "Cole Young",
+                                "link": "/api/v1/people/702284"
+                            },
+                            "third": {
+                                "id": 680977,
+                                "fullName": "Brendan Donovan",
+                                "link": "/api/v1/people/680977"
+                            },
+                            "shortstop": {
+                                "id": 801126,
+                                "fullName": "Brock Rodden",
+                                "link": "/api/v1/people/801126"
+                            },
+                            "left": {
+                                "id": 668227,
+                                "fullName": "Randy Arozarena",
+                                "link": "/api/v1/people/668227"
+                            },
+                            "center": {
+                                "id": 677594,
+                                "fullName": "Julio Rodríguez",
+                                "link": "/api/v1/people/677594"
+                            },
+                            "right": {
+                                "id": 686527,
+                                "fullName": "Dominic Canzone",
+                                "link": "/api/v1/people/686527"
+                            },
+                            "batter": {
+                                "id": 680977,
+                                "fullName": "Brendan Donovan",
+                                "link": "/api/v1/people/680977"
+                            },
+                            "onDeck": {
+                                "id": 668227,
+                                "fullName": "Randy Arozarena",
+                                "link": "/api/v1/people/668227"
+                            },
+                            "inHole": {
+                                "id": 686527,
+                                "fullName": "Dominic Canzone",
+                                "link": "/api/v1/people/686527"
+                            },
+                            "battingOrder": 1,
+                            "team": {
+                                "id": 136,
+                                "name": "Seattle Mariners",
+                                "link": "/api/v1/teams/136"
+                            }
+                        },
+                        "offense": {
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "inHole": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "pitcher": {
+                                "id": 571510,
+                                "fullName": "Matthew Boyd",
+                                "link": "/api/v1/people/571510"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
                         },
-                        "offense": {
-                            "team": {
-                                "id": 136,
-                                "name": "Seattle Mariners",
-                                "link": "/api/v1/teams/136"
-                            }
-                        }
+                        "balls": 0,
+                        "strikes": 0,
+                        "outs": 0
                     },
                     "venue": {
                         "id": 680,
