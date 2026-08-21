@@ -222,13 +222,15 @@
                                 "runs": 0,
                                 "hits": 2,
                                 "errors": 0,
-                                "leftOnBase": 3
+                                "leftOnBase": 3,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 3,
                                 "hits": 9,
                                 "errors": 0,
-                                "leftOnBase": 10
+                                "leftOnBase": 10,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -314,6 +316,11 @@
                                 "id": 663538,
                                 "fullName": "Nico Hoerner",
                                 "link": "/api/v1/people/663538"
+                            },
+                            "second": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
                             },
                             "pitcher": {
                                 "id": 650644,
