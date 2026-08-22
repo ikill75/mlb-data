@@ -239,13 +239,15 @@
                                 "runs": 6,
                                 "hits": 8,
                                 "errors": 2,
-                                "leftOnBase": 8
+                                "leftOnBase": 8,
+                                "isWinner": true
                             },
                             "away": {
                                 "runs": 5,
                                 "hits": 12,
                                 "errors": 1,
-                                "leftOnBase": 11
+                                "leftOnBase": 11,
+                                "isWinner": false
                             }
                         },
                         "defense": {
@@ -309,7 +311,7 @@
                                 "fullName": "Michael Busch",
                                 "link": "/api/v1/people/683737"
                             },
-                            "battingOrder": 10,
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
@@ -446,11 +448,11 @@
                         }
                     },
                     "linescore": {
-                        "currentInning": 1,
-                        "currentInningOrdinal": "1st",
-                        "inningState": "End",
-                        "inningHalf": "Bottom",
-                        "isTopInning": false,
+                        "currentInning": 3,
+                        "currentInningOrdinal": "3rd",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
                         "innings": [
                             {
@@ -468,20 +470,50 @@
                                     "errors": 0,
                                     "leftOnBase": 0
                                 }
+                            },
+                            {
+                                "num": 2,
+                                "ordinalNum": "2nd",
+                                "home": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                }
+                            },
+                            {
+                                "num": 3,
+                                "ordinalNum": "3rd",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
                             }
                         ],
                         "teams": {
                             "home": {
                                 "runs": 1,
-                                "hits": 1,
+                                "hits": 2,
                                 "errors": 0,
-                                "leftOnBase": 0
+                                "leftOnBase": 1
                             },
                             "away": {
                                 "runs": 0,
                                 "hits": 0,
                                 "errors": 0,
-                                "leftOnBase": 0
+                                "leftOnBase": 1
                             }
                         },
                         "defense": {
@@ -531,21 +563,21 @@
                                 "link": "/api/v1/people/686527"
                             },
                             "batter": {
-                                "id": 621493,
-                                "fullName": "Taylor Ward",
-                                "link": "/api/v1/people/621493"
+                                "id": 660844,
+                                "fullName": "Leo Rivas",
+                                "link": "/api/v1/people/660844"
                             },
                             "onDeck": {
-                                "id": 663728,
-                                "fullName": "Cal Raleigh",
-                                "link": "/api/v1/people/663728"
+                                "id": 668227,
+                                "fullName": "Randy Arozarena",
+                                "link": "/api/v1/people/668227"
                             },
                             "inHole": {
-                                "id": 702284,
-                                "fullName": "Cole Young",
-                                "link": "/api/v1/people/702284"
+                                "id": 686527,
+                                "fullName": "Dominic Canzone",
+                                "link": "/api/v1/people/686527"
                             },
-                            "battingOrder": 5,
+                            "battingOrder": 9,
                             "team": {
                                 "id": 136,
                                 "name": "Seattle Mariners",
@@ -554,26 +586,26 @@
                         },
                         "offense": {
                             "batter": {
-                                "id": 683737,
-                                "fullName": "Michael Busch",
-                                "link": "/api/v1/people/683737"
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
                             },
                             "onDeck": {
-                                "id": 663538,
-                                "fullName": "Nico Hoerner",
-                                "link": "/api/v1/people/663538"
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
                             },
                             "inHole": {
-                                "id": 621438,
-                                "fullName": "Tyrone Taylor",
-                                "link": "/api/v1/people/621438"
+                                "id": 608324,
+                                "fullName": "Alex Bregman",
+                                "link": "/api/v1/people/608324"
                             },
                             "pitcher": {
                                 "id": 656849,
                                 "fullName": "David Peterson",
                                 "link": "/api/v1/people/656849"
                             },
-                            "battingOrder": 4,
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
@@ -581,8 +613,8 @@
                             }
                         },
                         "balls": 1,
-                        "strikes": 3,
-                        "outs": 3
+                        "strikes": 0,
+                        "outs": 2
                     },
                     "venue": {
                         "id": 680,
