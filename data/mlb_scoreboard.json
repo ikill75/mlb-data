@@ -781,7 +781,7 @@
                                 "ties": 0,
                                 "pct": ".569"
                             },
-                            "score": 6,
+                            "score": 7,
                             "splitSquad": false,
                             "seriesNumber": 43
                         },
@@ -803,11 +803,11 @@
                         }
                     },
                     "linescore": {
-                        "currentInning": 5,
-                        "currentInningOrdinal": "5th",
-                        "inningState": "Top",
-                        "inningHalf": "Top",
-                        "isTopInning": true,
+                        "currentInning": 6,
+                        "currentInningOrdinal": "6th",
+                        "inningState": "End",
+                        "inningHalf": "Bottom",
+                        "isTopInning": false,
                         "scheduledInnings": 9,
                         "innings": [
                             {
@@ -878,6 +878,7 @@
                                 "num": 5,
                                 "ordinalNum": "5th",
                                 "home": {
+                                    "runs": 0,
                                     "hits": 0,
                                     "errors": 0,
                                     "leftOnBase": 0
@@ -886,29 +887,45 @@
                                     "runs": 1,
                                     "hits": 0,
                                     "errors": 0,
-                                    "leftOnBase": 0
+                                    "leftOnBase": 2
+                                }
+                            },
+                            {
+                                "num": 6,
+                                "ordinalNum": "6th",
+                                "home": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                },
+                                "away": {
+                                    "runs": 1,
+                                    "hits": 3,
+                                    "errors": 0,
+                                    "leftOnBase": 1
                                 }
                             }
                         ],
                         "teams": {
                             "home": {
                                 "runs": 2,
-                                "hits": 5,
+                                "hits": 6,
                                 "errors": 0,
-                                "leftOnBase": 6
+                                "leftOnBase": 7
                             },
                             "away": {
-                                "runs": 6,
-                                "hits": 2,
+                                "runs": 7,
+                                "hits": 5,
                                 "errors": 1,
-                                "leftOnBase": 1
+                                "leftOnBase": 4
                             }
                         },
                         "defense": {
                             "pitcher": {
-                                "id": 682243,
-                                "fullName": "Bryce Miller",
-                                "link": "/api/v1/people/682243"
+                                "id": 678606,
+                                "fullName": "José A. Ferrer",
+                                "link": "/api/v1/people/678606"
                             },
                             "catcher": {
                                 "id": 663728,
@@ -951,21 +968,21 @@
                                 "link": "/api/v1/people/645302"
                             },
                             "batter": {
+                                "id": 668227,
+                                "fullName": "Randy Arozarena",
+                                "link": "/api/v1/people/668227"
+                            },
+                            "onDeck": {
+                                "id": 686527,
+                                "fullName": "Dominic Canzone",
+                                "link": "/api/v1/people/686527"
+                            },
+                            "inHole": {
                                 "id": 677594,
                                 "fullName": "Julio Rodríguez",
                                 "link": "/api/v1/people/677594"
                             },
-                            "onDeck": {
-                                "id": 663728,
-                                "fullName": "Cal Raleigh",
-                                "link": "/api/v1/people/663728"
-                            },
-                            "inHole": {
-                                "id": 647304,
-                                "fullName": "Josh Naylor",
-                                "link": "/api/v1/people/647304"
-                            },
-                            "battingOrder": 3,
+                            "battingOrder": 10,
                             "team": {
                                 "id": 136,
                                 "name": "Seattle Mariners",
@@ -974,45 +991,35 @@
                         },
                         "offense": {
                             "batter": {
-                                "id": 664023,
-                                "fullName": "Ian Happ",
-                                "link": "/api/v1/people/664023"
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
                             },
                             "onDeck": {
-                                "id": 663538,
-                                "fullName": "Nico Hoerner",
-                                "link": "/api/v1/people/663538"
-                            },
-                            "inHole": {
-                                "id": 699393,
-                                "fullName": "Pedro Ramírez",
-                                "link": "/api/v1/people/699393"
-                            },
-                            "first": {
                                 "id": 608324,
                                 "fullName": "Alex Bregman",
                                 "link": "/api/v1/people/608324"
                             },
-                            "third": {
-                                "id": 673548,
-                                "fullName": "Seiya Suzuki",
-                                "link": "/api/v1/people/673548"
+                            "inHole": {
+                                "id": 664023,
+                                "fullName": "Ian Happ",
+                                "link": "/api/v1/people/664023"
                             },
                             "pitcher": {
                                 "id": 650644,
                                 "fullName": "Aaron Civale",
                                 "link": "/api/v1/people/650644"
                             },
-                            "battingOrder": 5,
+                            "battingOrder": 3,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
                         },
-                        "balls": 0,
-                        "strikes": 0,
-                        "outs": 1
+                        "balls": 1,
+                        "strikes": 2,
+                        "outs": 3
                     },
                     "venue": {
                         "id": 680,
