@@ -239,13 +239,15 @@
                                 "runs": 6,
                                 "hits": 8,
                                 "errors": 2,
-                                "leftOnBase": 8
+                                "leftOnBase": 8,
+                                "isWinner": true
                             },
                             "away": {
                                 "runs": 5,
                                 "hits": 12,
                                 "errors": 1,
-                                "leftOnBase": 11
+                                "leftOnBase": 11,
+                                "isWinner": false
                             }
                         },
                         "defense": {
@@ -309,7 +311,7 @@
                                 "fullName": "Michael Busch",
                                 "link": "/api/v1/people/683737"
                             },
-                            "battingOrder": 10,
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
