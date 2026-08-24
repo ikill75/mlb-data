@@ -782,16 +782,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 109,
+                                "name": "Arizona Diamondbacks",
+                                "link": "/api/v1/teams/109"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 109,
-                                "name": "Arizona Diamondbacks",
-                                "link": "/api/v1/teams/109"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -888,16 +888,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 109,
+                                "name": "Arizona Diamondbacks",
+                                "link": "/api/v1/teams/109"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 109,
-                                "name": "Arizona Diamondbacks",
-                                "link": "/api/v1/teams/109"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -994,16 +994,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 109,
+                                "name": "Arizona Diamondbacks",
+                                "link": "/api/v1/teams/109"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 109,
-                                "name": "Arizona Diamondbacks",
-                                "link": "/api/v1/teams/109"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1100,16 +1100,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 113,
-                                "name": "Cincinnati Reds",
-                                "link": "/api/v1/teams/113"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
