@@ -223,15 +223,13 @@
                                 "runs": 5,
                                 "hits": 8,
                                 "errors": 0,
-                                "leftOnBase": 6,
-                                "isWinner": true
+                                "leftOnBase": 6
                             },
                             "away": {
                                 "runs": 4,
                                 "hits": 7,
                                 "errors": 0,
-                                "leftOnBase": 5,
-                                "isWinner": false
+                                "leftOnBase": 5
                             }
                         },
                         "defense": {
@@ -295,7 +293,7 @@
                                 "fullName": "Alex Bregman",
                                 "link": "/api/v1/people/608324"
                             },
-                            "battingOrder": 1,
+                            "battingOrder": 10,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
@@ -784,16 +782,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 109,
-                                "name": "Arizona Diamondbacks",
-                                "link": "/api/v1/teams/109"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 109,
+                                "name": "Arizona Diamondbacks",
+                                "link": "/api/v1/teams/109"
                             }
                         }
                     },
@@ -890,16 +888,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 109,
-                                "name": "Arizona Diamondbacks",
-                                "link": "/api/v1/teams/109"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 109,
+                                "name": "Arizona Diamondbacks",
+                                "link": "/api/v1/teams/109"
                             }
                         }
                     },
@@ -996,16 +994,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 109,
-                                "name": "Arizona Diamondbacks",
-                                "link": "/api/v1/teams/109"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 109,
+                                "name": "Arizona Diamondbacks",
+                                "link": "/api/v1/teams/109"
                             }
                         }
                     },
