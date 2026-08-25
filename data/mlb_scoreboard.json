@@ -222,13 +222,15 @@
                                 "runs": 2,
                                 "hits": 7,
                                 "errors": 1,
-                                "leftOnBase": 8
+                                "leftOnBase": 8,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 19,
                                 "hits": 17,
                                 "errors": 1,
-                                "leftOnBase": 7
+                                "leftOnBase": 7,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -314,6 +316,11 @@
                                 "id": 677594,
                                 "fullName": "Julio Rodríguez",
                                 "link": "/api/v1/people/677594"
+                            },
+                            "first": {
+                                "id": 645302,
+                                "fullName": "Victor Robles",
+                                "link": "/api/v1/people/645302"
                             },
                             "pitcher": {
                                 "id": 642215,
@@ -578,13 +585,15 @@
                                 "runs": 0,
                                 "hits": 5,
                                 "errors": 0,
-                                "leftOnBase": 5
+                                "leftOnBase": 5,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 7,
                                 "hits": 10,
                                 "errors": 0,
-                                "leftOnBase": 7
+                                "leftOnBase": 7,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -670,6 +679,16 @@
                                 "id": 694374,
                                 "fullName": "Tim Tawa",
                                 "link": "/api/v1/people/694374"
+                            },
+                            "first": {
+                                "id": 672695,
+                                "fullName": "Geraldo Perdomo",
+                                "link": "/api/v1/people/672695"
+                            },
+                            "second": {
+                                "id": 699912,
+                                "fullName": "Jose Fernandez",
+                                "link": "/api/v1/people/699912"
                             },
                             "pitcher": {
                                 "id": 686228,
@@ -1004,16 +1023,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 109,
+                                "name": "Arizona Diamondbacks",
+                                "link": "/api/v1/teams/109"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 109,
-                                "name": "Arizona Diamondbacks",
-                                "link": "/api/v1/teams/109"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1110,16 +1129,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 113,
-                                "name": "Cincinnati Reds",
-                                "link": "/api/v1/teams/113"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
                             }
                         }
                     },
@@ -1216,16 +1235,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 113,
-                                "name": "Cincinnati Reds",
-                                "link": "/api/v1/teams/113"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
                             }
                         }
                     },
