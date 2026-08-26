@@ -222,15 +222,13 @@
                                 "runs": 0,
                                 "hits": 5,
                                 "errors": 0,
-                                "leftOnBase": 5,
-                                "isWinner": false
+                                "leftOnBase": 5
                             },
                             "away": {
                                 "runs": 7,
                                 "hits": 10,
                                 "errors": 0,
-                                "leftOnBase": 7,
-                                "isWinner": true
+                                "leftOnBase": 7
                             }
                         },
                         "defense": {
@@ -316,16 +314,6 @@
                                 "id": 694374,
                                 "fullName": "Tim Tawa",
                                 "link": "/api/v1/people/694374"
-                            },
-                            "first": {
-                                "id": 672695,
-                                "fullName": "Geraldo Perdomo",
-                                "link": "/api/v1/people/672695"
-                            },
-                            "second": {
-                                "id": 699912,
-                                "fullName": "Jose Fernandez",
-                                "link": "/api/v1/people/699912"
                             },
                             "pitcher": {
                                 "id": 686228,
@@ -591,15 +579,13 @@
                                 "runs": 5,
                                 "hits": 5,
                                 "errors": 0,
-                                "leftOnBase": 5,
-                                "isWinner": true
+                                "leftOnBase": 5
                             },
                             "away": {
                                 "runs": 4,
                                 "hits": 7,
                                 "errors": 0,
-                                "leftOnBase": 4,
-                                "isWinner": false
+                                "leftOnBase": 4
                             }
                         },
                         "defense": {
@@ -796,16 +782,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 109,
-                                "name": "Arizona Diamondbacks",
-                                "link": "/api/v1/teams/109"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 109,
+                                "name": "Arizona Diamondbacks",
+                                "link": "/api/v1/teams/109"
                             }
                         }
                     },
@@ -902,16 +888,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 113,
-                                "name": "Cincinnati Reds",
-                                "link": "/api/v1/teams/113"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1008,16 +994,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 113,
-                                "name": "Cincinnati Reds",
-                                "link": "/api/v1/teams/113"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1114,16 +1100,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 113,
-                                "name": "Cincinnati Reds",
-                                "link": "/api/v1/teams/113"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
