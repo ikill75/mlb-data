@@ -1205,16 +1205,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 158,
+                                "name": "Milwaukee Brewers",
+                                "link": "/api/v1/teams/158"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 158,
-                                "name": "Milwaukee Brewers",
-                                "link": "/api/v1/teams/158"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1236,7 +1236,7 @@
                     "dayNight": "night",
                     "scheduledInnings": 9,
                     "reverseHomeAwayStatus": false,
-                    "inningBreakLength": 120,
+                    "inningBreakLength": 145,
                     "gamesInSeries": 4,
                     "seriesGameNumber": 2,
                     "seriesDescription": "Regular Season",
@@ -1311,16 +1311,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 158,
+                                "name": "Milwaukee Brewers",
+                                "link": "/api/v1/teams/158"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 158,
-                                "name": "Milwaukee Brewers",
-                                "link": "/api/v1/teams/158"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1342,7 +1342,7 @@
                     "dayNight": "night",
                     "scheduledInnings": 9,
                     "reverseHomeAwayStatus": false,
-                    "inningBreakLength": 120,
+                    "inningBreakLength": 145,
                     "gamesInSeries": 4,
                     "seriesGameNumber": 3,
                     "seriesDescription": "Regular Season",
@@ -1417,16 +1417,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 158,
+                                "name": "Milwaukee Brewers",
+                                "link": "/api/v1/teams/158"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 158,
-                                "name": "Milwaukee Brewers",
-                                "link": "/api/v1/teams/158"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1448,7 +1448,7 @@
                     "dayNight": "night",
                     "scheduledInnings": 9,
                     "reverseHomeAwayStatus": false,
-                    "inningBreakLength": 120,
+                    "inningBreakLength": 145,
                     "gamesInSeries": 4,
                     "seriesGameNumber": 4,
                     "seriesDescription": "Regular Season",
