@@ -579,15 +579,13 @@
                                 "runs": 17,
                                 "hits": 19,
                                 "errors": 0,
-                                "leftOnBase": 8,
-                                "isWinner": true
+                                "leftOnBase": 8
                             },
                             "away": {
                                 "runs": 5,
                                 "hits": 7,
                                 "errors": 1,
-                                "leftOnBase": 6,
-                                "isWinner": false
+                                "leftOnBase": 6
                             }
                         },
                         "defense": {
@@ -673,11 +671,6 @@
                                 "id": 668709,
                                 "fullName": "JJ Bleday",
                                 "link": "/api/v1/people/668709"
-                            },
-                            "first": {
-                                "id": 699302,
-                                "fullName": "Héctor Rodríguez",
-                                "link": "/api/v1/people/699302"
                             },
                             "pitcher": {
                                 "id": 624431,
