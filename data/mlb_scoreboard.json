@@ -222,13 +222,15 @@
                                 "runs": 5,
                                 "hits": 9,
                                 "errors": 0,
-                                "leftOnBase": 6
+                                "leftOnBase": 6,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 7,
                                 "hits": 11,
                                 "errors": 2,
-                                "leftOnBase": 6
+                                "leftOnBase": 6,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -733,9 +735,9 @@
                     "officialDate": "2026-09-01",
                     "status": {
                         "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
                         "startTimeTBD": false,
                         "abstractGameCode": "P"
                     },
