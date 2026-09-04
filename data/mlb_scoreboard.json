@@ -222,15 +222,13 @@
                                 "runs": 5,
                                 "hits": 6,
                                 "errors": 1,
-                                "leftOnBase": 6,
-                                "isWinner": false
+                                "leftOnBase": 6
                             },
                             "away": {
                                 "runs": 9,
                                 "hits": 14,
                                 "errors": 0,
-                                "leftOnBase": 10,
-                                "isWinner": true
+                                "leftOnBase": 10
                             }
                         },
                         "defense": {
@@ -316,11 +314,6 @@
                                 "id": 683737,
                                 "fullName": "Michael Busch",
                                 "link": "/api/v1/people/683737"
-                            },
-                            "first": {
-                                "id": 691718,
-                                "fullName": "Pete Crow-Armstrong",
-                                "link": "/api/v1/people/691718"
                             },
                             "pitcher": {
                                 "id": 607067,
