@@ -222,13 +222,15 @@
                                 "runs": 5,
                                 "hits": 6,
                                 "errors": 1,
-                                "leftOnBase": 6
+                                "leftOnBase": 6,
+                                "isWinner": false
                             },
                             "away": {
                                 "runs": 9,
                                 "hits": 14,
                                 "errors": 0,
-                                "leftOnBase": 10
+                                "leftOnBase": 10,
+                                "isWinner": true
                             }
                         },
                         "defense": {
@@ -314,6 +316,11 @@
                                 "id": 683737,
                                 "fullName": "Michael Busch",
                                 "link": "/api/v1/people/683737"
+                            },
+                            "first": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
                             },
                             "pitcher": {
                                 "id": 607067,
@@ -733,9 +740,9 @@
                     "officialDate": "2026-09-04",
                     "status": {
                         "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
                         "startTimeTBD": false,
                         "abstractGameCode": "P"
                     },
@@ -752,6 +759,7 @@
                                 "ties": 0,
                                 "pct": ".560"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 47
                         },
@@ -767,31 +775,147 @@
                                 "ties": 0,
                                 "pct": ".504"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 46
                         }
                     },
                     "linescore": {
+                        "currentInning": 1,
+                        "currentInningOrdinal": "1st",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
-                        "innings": [],
+                        "innings": [
+                            {
+                                "num": 1,
+                                "ordinalNum": "1st",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            }
+                        ],
                         "teams": {
-                            "home": {},
-                            "away": {}
+                            "home": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            }
                         },
                         "defense": {
+                            "pitcher": {
+                                "id": 676083,
+                                "fullName": "Janson Junk",
+                                "link": "/api/v1/people/676083"
+                            },
+                            "catcher": {
+                                "id": 640459,
+                                "fullName": "Brian Navarreto",
+                                "link": "/api/v1/people/640459"
+                            },
+                            "first": {
+                                "id": 691277,
+                                "fullName": "Deyvison De Los Santos",
+                                "link": "/api/v1/people/691277"
+                            },
+                            "second": {
+                                "id": 691858,
+                                "fullName": "Jared Serna",
+                                "link": "/api/v1/people/691858"
+                            },
+                            "third": {
+                                "id": 691594,
+                                "fullName": "Javier Sanoja",
+                                "link": "/api/v1/people/691594"
+                            },
+                            "shortstop": {
+                                "id": 672640,
+                                "fullName": "Otto Lopez",
+                                "link": "/api/v1/people/672640"
+                            },
+                            "left": {
+                                "id": 681715,
+                                "fullName": "Heriberto Hernández",
+                                "link": "/api/v1/people/681715"
+                            },
+                            "center": {
+                                "id": 665923,
+                                "fullName": "Esteury Ruiz",
+                                "link": "/api/v1/people/665923"
+                            },
+                            "right": {
+                                "id": 665052,
+                                "fullName": "Griffin Conine",
+                                "link": "/api/v1/people/665052"
+                            },
+                            "batter": {
+                                "id": 681715,
+                                "fullName": "Heriberto Hernández",
+                                "link": "/api/v1/people/681715"
+                            },
+                            "onDeck": {
+                                "id": 672640,
+                                "fullName": "Otto Lopez",
+                                "link": "/api/v1/people/672640"
+                            },
+                            "inHole": {
+                                "id": 665052,
+                                "fullName": "Griffin Conine",
+                                "link": "/api/v1/people/665052"
+                            },
+                            "battingOrder": 1,
+                            "team": {
+                                "id": 146,
+                                "name": "Miami Marlins",
+                                "link": "/api/v1/teams/146"
+                            }
+                        },
+                        "offense": {
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "inHole": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "pitcher": {
+                                "id": 684007,
+                                "fullName": "Shota Imanaga",
+                                "link": "/api/v1/people/684007"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
                         },
-                        "offense": {
-                            "team": {
-                                "id": 146,
-                                "name": "Miami Marlins",
-                                "link": "/api/v1/teams/146"
-                            }
-                        }
+                        "balls": 0,
+                        "strikes": 0,
+                        "outs": 0
                     },
                     "venue": {
                         "id": 4169,
