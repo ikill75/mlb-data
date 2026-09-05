@@ -733,9 +733,9 @@
                     "officialDate": "2026-09-05",
                     "status": {
                         "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
                         "startTimeTBD": false,
                         "abstractGameCode": "P"
                     },
@@ -752,6 +752,7 @@
                                 "ties": 0,
                                 "pct": ".563"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 47
                         },
@@ -767,31 +768,147 @@
                                 "ties": 0,
                                 "pct": ".500"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 46
                         }
                     },
                     "linescore": {
+                        "currentInning": 1,
+                        "currentInningOrdinal": "1st",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
-                        "innings": [],
+                        "innings": [
+                            {
+                                "num": 1,
+                                "ordinalNum": "1st",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            }
+                        ],
                         "teams": {
-                            "home": {},
-                            "away": {}
+                            "home": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            }
                         },
                         "defense": {
+                            "pitcher": {
+                                "id": 687473,
+                                "fullName": "Ryan Gusto",
+                                "link": "/api/v1/people/687473"
+                            },
+                            "catcher": {
+                                "id": 691788,
+                                "fullName": "Joe Mack",
+                                "link": "/api/v1/people/691788"
+                            },
+                            "first": {
+                                "id": 665052,
+                                "fullName": "Griffin Conine",
+                                "link": "/api/v1/people/665052"
+                            },
+                            "second": {
+                                "id": 691594,
+                                "fullName": "Javier Sanoja",
+                                "link": "/api/v1/people/691594"
+                            },
+                            "third": {
+                                "id": 688363,
+                                "fullName": "Graham Pauley",
+                                "link": "/api/v1/people/688363"
+                            },
+                            "shortstop": {
+                                "id": 672640,
+                                "fullName": "Otto Lopez",
+                                "link": "/api/v1/people/672640"
+                            },
+                            "left": {
+                                "id": 681715,
+                                "fullName": "Heriberto Hernández",
+                                "link": "/api/v1/people/681715"
+                            },
+                            "center": {
+                                "id": 805300,
+                                "fullName": "Jakob Marsee",
+                                "link": "/api/v1/people/805300"
+                            },
+                            "right": {
+                                "id": 683357,
+                                "fullName": "Owen Caissie",
+                                "link": "/api/v1/people/683357"
+                            },
+                            "batter": {
+                                "id": 669065,
+                                "fullName": "Kyle Stowers",
+                                "link": "/api/v1/people/669065"
+                            },
+                            "onDeck": {
+                                "id": 681715,
+                                "fullName": "Heriberto Hernández",
+                                "link": "/api/v1/people/681715"
+                            },
+                            "inHole": {
+                                "id": 665052,
+                                "fullName": "Griffin Conine",
+                                "link": "/api/v1/people/665052"
+                            },
+                            "battingOrder": 1,
+                            "team": {
+                                "id": 146,
+                                "name": "Miami Marlins",
+                                "link": "/api/v1/teams/146"
+                            }
+                        },
+                        "offense": {
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "inHole": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "pitcher": {
+                                "id": 665871,
+                                "fullName": "Javier Assad",
+                                "link": "/api/v1/people/665871"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
                         },
-                        "offense": {
-                            "team": {
-                                "id": 146,
-                                "name": "Miami Marlins",
-                                "link": "/api/v1/teams/146"
-                            }
-                        }
+                        "balls": 0,
+                        "strikes": 0,
+                        "outs": 0
                     },
                     "venue": {
                         "id": 4169,
