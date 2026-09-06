@@ -870,9 +870,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 88,
-                                "losses": 54,
+                                "losses": 55,
                                 "ties": 0,
-                                "pct": ".620"
+                                "pct": ".615"
                             },
                             "splitSquad": false,
                             "seriesNumber": 47
@@ -976,9 +976,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 88,
-                                "losses": 54,
+                                "losses": 55,
                                 "ties": 0,
-                                "pct": ".620"
+                                "pct": ".615"
                             },
                             "splitSquad": false,
                             "seriesNumber": 47
@@ -1082,9 +1082,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 88,
-                                "losses": 54,
+                                "losses": 55,
                                 "ties": 0,
-                                "pct": ".620"
+                                "pct": ".615"
                             },
                             "splitSquad": false,
                             "seriesNumber": 47
@@ -1173,9 +1173,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 70,
-                                "losses": 72,
+                                "losses": 73,
                                 "ties": 0,
-                                "pct": ".493"
+                                "pct": ".490"
                             },
                             "splitSquad": false,
                             "seriesNumber": 48
@@ -1279,9 +1279,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 70,
-                                "losses": 72,
+                                "losses": 73,
                                 "ties": 0,
-                                "pct": ".493"
+                                "pct": ".490"
                             },
                             "splitSquad": false,
                             "seriesNumber": 48
@@ -1385,9 +1385,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 70,
-                                "losses": 72,
+                                "losses": 73,
                                 "ties": 0,
-                                "pct": ".493"
+                                "pct": ".490"
                             },
                             "splitSquad": false,
                             "seriesNumber": 48
@@ -1824,10 +1824,10 @@
                                 "link": "/api/v1/teams/113"
                             },
                             "leagueRecord": {
-                                "wins": 67,
+                                "wins": 68,
                                 "losses": 74,
                                 "ties": 0,
-                                "pct": ".475"
+                                "pct": ".479"
                             },
                             "splitSquad": false,
                             "seriesNumber": 50
@@ -1930,10 +1930,10 @@
                                 "link": "/api/v1/teams/113"
                             },
                             "leagueRecord": {
-                                "wins": 67,
+                                "wins": 68,
                                 "losses": 74,
                                 "ties": 0,
-                                "pct": ".475"
+                                "pct": ".479"
                             },
                             "splitSquad": false,
                             "seriesNumber": 50
@@ -2036,10 +2036,10 @@
                                 "link": "/api/v1/teams/113"
                             },
                             "leagueRecord": {
-                                "wins": 67,
+                                "wins": 68,
                                 "losses": 74,
                                 "ties": 0,
-                                "pct": ".475"
+                                "pct": ".479"
                             },
                             "splitSquad": false,
                             "seriesNumber": 50
@@ -2460,10 +2460,10 @@
                                 "link": "/api/v1/teams/111"
                             },
                             "leagueRecord": {
-                                "wins": 77,
+                                "wins": 78,
                                 "losses": 65,
                                 "ties": 0,
-                                "pct": ".542"
+                                "pct": ".545"
                             },
                             "splitSquad": false,
                             "seriesNumber": 52
@@ -2566,10 +2566,10 @@
                                 "link": "/api/v1/teams/111"
                             },
                             "leagueRecord": {
-                                "wins": 77,
+                                "wins": 78,
                                 "losses": 65,
                                 "ties": 0,
-                                "pct": ".542"
+                                "pct": ".545"
                             },
                             "splitSquad": false,
                             "seriesNumber": 52
@@ -2672,10 +2672,10 @@
                                 "link": "/api/v1/teams/111"
                             },
                             "leagueRecord": {
-                                "wins": 77,
+                                "wins": 78,
                                 "losses": 65,
                                 "ties": 0,
-                                "pct": ".542"
+                                "pct": ".545"
                             },
                             "splitSquad": false,
                             "seriesNumber": 52
