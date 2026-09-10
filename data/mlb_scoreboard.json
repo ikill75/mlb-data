@@ -239,13 +239,15 @@
                                 "runs": 4,
                                 "hits": 12,
                                 "errors": 0,
-                                "leftOnBase": 11
+                                "leftOnBase": 11,
+                                "isWinner": true
                             },
                             "away": {
                                 "runs": 3,
                                 "hits": 7,
                                 "errors": 0,
-                                "leftOnBase": 9
+                                "leftOnBase": 9,
+                                "isWinner": false
                             }
                         },
                         "defense": {
@@ -812,16 +814,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 134,
+                                "name": "Pittsburgh Pirates",
+                                "link": "/api/v1/teams/134"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 134,
-                                "name": "Pittsburgh Pirates",
-                                "link": "/api/v1/teams/134"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -918,16 +920,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 134,
+                                "name": "Pittsburgh Pirates",
+                                "link": "/api/v1/teams/134"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 134,
-                                "name": "Pittsburgh Pirates",
-                                "link": "/api/v1/teams/134"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1024,16 +1026,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 134,
+                                "name": "Pittsburgh Pirates",
+                                "link": "/api/v1/teams/134"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 134,
-                                "name": "Pittsburgh Pirates",
-                                "link": "/api/v1/teams/134"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1097,10 +1099,10 @@
                                 "link": "/api/v1/teams/144"
                             },
                             "leagueRecord": {
-                                "wins": 85,
+                                "wins": 86,
                                 "losses": 61,
                                 "ties": 0,
-                                "pct": ".582"
+                                "pct": ".585"
                             },
                             "splitSquad": false,
                             "seriesNumber": 51
@@ -1203,10 +1205,10 @@
                                 "link": "/api/v1/teams/144"
                             },
                             "leagueRecord": {
-                                "wins": 85,
+                                "wins": 86,
                                 "losses": 61,
                                 "ties": 0,
-                                "pct": ".582"
+                                "pct": ".585"
                             },
                             "splitSquad": false,
                             "seriesNumber": 51
@@ -1310,10 +1312,10 @@
                                 "link": "/api/v1/teams/144"
                             },
                             "leagueRecord": {
-                                "wins": 85,
+                                "wins": 86,
                                 "losses": 61,
                                 "ties": 0,
-                                "pct": ".582"
+                                "pct": ".585"
                             },
                             "splitSquad": false,
                             "seriesNumber": 51
