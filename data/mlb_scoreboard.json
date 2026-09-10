@@ -239,15 +239,13 @@
                                 "runs": 4,
                                 "hits": 12,
                                 "errors": 0,
-                                "leftOnBase": 11,
-                                "isWinner": true
+                                "leftOnBase": 11
                             },
                             "away": {
                                 "runs": 3,
                                 "hits": 7,
                                 "errors": 0,
-                                "leftOnBase": 9,
-                                "isWinner": false
+                                "leftOnBase": 9
                             }
                         },
                         "defense": {
@@ -814,16 +812,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 134,
-                                "name": "Pittsburgh Pirates",
-                                "link": "/api/v1/teams/134"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 134,
+                                "name": "Pittsburgh Pirates",
+                                "link": "/api/v1/teams/134"
                             }
                         }
                     },
