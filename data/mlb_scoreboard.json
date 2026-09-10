@@ -1130,16 +1130,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 144,
+                                "name": "Atlanta Braves",
+                                "link": "/api/v1/teams/144"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 144,
-                                "name": "Atlanta Braves",
-                                "link": "/api/v1/teams/144"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1161,7 +1161,7 @@
                     "dayNight": "night",
                     "scheduledInnings": 9,
                     "reverseHomeAwayStatus": false,
-                    "inningBreakLength": 120,
+                    "inningBreakLength": 145,
                     "gamesInSeries": 3,
                     "seriesGameNumber": 1,
                     "seriesDescription": "Regular Season",
@@ -1236,16 +1236,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 144,
+                                "name": "Atlanta Braves",
+                                "link": "/api/v1/teams/144"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 144,
-                                "name": "Atlanta Braves",
-                                "link": "/api/v1/teams/144"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -1268,7 +1268,7 @@
                     "description": "Roberto Clemente Day",
                     "scheduledInnings": 9,
                     "reverseHomeAwayStatus": false,
-                    "inningBreakLength": 120,
+                    "inningBreakLength": 145,
                     "gamesInSeries": 3,
                     "seriesGameNumber": 2,
                     "seriesDescription": "Regular Season",
