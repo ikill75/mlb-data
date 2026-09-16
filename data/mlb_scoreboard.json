@@ -589,15 +589,13 @@
                                 "runs": 3,
                                 "hits": 5,
                                 "errors": 0,
-                                "leftOnBase": 7,
-                                "isWinner": false
+                                "leftOnBase": 7
                             },
                             "away": {
                                 "runs": 6,
                                 "hits": 9,
                                 "errors": 1,
-                                "leftOnBase": 5,
-                                "isWinner": true
+                                "leftOnBase": 5
                             }
                         },
                         "defense": {
