@@ -221,13 +221,15 @@
                                 "runs": 8,
                                 "hits": 12,
                                 "errors": 0,
-                                "leftOnBase": 6
+                                "leftOnBase": 6,
+                                "isWinner": true
                             },
                             "away": {
                                 "runs": 4,
                                 "hits": 8,
                                 "errors": 0,
-                                "leftOnBase": 5
+                                "leftOnBase": 5,
+                                "isWinner": false
                             }
                         },
                         "defense": {
@@ -314,6 +316,11 @@
                                 "fullName": "Drake Baldwin",
                                 "link": "/api/v1/people/686948"
                             },
+                            "third": {
+                                "id": 643289,
+                                "fullName": "Mauricio Dubón",
+                                "link": "/api/v1/people/643289"
+                            },
                             "pitcher": {
                                 "id": 608718,
                                 "fullName": "Brent Suter",
@@ -376,12 +383,12 @@
                     "gameDate": "2026-09-18T22:40:00Z",
                     "officialDate": "2026-09-18",
                     "status": {
-                        "abstractGameState": "Preview",
+                        "abstractGameState": "Live",
                         "codedGameState": "P",
-                        "detailedState": "Pre-Game",
-                        "statusCode": "P",
+                        "detailedState": "Warmup",
+                        "statusCode": "PW",
                         "startTimeTBD": false,
-                        "abstractGameCode": "P"
+                        "abstractGameCode": "L"
                     },
                     "teams": {
                         "away": {
@@ -396,6 +403,7 @@
                                 "ties": 0,
                                 "pct": ".556"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 51
                         },
@@ -411,31 +419,147 @@
                                 "ties": 0,
                                 "pct": ".464"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 50
                         }
                     },
                     "linescore": {
+                        "currentInning": 1,
+                        "currentInningOrdinal": "1st",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
-                        "innings": [],
+                        "innings": [
+                            {
+                                "num": 1,
+                                "ordinalNum": "1st",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            }
+                        ],
                         "teams": {
-                            "home": {},
-                            "away": {}
+                            "home": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            }
                         },
                         "defense": {
+                            "pitcher": {
+                                "id": 695505,
+                                "fullName": "Chase Burns",
+                                "link": "/api/v1/people/695505"
+                            },
+                            "catcher": {
+                                "id": 624431,
+                                "fullName": "Jose Trevino",
+                                "link": "/api/v1/people/624431"
+                            },
+                            "first": {
+                                "id": 701398,
+                                "fullName": "Sal Stewart",
+                                "link": "/api/v1/people/701398"
+                            },
+                            "second": {
+                                "id": 680574,
+                                "fullName": "Matt McLain",
+                                "link": "/api/v1/people/680574"
+                            },
+                            "third": {
+                                "id": 553993,
+                                "fullName": "Eugenio Suárez",
+                                "link": "/api/v1/people/553993"
+                            },
+                            "shortstop": {
+                                "id": 682829,
+                                "fullName": "Elly De La Cruz",
+                                "link": "/api/v1/people/682829"
+                            },
+                            "left": {
+                                "id": 668709,
+                                "fullName": "JJ Bleday",
+                                "link": "/api/v1/people/668709"
+                            },
+                            "center": {
+                                "id": 699115,
+                                "fullName": "Carlos Jorge",
+                                "link": "/api/v1/people/699115"
+                            },
+                            "right": {
+                                "id": 699302,
+                                "fullName": "Héctor Rodríguez",
+                                "link": "/api/v1/people/699302"
+                            },
+                            "batter": {
+                                "id": 699115,
+                                "fullName": "Carlos Jorge",
+                                "link": "/api/v1/people/699115"
+                            },
+                            "onDeck": {
+                                "id": 682829,
+                                "fullName": "Elly De La Cruz",
+                                "link": "/api/v1/people/682829"
+                            },
+                            "inHole": {
+                                "id": 701398,
+                                "fullName": "Sal Stewart",
+                                "link": "/api/v1/people/701398"
+                            },
+                            "battingOrder": 1,
+                            "team": {
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
+                            }
+                        },
+                        "offense": {
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "inHole": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "pitcher": {
+                                "id": 605280,
+                                "fullName": "Clay Holmes",
+                                "link": "/api/v1/people/605280"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
                         },
-                        "offense": {
-                            "team": {
-                                "id": 113,
-                                "name": "Cincinnati Reds",
-                                "link": "/api/v1/teams/113"
-                            }
-                        }
+                        "balls": 0,
+                        "strikes": 0,
+                        "outs": 0
                     },
                     "venue": {
                         "id": 2602,
@@ -530,16 +654,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 113,
-                                "name": "Cincinnati Reds",
-                                "link": "/api/v1/teams/113"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -636,16 +760,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 113,
-                                "name": "Cincinnati Reds",
-                                "link": "/api/v1/teams/113"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
