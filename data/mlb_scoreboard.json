@@ -3,7 +3,7 @@
     "totalItems": 9,
     "totalEvents": 0,
     "totalGames": 9,
-    "totalGamesInProgress": 0,
+    "totalGamesInProgress": 1,
     "dates": [
         {
             "date": "2026-09-18",
@@ -721,7 +721,7 @@
             "totalItems": 1,
             "totalEvents": 0,
             "totalGames": 1,
-            "totalGamesInProgress": 0,
+            "totalGamesInProgress": 1,
             "games": [
                 {
                     "gamePk": 824462,
@@ -732,12 +732,12 @@
                     "gameDate": "2026-09-20T17:40:00Z",
                     "officialDate": "2026-09-20",
                     "status": {
-                        "abstractGameState": "Preview",
-                        "codedGameState": "P",
-                        "detailedState": "Pre-Game",
-                        "statusCode": "P",
+                        "abstractGameState": "Live",
+                        "codedGameState": "I",
+                        "detailedState": "In Progress",
+                        "statusCode": "I",
                         "startTimeTBD": false,
-                        "abstractGameCode": "P"
+                        "abstractGameCode": "L"
                     },
                     "teams": {
                         "away": {
@@ -752,7 +752,7 @@
                                 "ties": 0,
                                 "pct": ".555"
                             },
-                            "score": 0,
+                            "score": 5,
                             "splitSquad": false,
                             "seriesNumber": 51
                         },
@@ -774,8 +774,8 @@
                         }
                     },
                     "linescore": {
-                        "currentInning": 1,
-                        "currentInningOrdinal": "1st",
+                        "currentInning": 4,
+                        "currentInningOrdinal": "4th",
                         "inningState": "Top",
                         "inningHalf": "Top",
                         "isTopInning": true,
@@ -785,12 +785,60 @@
                                 "num": 1,
                                 "ordinalNum": "1st",
                                 "home": {
+                                    "runs": 0,
+                                    "hits": 1,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                },
+                                "away": {
+                                    "runs": 1,
+                                    "hits": 3,
+                                    "errors": 0,
+                                    "leftOnBase": 2
+                                }
+                            },
+                            {
+                                "num": 2,
+                                "ordinalNum": "2nd",
+                                "home": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 1
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            },
+                            {
+                                "num": 3,
+                                "ordinalNum": "3rd",
+                                "home": {
+                                    "runs": 0,
                                     "hits": 0,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 },
                                 "away": {
+                                    "runs": 4,
+                                    "hits": 3,
+                                    "errors": 0,
+                                    "leftOnBase": 2
+                                }
+                            },
+                            {
+                                "num": 4,
+                                "ordinalNum": "4th",
+                                "home": {
                                     "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 1,
                                     "errors": 0,
                                     "leftOnBase": 0
                                 }
@@ -799,22 +847,22 @@
                         "teams": {
                             "home": {
                                 "runs": 0,
-                                "hits": 0,
+                                "hits": 1,
                                 "errors": 0,
-                                "leftOnBase": 0
+                                "leftOnBase": 2
                             },
                             "away": {
-                                "runs": 0,
-                                "hits": 0,
+                                "runs": 5,
+                                "hits": 7,
                                 "errors": 0,
-                                "leftOnBase": 0
+                                "leftOnBase": 4
                             }
                         },
                         "defense": {
                             "pitcher": {
-                                "id": 695076,
-                                "fullName": "Rhett Lowder",
-                                "link": "/api/v1/people/695076"
+                                "id": 682825,
+                                "fullName": "Luis Mey",
+                                "link": "/api/v1/people/682825"
                             },
                             "catcher": {
                                 "id": 677943,
@@ -857,21 +905,21 @@
                                 "link": "/api/v1/people/668709"
                             },
                             "batter": {
-                                "id": 667472,
-                                "fullName": "Dane Myers",
-                                "link": "/api/v1/people/667472"
-                            },
-                            "onDeck": {
-                                "id": 682829,
-                                "fullName": "Elly De La Cruz",
-                                "link": "/api/v1/people/682829"
-                            },
-                            "inHole": {
                                 "id": 701398,
                                 "fullName": "Sal Stewart",
                                 "link": "/api/v1/people/701398"
                             },
-                            "battingOrder": 1,
+                            "onDeck": {
+                                "id": 663886,
+                                "fullName": "Tyler Stephenson",
+                                "link": "/api/v1/people/663886"
+                            },
+                            "inHole": {
+                                "id": 668709,
+                                "fullName": "JJ Bleday",
+                                "link": "/api/v1/people/668709"
+                            },
+                            "battingOrder": 3,
                             "team": {
                                 "id": 113,
                                 "name": "Cincinnati Reds",
@@ -880,16 +928,26 @@
                         },
                         "offense": {
                             "batter": {
-                                "id": 691718,
-                                "fullName": "Pete Crow-Armstrong",
-                                "link": "/api/v1/people/691718"
+                                "id": 664023,
+                                "fullName": "Ian Happ",
+                                "link": "/api/v1/people/664023"
                             },
                             "onDeck": {
-                                "id": 673548,
-                                "fullName": "Seiya Suzuki",
-                                "link": "/api/v1/people/673548"
+                                "id": 663538,
+                                "fullName": "Nico Hoerner",
+                                "link": "/api/v1/people/663538"
                             },
                             "inHole": {
+                                "id": 624424,
+                                "fullName": "Michael Conforto",
+                                "link": "/api/v1/people/624424"
+                            },
+                            "first": {
+                                "id": 807713,
+                                "fullName": "Matt Shaw",
+                                "link": "/api/v1/people/807713"
+                            },
+                            "second": {
                                 "id": 683737,
                                 "fullName": "Michael Busch",
                                 "link": "/api/v1/people/683737"
@@ -899,16 +957,16 @@
                                 "fullName": "David Peterson",
                                 "link": "/api/v1/people/656849"
                             },
-                            "battingOrder": 1,
+                            "battingOrder": 5,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
                         },
-                        "balls": 0,
+                        "balls": 1,
                         "strikes": 0,
-                        "outs": 0
+                        "outs": 2
                     },
                     "venue": {
                         "id": 2602,
