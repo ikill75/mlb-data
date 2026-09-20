@@ -377,9 +377,9 @@
                     "officialDate": "2026-09-19",
                     "status": {
                         "abstractGameState": "Final",
-                        "codedGameState": "O",
-                        "detailedState": "Game Over",
-                        "statusCode": "O",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
                         "startTimeTBD": false,
                         "abstractGameCode": "F"
                     },
@@ -780,16 +780,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 113,
-                                "name": "Cincinnati Reds",
-                                "link": "/api/v1/teams/113"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
                             }
                         }
                     },
@@ -854,9 +854,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 76,
-                                "losses": 78,
+                                "losses": 79,
                                 "ties": 0,
-                                "pct": ".494"
+                                "pct": ".490"
                             },
                             "splitSquad": false,
                             "seriesNumber": 51
@@ -960,9 +960,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 76,
-                                "losses": 78,
+                                "losses": 79,
                                 "ties": 0,
-                                "pct": ".494"
+                                "pct": ".490"
                             },
                             "splitSquad": false,
                             "seriesNumber": 51
@@ -1066,9 +1066,9 @@
                             },
                             "leagueRecord": {
                                 "wins": 76,
-                                "losses": 78,
+                                "losses": 79,
                                 "ties": 0,
-                                "pct": ".494"
+                                "pct": ".490"
                             },
                             "splitSquad": false,
                             "seriesNumber": 51
