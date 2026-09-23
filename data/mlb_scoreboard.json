@@ -270,15 +270,13 @@
                                 "runs": 2,
                                 "hits": 7,
                                 "errors": 0,
-                                "leftOnBase": 15,
-                                "isWinner": false
+                                "leftOnBase": 15
                             },
                             "away": {
                                 "runs": 8,
                                 "hits": 11,
                                 "errors": 1,
-                                "leftOnBase": 11,
-                                "isWinner": true
+                                "leftOnBase": 11
                             }
                         },
                         "defense": {
@@ -364,11 +362,6 @@
                                 "id": 699393,
                                 "fullName": "Pedro Ramírez",
                                 "link": "/api/v1/people/699393"
-                            },
-                            "second": {
-                                "id": 673548,
-                                "fullName": "Seiya Suzuki",
-                                "link": "/api/v1/people/673548"
                             },
                             "pitcher": {
                                 "id": 665795,
