@@ -426,9 +426,9 @@
                     "officialDate": "2026-09-23",
                     "status": {
                         "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
+                        "codedGameState": "P",
+                        "detailedState": "Pre-Game",
+                        "statusCode": "P",
                         "startTimeTBD": false,
                         "abstractGameCode": "P"
                     },
@@ -445,6 +445,7 @@
                                 "ties": 0,
                                 "pct": ".490"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 51
                         },
@@ -460,18 +461,110 @@
                                 "ties": 0,
                                 "pct": ".554"
                             },
+                            "score": 0,
                             "splitSquad": false,
                             "seriesNumber": 52
                         }
                     },
                     "linescore": {
+                        "currentInning": 1,
+                        "currentInningOrdinal": "1st",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
-                        "innings": [],
+                        "innings": [
+                            {
+                                "num": 1,
+                                "ordinalNum": "1st",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                }
+                            }
+                        ],
                         "teams": {
-                            "home": {},
-                            "away": {}
+                            "home": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            },
+                            "away": {
+                                "runs": 0,
+                                "hits": 0,
+                                "errors": 0,
+                                "leftOnBase": 0
+                            }
                         },
                         "defense": {
+                            "pitcher": {
+                                "id": 592332,
+                                "fullName": "Kevin Gausman",
+                                "link": "/api/v1/people/592332"
+                            },
+                            "catcher": {
+                                "id": 665804,
+                                "fullName": "Miguel Amaya",
+                                "link": "/api/v1/people/665804"
+                            },
+                            "first": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "second": {
+                                "id": 663538,
+                                "fullName": "Nico Hoerner",
+                                "link": "/api/v1/people/663538"
+                            },
+                            "third": {
+                                "id": 699393,
+                                "fullName": "Pedro Ramírez",
+                                "link": "/api/v1/people/699393"
+                            },
+                            "shortstop": {
+                                "id": 621020,
+                                "fullName": "Dansby Swanson",
+                                "link": "/api/v1/people/621020"
+                            },
+                            "left": {
+                                "id": 664023,
+                                "fullName": "Ian Happ",
+                                "link": "/api/v1/people/664023"
+                            },
+                            "center": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "right": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "batter": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "onDeck": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "inHole": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
@@ -479,12 +572,36 @@
                             }
                         },
                         "offense": {
+                            "batter": {
+                                "id": 672640,
+                                "fullName": "Otto Lopez",
+                                "link": "/api/v1/people/672640"
+                            },
+                            "onDeck": {
+                                "id": 669065,
+                                "fullName": "Kyle Stowers",
+                                "link": "/api/v1/people/669065"
+                            },
+                            "inHole": {
+                                "id": 681715,
+                                "fullName": "Heriberto Hernández",
+                                "link": "/api/v1/people/681715"
+                            },
+                            "pitcher": {
+                                "id": 687473,
+                                "fullName": "Ryan Gusto",
+                                "link": "/api/v1/people/687473"
+                            },
+                            "battingOrder": 1,
                             "team": {
                                 "id": 146,
                                 "name": "Miami Marlins",
                                 "link": "/api/v1/teams/146"
                             }
-                        }
+                        },
+                        "balls": 0,
+                        "strikes": 0,
+                        "outs": 0
                     },
                     "venue": {
                         "id": 17,
@@ -579,16 +696,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 146,
+                                "name": "Miami Marlins",
+                                "link": "/api/v1/teams/146"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 146,
-                                "name": "Miami Marlins",
-                                "link": "/api/v1/teams/146"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         }
                     },
@@ -623,18 +740,18 @@
         },
         {
             "date": "2026-09-25",
-            "totalItems": 1,
+            "totalItems": 2,
             "totalEvents": 0,
-            "totalGames": 1,
+            "totalGames": 2,
             "totalGamesInProgress": 0,
             "games": [
                 {
-                    "gamePk": 824706,
-                    "gameGuid": "a5ea304c-bccc-4fa2-a85a-e3a3c72c4b4b",
-                    "link": "/api/v1.1/game/824706/feed/live",
+                    "gamePk": 824703,
+                    "gameGuid": "f116f180-589c-43a9-8c40-47f4066aa76f",
+                    "link": "/api/v1.1/game/824703/feed/live",
                     "gameType": "R",
                     "season": "2026",
-                    "gameDate": "2026-09-25T23:10:00Z",
+                    "gameDate": "2026-09-25T17:05:00Z",
                     "officialDate": "2026-09-25",
                     "status": {
                         "abstractGameState": "Preview",
@@ -685,16 +802,113 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 111,
-                                "name": "Boston Red Sox",
-                                "link": "/api/v1/teams/111"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
+                                "id": 111,
+                                "name": "Boston Red Sox",
+                                "link": "/api/v1/teams/111"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "id": 3,
+                        "name": "Fenway Park",
+                        "link": "/api/v1/venues/3"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/824703/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "S",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-824703-2026-09-25",
+                    "seasonDisplay": "2026",
+                    "dayNight": "day",
+                    "description": "Moved from 9/27",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 3,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Regular Season",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 824706,
+                    "gameGuid": "a5ea304c-bccc-4fa2-a85a-e3a3c72c4b4b",
+                    "link": "/api/v1.1/game/824706/feed/live",
+                    "gameType": "R",
+                    "season": "2026",
+                    "gameDate": "2026-09-25T22:05:00Z",
+                    "officialDate": "2026-09-25",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "S",
+                        "detailedState": "Scheduled",
+                        "statusCode": "S",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
+                            },
+                            "leagueRecord": {
+                                "wins": 87,
+                                "losses": 70,
+                                "ties": 0,
+                                "pct": ".554"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 53
+                        },
+                        "home": {
+                            "team": {
+                                "id": 111,
+                                "name": "Boston Red Sox",
+                                "link": "/api/v1/teams/111"
+                            },
+                            "leagueRecord": {
+                                "wins": 84,
+                                "losses": 73,
+                                "ties": 0,
+                                "pct": ".535"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 52
+                        }
+                    },
+                    "linescore": {
+                        "scheduledInnings": 9,
+                        "innings": [],
+                        "teams": {
+                            "home": {},
+                            "away": {}
+                        },
+                        "defense": {
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            }
+                        },
+                        "offense": {
+                            "team": {
+                                "id": 111,
+                                "name": "Boston Red Sox",
+                                "link": "/api/v1/teams/111"
                             }
                         }
                     },
@@ -706,9 +920,9 @@
                     "content": {
                         "link": "/api/v1/game/824706/content"
                     },
-                    "gameNumber": 1,
+                    "gameNumber": 2,
                     "publicFacing": true,
-                    "doubleHeader": "N",
+                    "doubleHeader": "S",
                     "gamedayType": "P",
                     "tiebreaker": "N",
                     "calendarEventID": "14-824706-2026-09-25",
@@ -825,112 +1039,6 @@
                     "inningBreakLength": 120,
                     "gamesInSeries": 3,
                     "seriesGameNumber": 2,
-                    "seriesDescription": "Regular Season",
-                    "recordSource": "S",
-                    "ifNecessary": "N",
-                    "ifNecessaryDescription": "Normal Game"
-                }
-            ],
-            "events": []
-        },
-        {
-            "date": "2026-09-27",
-            "totalItems": 1,
-            "totalEvents": 0,
-            "totalGames": 1,
-            "totalGamesInProgress": 0,
-            "games": [
-                {
-                    "gamePk": 824703,
-                    "gameGuid": "f116f180-589c-43a9-8c40-47f4066aa76f",
-                    "link": "/api/v1.1/game/824703/feed/live",
-                    "gameType": "R",
-                    "season": "2026",
-                    "gameDate": "2026-09-27T19:05:00Z",
-                    "officialDate": "2026-09-27",
-                    "status": {
-                        "abstractGameState": "Preview",
-                        "codedGameState": "S",
-                        "detailedState": "Scheduled",
-                        "statusCode": "S",
-                        "startTimeTBD": false,
-                        "abstractGameCode": "P"
-                    },
-                    "teams": {
-                        "away": {
-                            "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
-                            },
-                            "leagueRecord": {
-                                "wins": 87,
-                                "losses": 70,
-                                "ties": 0,
-                                "pct": ".554"
-                            },
-                            "splitSquad": false,
-                            "seriesNumber": 53
-                        },
-                        "home": {
-                            "team": {
-                                "id": 111,
-                                "name": "Boston Red Sox",
-                                "link": "/api/v1/teams/111"
-                            },
-                            "leagueRecord": {
-                                "wins": 84,
-                                "losses": 73,
-                                "ties": 0,
-                                "pct": ".535"
-                            },
-                            "splitSquad": false,
-                            "seriesNumber": 52
-                        }
-                    },
-                    "linescore": {
-                        "scheduledInnings": 9,
-                        "innings": [],
-                        "teams": {
-                            "home": {},
-                            "away": {}
-                        },
-                        "defense": {
-                            "team": {
-                                "id": 111,
-                                "name": "Boston Red Sox",
-                                "link": "/api/v1/teams/111"
-                            }
-                        },
-                        "offense": {
-                            "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
-                            }
-                        }
-                    },
-                    "venue": {
-                        "id": 3,
-                        "name": "Fenway Park",
-                        "link": "/api/v1/venues/3"
-                    },
-                    "content": {
-                        "link": "/api/v1/game/824703/content"
-                    },
-                    "gameNumber": 1,
-                    "publicFacing": true,
-                    "doubleHeader": "N",
-                    "gamedayType": "P",
-                    "tiebreaker": "N",
-                    "calendarEventID": "14-824703-2026-09-27",
-                    "seasonDisplay": "2026",
-                    "dayNight": "day",
-                    "scheduledInnings": 9,
-                    "reverseHomeAwayStatus": false,
-                    "inningBreakLength": 120,
-                    "gamesInSeries": 3,
-                    "seriesGameNumber": 3,
                     "seriesDescription": "Regular Season",
                     "recordSource": "S",
                     "ifNecessary": "N",
