@@ -3,7 +3,7 @@
     "totalItems": 6,
     "totalEvents": 0,
     "totalGames": 6,
-    "totalGamesInProgress": 1,
+    "totalGamesInProgress": 0,
     "dates": [
         {
             "date": "2026-09-22",
@@ -770,7 +770,7 @@
             "totalItems": 1,
             "totalEvents": 0,
             "totalGames": 1,
-            "totalGamesInProgress": 1,
+            "totalGamesInProgress": 0,
             "games": [
                 {
                     "gamePk": 824623,
@@ -781,12 +781,12 @@
                     "gameDate": "2026-09-24T18:20:00Z",
                     "officialDate": "2026-09-24",
                     "status": {
-                        "abstractGameState": "Live",
-                        "codedGameState": "I",
-                        "detailedState": "In Progress",
-                        "statusCode": "I",
+                        "abstractGameState": "Final",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
                         "startTimeTBD": false,
-                        "abstractGameCode": "L"
+                        "abstractGameCode": "F"
                     },
                     "teams": {
                         "away": {
@@ -797,11 +797,12 @@
                             },
                             "leagueRecord": {
                                 "wins": 78,
-                                "losses": 80,
+                                "losses": 81,
                                 "ties": 0,
-                                "pct": ".494"
+                                "pct": ".491"
                             },
                             "score": 1,
+                            "isWinner": false,
                             "splitSquad": false,
                             "seriesNumber": 51
                         },
@@ -812,22 +813,23 @@
                                 "link": "/api/v1/teams/112"
                             },
                             "leagueRecord": {
-                                "wins": 87,
+                                "wins": 88,
                                 "losses": 71,
                                 "ties": 0,
-                                "pct": ".551"
+                                "pct": ".553"
                             },
                             "score": 2,
+                            "isWinner": true,
                             "splitSquad": false,
                             "seriesNumber": 52
                         }
                     },
                     "linescore": {
-                        "currentInning": 8,
-                        "currentInningOrdinal": "8th",
-                        "inningState": "Bottom",
-                        "inningHalf": "Bottom",
-                        "isTopInning": false,
+                        "currentInning": 9,
+                        "currentInningOrdinal": "9th",
+                        "inningState": "Top",
+                        "inningHalf": "Top",
+                        "isTopInning": true,
                         "scheduledInnings": 9,
                         "innings": [
                             {
@@ -946,6 +948,7 @@
                                 "num": 8,
                                 "ordinalNum": "8th",
                                 "home": {
+                                    "runs": 0,
                                     "hits": 0,
                                     "errors": 0,
                                     "leftOnBase": 0
@@ -955,6 +958,21 @@
                                     "hits": 0,
                                     "errors": 0,
                                     "leftOnBase": 1
+                                }
+                            },
+                            {
+                                "num": 9,
+                                "ordinalNum": "9th",
+                                "home": {
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
+                                },
+                                "away": {
+                                    "runs": 0,
+                                    "hits": 0,
+                                    "errors": 0,
+                                    "leftOnBase": 0
                                 }
                             }
                         ],
@@ -974,103 +992,103 @@
                         },
                         "defense": {
                             "pitcher": {
-                                "id": 680767,
-                                "fullName": "Victor Vodnik",
-                                "link": "/api/v1/people/680767"
+                                "id": 666171,
+                                "fullName": "Ryan Zeferjahn",
+                                "link": "/api/v1/people/666171"
                             },
                             "catcher": {
-                                "id": 640459,
-                                "fullName": "Brian Navarreto",
-                                "link": "/api/v1/people/640459"
-                            },
-                            "first": {
-                                "id": 691277,
-                                "fullName": "Deyvison De Los Santos",
-                                "link": "/api/v1/people/691277"
-                            },
-                            "second": {
-                                "id": 691858,
-                                "fullName": "Jared Serna",
-                                "link": "/api/v1/people/691858"
-                            },
-                            "third": {
-                                "id": 691594,
-                                "fullName": "Javier Sanoja",
-                                "link": "/api/v1/people/691594"
-                            },
-                            "shortstop": {
-                                "id": 672640,
-                                "fullName": "Otto Lopez",
-                                "link": "/api/v1/people/672640"
-                            },
-                            "left": {
-                                "id": 681715,
-                                "fullName": "Heriberto Hernández",
-                                "link": "/api/v1/people/681715"
-                            },
-                            "center": {
-                                "id": 805300,
-                                "fullName": "Jakob Marsee",
-                                "link": "/api/v1/people/805300"
-                            },
-                            "right": {
-                                "id": 665923,
-                                "fullName": "Esteury Ruiz",
-                                "link": "/api/v1/people/665923"
-                            },
-                            "batter": {
-                                "id": 682663,
-                                "fullName": "Agustín Ramírez",
-                                "link": "/api/v1/people/682663"
-                            },
-                            "onDeck": {
-                                "id": 665923,
-                                "fullName": "Esteury Ruiz",
-                                "link": "/api/v1/people/665923"
-                            },
-                            "inHole": {
-                                "id": 691277,
-                                "fullName": "Deyvison De Los Santos",
-                                "link": "/api/v1/people/691277"
-                            },
-                            "battingOrder": 5,
-                            "team": {
-                                "id": 146,
-                                "name": "Miami Marlins",
-                                "link": "/api/v1/teams/146"
-                            }
-                        },
-                        "offense": {
-                            "batter": {
-                                "id": 699393,
-                                "fullName": "Pedro Ramírez",
-                                "link": "/api/v1/people/699393"
-                            },
-                            "onDeck": {
                                 "id": 608348,
                                 "fullName": "Carson Kelly",
                                 "link": "/api/v1/people/608348"
                             },
-                            "inHole": {
+                            "first": {
+                                "id": 683737,
+                                "fullName": "Michael Busch",
+                                "link": "/api/v1/people/683737"
+                            },
+                            "second": {
+                                "id": 663538,
+                                "fullName": "Nico Hoerner",
+                                "link": "/api/v1/people/663538"
+                            },
+                            "third": {
+                                "id": 699393,
+                                "fullName": "Pedro Ramírez",
+                                "link": "/api/v1/people/699393"
+                            },
+                            "shortstop": {
                                 "id": 621020,
                                 "fullName": "Dansby Swanson",
                                 "link": "/api/v1/people/621020"
                             },
-                            "pitcher": {
-                                "id": 694037,
-                                "fullName": "Daniel Palencia",
-                                "link": "/api/v1/people/694037"
+                            "left": {
+                                "id": 664023,
+                                "fullName": "Ian Happ",
+                                "link": "/api/v1/people/664023"
                             },
-                            "battingOrder": 7,
+                            "center": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "right": {
+                                "id": 673548,
+                                "fullName": "Seiya Suzuki",
+                                "link": "/api/v1/people/673548"
+                            },
+                            "batter": {
+                                "id": 608348,
+                                "fullName": "Carson Kelly",
+                                "link": "/api/v1/people/608348"
+                            },
+                            "onDeck": {
+                                "id": 621020,
+                                "fullName": "Dansby Swanson",
+                                "link": "/api/v1/people/621020"
+                            },
+                            "inHole": {
+                                "id": 691718,
+                                "fullName": "Pete Crow-Armstrong",
+                                "link": "/api/v1/people/691718"
+                            },
+                            "battingOrder": 8,
                             "team": {
                                 "id": 112,
                                 "name": "Chicago Cubs",
                                 "link": "/api/v1/teams/112"
                             }
                         },
-                        "balls": 0,
+                        "offense": {
+                            "batter": {
+                                "id": 665052,
+                                "fullName": "Griffin Conine",
+                                "link": "/api/v1/people/665052"
+                            },
+                            "onDeck": {
+                                "id": 691858,
+                                "fullName": "Jared Serna",
+                                "link": "/api/v1/people/691858"
+                            },
+                            "inHole": {
+                                "id": 640459,
+                                "fullName": "Brian Navarreto",
+                                "link": "/api/v1/people/640459"
+                            },
+                            "pitcher": {
+                                "id": 680767,
+                                "fullName": "Victor Vodnik",
+                                "link": "/api/v1/people/680767"
+                            },
+                            "battingOrder": 7,
+                            "team": {
+                                "id": 146,
+                                "name": "Miami Marlins",
+                                "link": "/api/v1/teams/146"
+                            }
+                        },
+                        "balls": 2,
                         "strikes": 2,
-                        "outs": 2
+                        "outs": 3
                     },
                     "venue": {
                         "id": 17,
@@ -1080,6 +1098,7 @@
                     "content": {
                         "link": "/api/v1/game/824623/content"
                     },
+                    "isTie": false,
                     "gameNumber": 1,
                     "publicFacing": true,
                     "doubleHeader": "N",
@@ -1132,10 +1151,10 @@
                                 "link": "/api/v1/teams/112"
                             },
                             "leagueRecord": {
-                                "wins": 87,
+                                "wins": 88,
                                 "losses": 71,
                                 "ties": 0,
-                                "pct": ".551"
+                                "pct": ".553"
                             },
                             "splitSquad": false,
                             "seriesNumber": 53
@@ -1229,10 +1248,10 @@
                                 "link": "/api/v1/teams/112"
                             },
                             "leagueRecord": {
-                                "wins": 87,
+                                "wins": 88,
                                 "losses": 71,
                                 "ties": 0,
-                                "pct": ".551"
+                                "pct": ".553"
                             },
                             "splitSquad": false,
                             "seriesNumber": 53
@@ -1295,7 +1314,7 @@
                     "reverseHomeAwayStatus": false,
                     "inningBreakLength": 120,
                     "gamesInSeries": 3,
-                    "seriesGameNumber": 1,
+                    "seriesGameNumber": 2,
                     "seriesDescription": "Regular Season",
                     "recordSource": "S",
                     "ifNecessary": "N",
@@ -1335,10 +1354,10 @@
                                 "link": "/api/v1/teams/112"
                             },
                             "leagueRecord": {
-                                "wins": 87,
+                                "wins": 88,
                                 "losses": 71,
                                 "ties": 0,
-                                "pct": ".551"
+                                "pct": ".553"
                             },
                             "splitSquad": false,
                             "seriesNumber": 53
