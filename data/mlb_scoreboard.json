@@ -221,15 +221,13 @@
                                 "runs": 2,
                                 "hits": 6,
                                 "errors": 1,
-                                "leftOnBase": 8,
-                                "isWinner": true
+                                "leftOnBase": 8
                             },
                             "away": {
                                 "runs": 1,
                                 "hits": 5,
                                 "errors": 0,
-                                "leftOnBase": 6,
-                                "isWinner": false
+                                "leftOnBase": 6
                             }
                         },
                         "defense": {
