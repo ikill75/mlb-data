@@ -1,8 +1,8 @@
 {
     "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
-    "totalItems": 3,
+    "totalItems": 6,
     "totalEvents": 0,
-    "totalGames": 3,
+    "totalGames": 6,
     "totalGamesInProgress": 0,
     "dates": [
         {
@@ -809,6 +809,327 @@
                     "recordSource": "S",
                     "ifNecessary": "N",
                     "ifNecessaryDescription": "Normal Game"
+                }
+            ],
+            "events": []
+        },
+        {
+            "date": "2026-09-29",
+            "totalItems": 1,
+            "totalEvents": 0,
+            "totalGames": 1,
+            "totalGamesInProgress": 0,
+            "games": [
+                {
+                    "gamePk": 849843,
+                    "gameGuid": "0404a6a9-4428-4c0c-bbda-b8f339fddc01",
+                    "link": "/api/v1.1/game/849843/feed/live",
+                    "gameType": "F",
+                    "season": "2026",
+                    "gameDate": "2026-09-29T10:33:00Z",
+                    "officialDate": "2026-09-29",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "S",
+                        "detailedState": "Scheduled",
+                        "statusCode": "S",
+                        "startTimeTBD": true,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            },
+                            "leagueRecord": {
+                                "wins": 0,
+                                "losses": 0,
+                                "ties": 0,
+                                "pct": ".000"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 4
+                        },
+                        "home": {
+                            "team": {
+                                "id": 135,
+                                "name": "San Diego Padres",
+                                "link": "/api/v1/teams/135"
+                            },
+                            "leagueRecord": {
+                                "wins": 0,
+                                "losses": 0,
+                                "ties": 0,
+                                "pct": ".000"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 4
+                        }
+                    },
+                    "linescore": {
+                        "scheduledInnings": 9,
+                        "innings": [],
+                        "teams": {
+                            "home": {},
+                            "away": {}
+                        },
+                        "defense": {
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            }
+                        },
+                        "offense": {
+                            "team": {
+                                "id": 135,
+                                "name": "San Diego Padres",
+                                "link": "/api/v1/teams/135"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "id": 2680,
+                        "name": "Petco Park",
+                        "link": "/api/v1/venues/2680"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/849843/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-849843-2026-09-29",
+                    "seasonDisplay": "2026",
+                    "dayNight": "day",
+                    "description": "NL Wild Card 'B' Game 1",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 145,
+                    "gamesInSeries": 3,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "NL Wild Card Series",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                }
+            ],
+            "events": []
+        },
+        {
+            "date": "2026-09-30",
+            "totalItems": 1,
+            "totalEvents": 0,
+            "totalGames": 1,
+            "totalGamesInProgress": 0,
+            "games": [
+                {
+                    "gamePk": 849842,
+                    "gameGuid": "573681f8-4404-46d3-8288-1262aa68f4f9",
+                    "link": "/api/v1.1/game/849842/feed/live",
+                    "gameType": "F",
+                    "season": "2026",
+                    "gameDate": "2026-09-30T10:33:00Z",
+                    "officialDate": "2026-09-30",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "S",
+                        "detailedState": "Scheduled",
+                        "statusCode": "S",
+                        "startTimeTBD": true,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            },
+                            "leagueRecord": {
+                                "wins": 0,
+                                "losses": 0,
+                                "ties": 0,
+                                "pct": ".000"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 4
+                        },
+                        "home": {
+                            "team": {
+                                "id": 135,
+                                "name": "San Diego Padres",
+                                "link": "/api/v1/teams/135"
+                            },
+                            "leagueRecord": {
+                                "wins": 0,
+                                "losses": 0,
+                                "ties": 0,
+                                "pct": ".000"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 4
+                        }
+                    },
+                    "linescore": {
+                        "scheduledInnings": 9,
+                        "innings": [],
+                        "teams": {
+                            "home": {},
+                            "away": {}
+                        },
+                        "defense": {
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            }
+                        },
+                        "offense": {
+                            "team": {
+                                "id": 135,
+                                "name": "San Diego Padres",
+                                "link": "/api/v1/teams/135"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "id": 2680,
+                        "name": "Petco Park",
+                        "link": "/api/v1/venues/2680"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/849842/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-849842-2026-09-30",
+                    "seasonDisplay": "2026",
+                    "dayNight": "day",
+                    "description": "NL Wild Card 'B' Game 2",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 145,
+                    "gamesInSeries": 3,
+                    "seriesGameNumber": 2,
+                    "seriesDescription": "NL Wild Card Series",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                }
+            ],
+            "events": []
+        },
+        {
+            "date": "2026-10-01",
+            "totalItems": 1,
+            "totalEvents": 0,
+            "totalGames": 1,
+            "totalGamesInProgress": 0,
+            "games": [
+                {
+                    "gamePk": 849840,
+                    "gameGuid": "27ffeb6a-3e08-46dc-b5f6-bacf90375237",
+                    "link": "/api/v1.1/game/849840/feed/live",
+                    "gameType": "F",
+                    "season": "2026",
+                    "gameDate": "2026-10-01T10:33:00Z",
+                    "officialDate": "2026-10-01",
+                    "status": {
+                        "abstractGameState": "Preview",
+                        "codedGameState": "S",
+                        "detailedState": "Scheduled",
+                        "statusCode": "S",
+                        "startTimeTBD": true,
+                        "abstractGameCode": "P"
+                    },
+                    "teams": {
+                        "away": {
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            },
+                            "leagueRecord": {
+                                "wins": 0,
+                                "losses": 0,
+                                "ties": 0,
+                                "pct": ".000"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 4
+                        },
+                        "home": {
+                            "team": {
+                                "id": 135,
+                                "name": "San Diego Padres",
+                                "link": "/api/v1/teams/135"
+                            },
+                            "leagueRecord": {
+                                "wins": 0,
+                                "losses": 0,
+                                "ties": 0,
+                                "pct": ".000"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 4
+                        }
+                    },
+                    "linescore": {
+                        "scheduledInnings": 9,
+                        "innings": [],
+                        "teams": {
+                            "home": {},
+                            "away": {}
+                        },
+                        "defense": {
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            }
+                        },
+                        "offense": {
+                            "team": {
+                                "id": 135,
+                                "name": "San Diego Padres",
+                                "link": "/api/v1/teams/135"
+                            }
+                        }
+                    },
+                    "venue": {
+                        "id": 2680,
+                        "name": "Petco Park",
+                        "link": "/api/v1/venues/2680"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/849840/content"
+                    },
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "P",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-849840-2026-10-01",
+                    "seasonDisplay": "2026",
+                    "dayNight": "day",
+                    "description": "NL Wild Card 'B' Game 3",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 145,
+                    "gamesInSeries": 3,
+                    "seriesGameNumber": 3,
+                    "seriesDescription": "NL Wild Card Series",
+                    "recordSource": "S",
+                    "ifNecessary": "Y",
+                    "ifNecessaryDescription": "If Necessary Game"
                 }
             ],
             "events": []
