@@ -221,15 +221,13 @@
                                 "runs": 8,
                                 "hits": 13,
                                 "errors": 1,
-                                "leftOnBase": 4,
-                                "isWinner": true
+                                "leftOnBase": 4
                             },
                             "away": {
                                 "runs": 0,
                                 "hits": 3,
                                 "errors": 1,
-                                "leftOnBase": 8,
-                                "isWinner": false
+                                "leftOnBase": 8
                             }
                         },
                         "defense": {
@@ -293,7 +291,7 @@
                                 "fullName": "Manny Machado",
                                 "link": "/api/v1/people/592518"
                             },
-                            "battingOrder": 1,
+                            "battingOrder": 10,
                             "team": {
                                 "id": 135,
                                 "name": "San Diego Padres",
@@ -315,21 +313,6 @@
                                 "id": 691718,
                                 "fullName": "Pete Crow-Armstrong",
                                 "link": "/api/v1/people/691718"
-                            },
-                            "first": {
-                                "id": 663538,
-                                "fullName": "Nico Hoerner",
-                                "link": "/api/v1/people/663538"
-                            },
-                            "second": {
-                                "id": 664023,
-                                "fullName": "Ian Happ",
-                                "link": "/api/v1/people/664023"
-                            },
-                            "third": {
-                                "id": 673548,
-                                "fullName": "Seiya Suzuki",
-                                "link": "/api/v1/people/673548"
                             },
                             "pitcher": {
                                 "id": 657097,
@@ -549,16 +532,16 @@
                         },
                         "defense": {
                             "team": {
-                                "id": 135,
-                                "name": "San Diego Padres",
-                                "link": "/api/v1/teams/135"
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
                             }
                         },
                         "offense": {
                             "team": {
-                                "id": 112,
-                                "name": "Chicago Cubs",
-                                "link": "/api/v1/teams/112"
+                                "id": 135,
+                                "name": "San Diego Padres",
+                                "link": "/api/v1/teams/135"
                             }
                         }
                     },
